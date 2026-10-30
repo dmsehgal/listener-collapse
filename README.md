@@ -24,8 +24,20 @@ Spoken output from voice assistants is often checked by a round trip. A recognis
 
 ## What is not included
 
-1. **Audio.** The licence for the macOS system voices (Samantha, Daniel, Rishi) does not allow their output to be shared publicly, so no audio is released. The transcripts are enough to recompute every number in the paper. To regenerate the audio, run the synthesis step below on a Mac.
+1. **Piper and macOS audio.** The licence for the macOS system voices (Samantha, Daniel, Rishi) does not allow their output to be shared publicly, and the Piper voice was trained on data under a research-only licence. The transcripts are enough to recompute every number in the paper. To regenerate the audio, run the synthesis step below on a Mac.
 2. **Models.** Download them as described below.
+
+## Gemini audio
+
+The Gemini clips cannot be regenerated exactly, because Gemini output is sampled. They are attached to the [v1.0 release](https://github.com/dmsehgal/listener-collapse/releases/tag/v1.0) as three zip files. Unzip them in this folder to restore `audio/gemini/`, `audio/gemini_lite/` and `audio/gemini_pro/`.
+
+| File | Voice | Clips |
+|---|---|---|
+| `gemini_3.8_flash_tts.zip` | Gemini 3.8 Flash TTS, Kore | 510: all items |
+| `gemini_3.8_flash_lite_tts.zip` | Gemini 3.8 Flash Lite TTS, Kore | 230 mutants |
+| `gemini_2.5_pro_tts.zip` | Gemini 2.5 Pro TTS, Kore | 230 mutants |
+
+The clips in which a voice did not say the text it was given are listed in `results/probe_rewrites.json`.
 
 ## Reproduce the numbers from the released transcripts
 
@@ -51,7 +63,7 @@ This needs macOS for the system voices.
 4. `.venv/bin/python code/listen.py` writes the transcripts to `results/transcripts/`. It resumes if interrupted.
 5. Score as above.
 
-Piper samples noise, so its audio and transcripts will differ slightly from the released ones. The macOS voices were repeatable in our tests.
+Piper samples noise, so its audio and transcripts will differ slightly from the released ones. The macOS voices gave identical audio on repeated runs under macOS 26. Other macOS versions may ship different versions of these voices.
 
 ## Optional: Gemini voices
 

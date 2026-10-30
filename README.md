@@ -15,6 +15,8 @@ Spoken output from voice assistants is often checked by a round trip. A recognis
 | `results/transcripts/` | Every transcript from the four listeners, for all voices |
 | `results/tables/clip_verdicts.csv` | The verdict of every oracle on every clip |
 | `results/report.txt`, `results/summary.json` | Every number reported for the four main voices |
+| `results/small_en.json`, `results/transcripts/whisper_small.jsonl` | The model-size check with Whisper small.en |
+| `ANNOTATION.md` | The instructions every rater saw, and how their answers were used |
 | `results/robustness.json` | Seed-level intervals and sign tests, and how often the text-only check predicts the audio verdict |
 | `results/gemini/` | The same for the Gemini 3.8 Flash TTS replication |
 | `results/natural_listening_sheet*.csv` | The author's labels for the natural readings, made by ear |
@@ -51,6 +53,8 @@ Run every step from this folder. A CPU is enough.
 5. `.venv/bin/python code/natural_score.py` scores the natural readings against the author's labels.
 6. `.venv/bin/python code/figures.py` draws the heatmap.
 7. `.venv/bin/python code/robustness.py` gives the seed-level intervals and sign tests in Threats to Validity, and the text-only agreement in RQ2.
+8. `.venv/bin/python code/score_small.py` scores the Whisper small.en transcripts against base.en (RQ2).
+9. The raters' packets are built by `code/make_rater_packets.py` and `code/make_oracle_packets.py`; `code/agreement.py` and `code/oracle_people.py` score the answers. The answer files are not included.
 
 ## Rerun the whole pipeline
 

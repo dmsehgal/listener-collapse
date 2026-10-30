@@ -7,6 +7,8 @@ Listeners:
                     so numbers must come out as words
   vosk              Vosk small English model (Kaldi), a different model family
 Output: results/transcripts/<listener>.jsonl, one line per clip. Resumable.
+LISTEN_MODEL=small.en runs the Whisper listeners with another model size; their
+output names get the size as a suffix, for example whisper_small.jsonl.
 """
 import csv
 import json
@@ -16,6 +18,8 @@ import time
 import wave
 
 VOICES = os.environ.get("LISTEN_VOICES", "piper,Samantha,Daniel,Rishi").split(",")
+MODEL = os.environ.get("LISTEN_MODEL", "base.en")
+SUFFIX = "" if MODEL == "base.en" else "_" + MODEL.split(".")[0]
 OUT = "results/transcripts"
 
 
@@ -47,6 +51,8 @@ def run(name, rows, transcribe):
 
 def main():
     rows = list(csv.DictReader(open("data/items.csv")))
+    if os.environ.get("LISTEN_KINDS"):  # for example correct,mutant,equivalent
+        rows = [r for r in rows if r["kind"] in os.environ["LISTEN_KINDS"].split(",")]
     want = sys.argv[1:] or ["whisper", "whisper_anchored", "whisper_spelled", "vosk"]
     print("read", len(rows), "items, listeners:", want, flush=True)
     missing = [(r["item"], v) for r in rows for v in VOICES if not os.path.exists(f"audio/{v}/{r['item']}.wav")]
@@ -61,7 +67,7 @@ def main():
 
     if any(w.startswith("whisper") for w in want):
         from faster_whisper import WhisperModel
-        model = WhisperModel("base.en", device="cpu", compute_type="int8",
+        model = WhisperModel(MODEL, device="cpu", compute_type="int8",
                              cpu_threads=int(os.environ.get("LISTEN_THREADS", "8")))
         kw = dict(beam_size=5, language="en", temperature=0.0, vad_filter=False)
 
@@ -86,7 +92,7 @@ def main():
         table = {"whisper": w_plain, "whisper_anchored": w_anchor, "whisper_spelled": w_spelled}
         for name in want:
             if name in table:
-                run(name, rows, table[name])
+                run(name + SUFFIX, rows, table[name])
         del model
 
     if "vosk" in want:

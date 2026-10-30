@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Listening task</title>
+<style>
+:root { --bg:#F6F7F9; --panel:#FFFFFF; --ink:#1C2536; --muted:#6B7280; --edge:#B8BFCA; --warn:#B42318; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#12161E; --panel:#1B2130; --ink:#E7EAF0; --muted:#9AA3B2; --edge:#3A4356; --warn:#F97066; }
+}
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+main { max-width:760px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:22px; margin:0 0 4px; }
+h2 { font-size:18px; margin:0 0 8px; }
+.card { background:var(--panel); border:1px solid var(--edge); border-radius:10px; padding:20px; margin:16px 0; }
+.muted { color:var(--muted); }
+.warn { color:var(--warn); }
+.text { font-size:22px; line-height:1.4; margin:12px 0 16px; overflow-wrap:anywhere; }
+.row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+button { font:inherit; padding:10px 16px; border-radius:8px; border:1px solid var(--edge); background:var(--panel); color:var(--ink); cursor:pointer; }
+button.primary { background:var(--ink); color:var(--panel); border-color:var(--ink); }
+button.chosen { outline:3px solid var(--ink); outline-offset:1px; }
+audio { width:100%; margin:8px 0; }
+textarea { width:100%; box-sizing:border-box; font:inherit; padding:8px; border-radius:8px; border:1px solid var(--edge); background:var(--panel); color:var(--ink); }
+kbd { border:1px solid var(--edge); border-bottom-width:2px; border-radius:4px; padding:0 5px; font-size:13px; }
+.bar { height:6px; background:var(--edge); border-radius:3px; overflow:hidden; margin-top:8px; }
+.bar > div { height:100%; width:0; background:var(--ink); }
+ul { padding-left:20px; margin:8px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Listening task</h1>
+<p class="muted">Rater <b id="rater"></b>. Answers are saved in this browser as you go. When you finish, click <b>Download my answers</b> and send that file back.</p>
+<div id="storage-warn" class="card warn" hidden>This browser is not saving progress. Keep this tab open, and download your answers before you close it.</div>
+<div id="missing" class="card" hidden></div>
+
+<section id="intro">
+  <div class="card">
+    <p><b>Before you start.</b> Please do both tasks before you read the paper draft. Do not discuss the clips with anyone, including Deep, until you have sent your answers. Use headphones in a quiet room. Each clip plays once on its own; replay it as often as you like.</p>
+  </div>
+  <div class="card">
+    <h2>Task 1: Did the voice get the facts right?</h2>
+    <p>A voice reads a short reply from a voice assistant. The printed reply is shown above the player. Judge only the critical facts: numbers, units, signs such as minus, currencies, dates, times, comparisons such as above, below, at least or at most, and negations such as not.</p>
+    <ul>
+      <li><b>Correct</b>: a listener would come away with every critical fact of the printed reply, even if the wording is unusual.</li>
+      <li><b>Wrong</b>: a listener would come away with a different fact, or could not tell what the fact was.</li>
+      <li><b>Unclear</b>: you cannot decide.</li>
+    </ul>
+    <p>Read numeric dates month first: 3/4/2026 means March 4, 2026. Words that carry no critical fact do not matter.</p>
+    <p class="muted" id="sum1"></p>
+  </div>
+  <div class="card">
+    <h2>Task 2: Did the voice say exactly these words?</h2>
+    <p>This time the words given to the voice are shown. Ignore accent, speed and tone.</p>
+    <ul>
+      <li><b>Yes</b>: the voice said these words.</li>
+      <li><b>No</b>: it said something different, such as a different number, an added or dropped word, or a changed meaning. Please write what it said in the note.</li>
+      <li><b>Unclear</b>: you cannot decide.</li>
+    </ul>
+    <p>Many of these texts contain a deliberate error, such as a wrong unit or advice that is plainly unsafe. That is expected. Judge only whether the voice said the words shown.</p>
+    <p class="muted" id="sum2"></p>
+  </div>
+  <div class="row">
+    <button class="primary" id="start-natural">Start or continue task 1</button>
+    <button class="primary" id="start-exact">Start or continue task 2</button>
+    <button id="download">Download my answers</button>
+  </div>
+</section>
+
+<section id="work" hidden>
+  <div class="card">
+    <div class="row" style="justify-content:space-between"><b id="task-name"></b><span id="count" class="muted"></span></div>
+    <div class="bar"><div id="bar"></div></div>
+    <p class="muted" id="prompt" style="margin:16px 0 0"></p>
+    <div class="text" id="text"></div>
+    <audio id="player" controls preload="auto"></audio>
+    <p class="warn" id="play-error" hidden>This clip could not be played. Choose Unclear and say so in the note.</p>
+    <div class="row">
+      <button id="b-pos"></button>
+      <button id="b-neg"></button>
+      <button id="b-unc">Unclear <kbd>U</kbd></button>
+      <button id="b-replay">Replay <kbd>R</kbd></button>
+      <button id="b-back">Back <kbd>&larr;</kbd></button>
+    </div>
+    <p class="muted" style="margin:16px 0 4px">Note (optional; for Wrong or No, say what you heard)</p>
+    <textarea id="note" rows="2"></textarea>
+    <div class="row" style="margin-top:16px">
+      <button id="b-menu">Back to the instructions</button>
+      <button id="download2">Download my answers</button>
+    </div>
+  </div>
+</section>
+<pre id="selftest" hidden></pre>
+</main>
+
+<script>
+const RATER = __RATER__;
+const MAC_VOICES = __MAC_VOICES__;
+const TASKS = __TASKS__;
+</script>
+<script>
+(function () {
+  const KEY = "listener_collapse_rater_" + RATER.id + "_v1";
+  const LABELS = {
+    natural: { pos: ["correct", "Correct", "C"], neg: ["wrong", "Wrong", "W"] },
+    exact: { pos: ["yes", "Yes", "Y"], neg: ["no", "No", "N"] },
+  };
+  const $ = (id) => document.getElementById(id);
+  let S = { answers: {}, missing: [] };
+  let storageOK = true;
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (raw) S = Object.assign(S, JSON.parse(raw));
+    localStorage.setItem(KEY + "_probe", "1");
+    localStorage.removeItem(KEY + "_probe");
+  } catch (e) { storageOK = false; }
+  function persist() {
+    try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { storageOK = false; }
+    $("storage-warn").hidden = storageOK;
+  }
+  const key = (task, c) => task + "|" + c.v + "|" + c.i;
+  const available = (task) => TASKS[task].clips.filter((c) => !S.missing.includes(c.v));
+  const answered = (task) => available(task).filter((c) => S.answers[key(task, c)]).length;
+  let cur = { task: null, list: [], pos: 0 };
+  const player = $("player");
+
+  function renderMissing() {
+    const box = $("missing");
+    if (!S.missing.length) { box.hidden = true; return; }
+    box.hidden = false;
+    box.innerHTML = "";
+    const p = document.createElement("p");
+    p.textContent = "Some clips are not on this computer, so they are skipped. On a Mac, run the one-line command in README step 2, then click Try again.";
+    const b = document.createElement("button");
+    b.textContent = "Try again";
+    b.onclick = () => { S.missing = []; persist(); renderMissing(); summary(); if (cur.task) { cur.list = available(cur.task); show(); } };
+    box.append(p, b);
+  }
+  function summary() {
+    for (const [task, id] of [["natural", "sum1"], ["exact", "sum2"]]) {
+      $(id).textContent = answered(task) + " of " + available(task).length + " clips answered.";
+    }
+  }
+  function menu() {
+    player.pause();
+    $("work").hidden = true;
+    $("intro").hidden = false;
+    summary();
+  }
+  function start(task) {
+    cur = { task: task, list: available(task), pos: 0 };
+    const first = cur.list.findIndex((c) => !S.answers[key(task, c)]);
+    cur.pos = first < 0 ? 0 : first;
+    $("intro").hidden = true;
+    $("work").hidden = false;
+    show();
+  }
+  function show() {
+    const t = TASKS[cur.task];
+    if (!cur.list.length) { menu(); return; }
+    if (cur.pos >= cur.list.length) {
+      const left = cur.list.findIndex((c) => !S.answers[key(cur.task, c)]);
+      if (left < 0) { menu(); alert(t.name + " is complete. Thank you. Please download your answers."); return; }
+      cur.pos = left;
+    }
+    const c = cur.list[cur.pos];
+    const L = LABELS[cur.task];
+    const a = S.answers[key(cur.task, c)];
+    $("task-name").textContent = t.name;
+    $("prompt").textContent = t.prompt;
+    $("text").textContent = c.t;
+    $("count").textContent = "Clip " + (cur.pos + 1) + " of " + cur.list.length + ", " + answered(cur.task) + " answered";
+    $("bar").style.width = (100 * answered(cur.task) / cur.list.length) + "%";
+    $("b-pos").innerHTML = L.pos[1] + " <kbd>" + L.pos[2] + "</kbd>";
+    $("b-neg").innerHTML = L.neg[1] + " <kbd>" + L.neg[2] + "</kbd>";
+    for (const [id, lab] of [["b-pos", L.pos[0]], ["b-neg", L.neg[0]], ["b-unc", "unclear"]]) {
+      $(id).classList.toggle("chosen", !!a && a.label === lab);
+    }
+    $("note").value = a ? a.note : "";
+    $("play-error").hidden = true;
+    player.src = c.p;
+    player.play().catch(() => {});
+  }
+  function answer(label) {
+    const c = cur.list[cur.pos];
+    S.answers[key(cur.task, c)] = { label: label, note: $("note").value.trim(), at: new Date().toISOString() };
+    persist();
+    cur.pos += 1;
+    show();
+  }
+  player.addEventListener("error", () => {
+    if (!cur.task || !player.getAttribute("src")) return;
+    const c = cur.list[cur.pos];
+    if (MAC_VOICES.includes(c.v)) {
+      if (!S.missing.includes(c.v)) S.missing.push(c.v);
+      persist();
+      renderMissing();
+      cur.list = available(cur.task);
+      show();
+    } else {
+      $("play-error").hidden = false;
+    }
+  });
+  function csv() {
+    const esc = (s) => '"' + String(s).replace(/"/g, '""') + '"';
+    const lines = ["rater,task,item,voice,label,note,answered_at"];
+    for (const task of Object.keys(TASKS)) {
+      for (const c of TASKS[task].clips) {
+        const a = S.answers[key(task, c)];
+        if (a) lines.push([RATER.id, task, c.i, c.v, a.label, a.note, a.at].map(esc).join(","));
+      }
+    }
+    return lines.join("\n") + "\n";
+  }
+  function download() {
+    const blob = new Blob([csv()], { type: "text/csv" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "answers_rater_" + RATER.id + ".csv";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  }
+  $("start-natural").onclick = () => start("natural");
+  $("start-exact").onclick = () => start("exact");
+  $("download").onclick = download;
+  $("download2").onclick = download;
+  $("b-menu").onclick = menu;
+  $("b-pos").onclick = () => answer(LABELS[cur.task].pos[0]);
+  $("b-neg").onclick = () => answer(LABELS[cur.task].neg[0]);
+  $("b-unc").onclick = () => answer("unclear");
+  $("b-replay").onclick = () => { player.currentTime = 0; player.play().catch(() => {}); };
+  $("b-back").onclick = () => { if (cur.pos > 0) { cur.pos -= 1; show(); } };
+  document.addEventListener("keydown", (e) => {
+    if ($("work").hidden || e.target === $("note") || e.metaKey || e.ctrlKey || e.altKey) return;
+    const k = e.key.toLowerCase();
+    const L = LABELS[cur.task];
+    if (k === L.pos[2].toLowerCase()) answer(L.pos[0]);
+    else if (k === L.neg[2].toLowerCase()) answer(L.neg[0]);
+    else if (k === "u") answer("unclear");
+    else if (k === "r") $("b-replay").click();
+    else if (e.key === "ArrowLeft") $("b-back").click();
+    else return;
+    e.preventDefault();
+  });
+  $("rater").textContent = RATER.id;
+  $("storage-warn").hidden = storageOK;
+  renderMissing();
+  summary();
+
+  // Self-test for the packet builder: open label.html?selftest to run it. It leaves no answers behind.
+  if (location.search.indexOf("selftest") >= 0) {
+    const out = { storageOK: storageOK, natural: TASKS.natural.clips.length, exact: TASKS.exact.clips.length };
+    const firstPiper = TASKS.natural.clips.findIndex((c) => c.v === "piper");
+    start("natural");
+    cur.pos = firstPiper;
+    show();
+    const finish = () => {
+      try { localStorage.removeItem(KEY); } catch (e) {}
+      $("selftest").hidden = false;
+      $("selftest").textContent = "SELFTEST " + JSON.stringify(out);
+    };
+    const macPhase = () => {
+      const c = TASKS.natural.clips.find((x) => MAC_VOICES.includes(x.v));
+      cur.list = TASKS.natural.clips;
+      cur.pos = cur.list.indexOf(c);
+      player.addEventListener("loadedmetadata", () => {
+        out.macClip = S.missing.includes(c.v) ? "skipped" : "played";
+        out.natural_available = available("natural").length;
+        finish();
+      }, { once: true });
+      show();
+      setTimeout(() => {
+        if (!("macClip" in out)) {
+          out.macClip = S.missing.includes(c.v) ? "skipped" : "neither";
+          out.natural_available = available("natural").length;
+          finish();
+        }
+      }, 3000);
+    };
+    const done = () => {
+      answer("correct");
+      out.answered = answered("natural");
+      out.csvLines = csv().trim().split("\n").length;
+      out.saved = storageOK && !!localStorage.getItem(KEY);
+      macPhase();
+    };
+    player.addEventListener("loadedmetadata", () => { out.audioSeconds = Math.round(player.duration * 10) / 10; done(); }, { once: true });
+    setTimeout(() => { if (!("audioSeconds" in out)) { out.audioSeconds = null; done(); } }, 4000);
+  }
+})();
+</script>
+</body>
+</html>

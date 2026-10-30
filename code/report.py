@@ -4,6 +4,7 @@ Counts for the ideal listener are per reading (the four voice copies are identic
 """
 import csv
 import json
+import math
 import sys
 from collections import defaultdict
 
@@ -17,11 +18,20 @@ VOICES = os.environ.get("SCORE_VOICES", "piper,Samantha,Daniel,Rishi").split(","
 NV = len(VOICES)
 
 
+def wilson(k, n, z=1.96):
+    p = k / n
+    d = 1 + z * z / n
+    c = (p + z * z / (2 * n)) / d
+    h = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d
+    return (c - h, c + h)
+
+
 def fmt(g, ideal=False):
     k, n = g["k"], g["n"]
-    if ideal:
-        k, n = k // NV, n // NV
     lo, hi = g["ci"]
+    if ideal:  # the interval must use per-reading counts, not the identical voice copies
+        k, n = k // NV, n // NV
+        lo, hi = wilson(k, n)
     return f"{k}/{n} = {100 * g['rate']:.1f}% [{100 * lo:.1f}, {100 * hi:.1f}]"
 
 

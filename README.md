@@ -1,6 +1,6 @@
 # Listener Collapse: harness and data
 
-Code, data and results for the paper "Listener Collapse: Mutation Analysis of What Round-Trip Speech Oracles Cannot Hear" by Deep Mohan Sehgal (CSCI 2026, under review).
+Code, data and results for the paper "Listener Collapse: Mutation Analysis of What Round-Trip Speech Oracles Cannot Hear" by Deep Mohan Sehgal and Viralkumar Ahire (CSCI 2026, under review).
 
 ## What it does
 
@@ -15,6 +15,7 @@ Spoken output from voice assistants is often checked by a round trip. A recognis
 | `results/transcripts/` | Every transcript from the four listeners, for all voices |
 | `results/tables/clip_verdicts.csv` | The verdict of every oracle on every clip |
 | `results/report.txt`, `results/summary.json` | Every number reported for the four main voices |
+| `results/robustness.json` | Seed-level intervals and sign tests, and how often the text-only check predicts the audio verdict |
 | `results/gemini/` | The same for the Gemini 3.8 Flash TTS replication |
 | `results/natural_listening_sheet*.csv` | The author's labels for the natural readings, made by ear |
 | `results/spotcheck_sheet.csv` | The author's ear check of 60 mutant clips |
@@ -49,6 +50,7 @@ Run every step from this folder. A CPU is enough.
 4. For the Gemini replication: `SCORE_VOICES=gemini SCORE_OUT=results/gemini .venv/bin/python code/score.py`, then `SCORE_VOICES=gemini SCORE_OUT=results/gemini .venv/bin/python code/report.py`.
 5. `.venv/bin/python code/natural_score.py` scores the natural readings against the author's labels.
 6. `.venv/bin/python code/figures.py` draws the heatmap.
+7. `.venv/bin/python code/robustness.py` gives the seed-level intervals and sign tests in Threats to Validity, and the text-only agreement in RQ2.
 
 ## Rerun the whole pipeline
 

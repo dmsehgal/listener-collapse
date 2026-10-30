@@ -1,0 +1,128 @@
+{
+ "text_only": {
+  "whisper|mutant": {
+   "same": 848,
+   "n": 920
+  },
+  "whisper|correct": {
+   "same": 450,
+   "n": 480
+  },
+  "whisper|equivalent": {
+   "same": 450,
+   "n": 480
+  },
+  "whisper_spelled|mutant": {
+   "same": 881,
+   "n": 920
+  },
+  "whisper_spelled|correct": {
+   "same": 460,
+   "n": 480
+  },
+  "whisper_spelled|equivalent": {
+   "same": 473,
+   "n": 480
+  },
+  "vosk|mutant": {
+   "same": 722,
+   "n": 920
+  },
+  "vosk|correct": {
+   "same": 392,
+   "n": 480
+  },
+  "vosk|equivalent": {
+   "same": 446,
+   "n": 480
+  }
+ },
+ "bootstrap": {
+  "whisper|wer|mutant": {
+   "k": 440,
+   "n": 920,
+   "rate": 0.4782608695652174,
+   "ci": [
+    0.3974358974358974,
+    0.5592105263157895
+   ]
+  },
+  "whisper|wer|correct": {
+   "k": 146,
+   "n": 480,
+   "rate": 0.30416666666666664,
+   "ci": [
+    0.22916666666666666,
+    0.3854166666666667
+   ]
+  },
+  "whisper|value|mutant": {
+   "k": 918,
+   "n": 920,
+   "rate": 0.9978260869565218,
+   "ci": [
+    0.9933333333333333,
+    1.0
+   ]
+  },
+  "whisper|value|correct": {
+   "k": 7,
+   "n": 480,
+   "rate": 0.014583333333333334,
+   "ci": [
+    0.004166666666666667,
+    0.025
+   ]
+  },
+  "whisper_anchored|value|mutant": {
+   "k": 856,
+   "n": 920,
+   "rate": 0.9304347826086956,
+   "ci": [
+    0.9006550218340611,
+    0.9560085836909872
+   ]
+  },
+  "whisper_anchored|value|correct": {
+   "k": 52,
+   "n": 480,
+   "rate": 0.10833333333333334,
+   "ci": [
+    0.06458333333333334,
+    0.15833333333333333
+   ]
+  },
+  "vosk|value|mutant": {
+   "k": 914,
+   "n": 920,
+   "rate": 0.9934782608695653,
+   "ci": [
+    0.9859913793103449,
+    0.9989270386266095
+   ]
+  },
+  "vosk|value|correct": {
+   "k": 66,
+   "n": 480,
+   "rate": 0.1375,
+   "ci": [
+    0.08333333333333333,
+    0.19583333333333333
+   ]
+  }
+ },
+ "seed_tests": {
+  "whisper|value vs whisper|wer": {
+   "first_more": 78,
+   "second_more": 0,
+   "tied": 42,
+   "p": 6.617444900424222e-24
+  },
+  "whisper|value vs whisper_anchored|value": {
+   "first_more": 25,
+   "second_more": 0,
+   "tied": 95,
+   "p": 5.960464477539063e-08
+  }
+ }
+}

@@ -1,0 +1,510 @@
+{"item": "S000_C", "promptTokenCount": 18, "candidatesTokenCount": 116, "totalTokenCount": 134, "serviceTier": "standard"}
+{"item": "S000_M_DEC", "promptTokenCount": 17, "candidatesTokenCount": 116, "totalTokenCount": 133, "serviceTier": "standard"}
+{"item": "S000_M_UNIT", "promptTokenCount": 18, "candidatesTokenCount": 125, "totalTokenCount": 143, "serviceTier": "standard"}
+{"item": "S000_E_EQ_HALF", "promptTokenCount": 19, "candidatesTokenCount": 131, "totalTokenCount": 150, "serviceTier": "standard"}
+{"item": "S001_C", "promptTokenCount": 14, "candidatesTokenCount": 112, "totalTokenCount": 126, "serviceTier": "standard"}
+{"item": "S001_M_DEC", "promptTokenCount": 12, "candidatesTokenCount": 108, "totalTokenCount": 120, "serviceTier": "standard"}
+{"item": "S001_M_UNIT", "promptTokenCount": 14, "candidatesTokenCount": 126, "totalTokenCount": 140, "serviceTier": "standard"}
+{"item": "S001_E_EQ_HALF", "promptTokenCount": 14, "candidatesTokenCount": 101, "totalTokenCount": 115, "serviceTier": "standard"}
+{"item": "S002_C", "promptTokenCount": 20, "candidatesTokenCount": 154, "totalTokenCount": 174, "serviceTier": "standard"}
+{"item": "S002_M_DEC", "promptTokenCount": 18, "candidatesTokenCount": 115, "totalTokenCount": 133, "serviceTier": "standard"}
+{"item": "S002_M_UNIT", "promptTokenCount": 20, "candidatesTokenCount": 128, "totalTokenCount": 148, "serviceTier": "standard"}
+{"item": "S002_E_EQ_HALF", "promptTokenCount": 21, "candidatesTokenCount": 133, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S003_C", "promptTokenCount": 23, "candidatesTokenCount": 171, "totalTokenCount": 194, "serviceTier": "standard"}
+{"item": "S003_M_DEC", "promptTokenCount": 22, "candidatesTokenCount": 136, "totalTokenCount": 158, "serviceTier": "standard"}
+{"item": "S003_M_UNIT", "promptTokenCount": 23, "candidatesTokenCount": 161, "totalTokenCount": 184, "serviceTier": "standard"}
+{"item": "S003_E_EQ_HALF", "promptTokenCount": 24, "candidatesTokenCount": 164, "totalTokenCount": 188, "serviceTier": "standard"}
+{"item": "S004_C", "promptTokenCount": 23, "candidatesTokenCount": 152, "totalTokenCount": 175, "serviceTier": "standard"}
+{"item": "S004_M_DEC", "promptTokenCount": 24, "candidatesTokenCount": 158, "totalTokenCount": 182, "serviceTier": "standard"}
+{"item": "S004_M_UNIT", "promptTokenCount": 23, "candidatesTokenCount": 153, "totalTokenCount": 176, "serviceTier": "standard"}
+{"item": "S004_E_EQ_HALF", "promptTokenCount": 24, "candidatesTokenCount": 144, "totalTokenCount": 168, "serviceTier": "standard"}
+{"item": "S005_C", "promptTokenCount": 11, "candidatesTokenCount": 99, "totalTokenCount": 110, "serviceTier": "standard"}
+{"item": "S005_M_DEC", "promptTokenCount": 10, "candidatesTokenCount": 86, "totalTokenCount": 96, "serviceTier": "standard"}
+{"item": "S005_M_UNIT", "promptTokenCount": 11, "candidatesTokenCount": 89, "totalTokenCount": 100, "serviceTier": "standard"}
+{"item": "S005_E_EQ_HALF", "promptTokenCount": 12, "candidatesTokenCount": 87, "totalTokenCount": 99, "serviceTier": "standard"}
+{"item": "S006_C", "promptTokenCount": 15, "candidatesTokenCount": 142, "totalTokenCount": 157, "serviceTier": "standard"}
+{"item": "S006_M_DEC", "promptTokenCount": 14, "candidatesTokenCount": 114, "totalTokenCount": 128, "serviceTier": "standard"}
+{"item": "S006_M_UNIT", "promptTokenCount": 15, "candidatesTokenCount": 123, "totalTokenCount": 138, "serviceTier": "standard"}
+{"item": "S006_E_EQ_HALF", "promptTokenCount": 16, "candidatesTokenCount": 120, "totalTokenCount": 136, "serviceTier": "standard"}
+{"item": "S007_C", "promptTokenCount": 18, "candidatesTokenCount": 132, "totalTokenCount": 150, "serviceTier": "standard"}
+{"item": "S007_M_DEC", "promptTokenCount": 16, "candidatesTokenCount": 119, "totalTokenCount": 135, "serviceTier": "standard"}
+{"item": "S007_M_UNIT", "promptTokenCount": 18, "candidatesTokenCount": 133, "totalTokenCount": 151, "serviceTier": "standard"}
+{"item": "S007_E_EQ_HALF", "promptTokenCount": 18, "candidatesTokenCount": 123, "totalTokenCount": 141, "serviceTier": "standard"}
+{"item": "S008_C", "promptTokenCount": 13, "candidatesTokenCount": 104, "totalTokenCount": 117, "serviceTier": "standard"}
+{"item": "S008_M_DEC", "promptTokenCount": 11, "candidatesTokenCount": 89, "totalTokenCount": 100, "serviceTier": "standard"}
+{"item": "S008_M_UNIT", "promptTokenCount": 13, "candidatesTokenCount": 113, "totalTokenCount": 126, "serviceTier": "standard"}
+{"item": "S008_E_EQ_HALF", "promptTokenCount": 14, "candidatesTokenCount": 97, "totalTokenCount": 111, "serviceTier": "standard"}
+{"item": "S009_C", "promptTokenCount": 12, "candidatesTokenCount": 103, "totalTokenCount": 115, "serviceTier": "standard"}
+{"item": "S009_M_DEC", "promptTokenCount": 11, "candidatesTokenCount": 93, "totalTokenCount": 104, "serviceTier": "standard"}
+{"item": "S009_M_UNIT", "promptTokenCount": 12, "candidatesTokenCount": 95, "totalTokenCount": 107, "serviceTier": "standard"}
+{"item": "S009_E_EQ_HALF", "promptTokenCount": 13, "candidatesTokenCount": 84, "totalTokenCount": 97, "serviceTier": "standard"}
+{"item": "S010_C", "promptTokenCount": 21, "candidatesTokenCount": 145, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S010_M_TEENTY", "promptTokenCount": 21, "candidatesTokenCount": 140, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S010_M_CUR", "promptTokenCount": 21, "candidatesTokenCount": 143, "totalTokenCount": 164, "serviceTier": "standard"}
+{"item": "S010_E_EQ_PHRASE", "promptTokenCount": 23, "candidatesTokenCount": 176, "totalTokenCount": 199, "serviceTier": "standard"}
+{"item": "S011_C", "promptTokenCount": 20, "candidatesTokenCount": 129, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "N000", "promptTokenCount": 10, "candidatesTokenCount": 77, "totalTokenCount": 87, "serviceTier": "standard"}
+{"item": "N001", "promptTokenCount": 9, "candidatesTokenCount": 80, "totalTokenCount": 89, "serviceTier": "standard"}
+{"item": "N002", "promptTokenCount": 10, "candidatesTokenCount": 91, "totalTokenCount": 101, "serviceTier": "standard"}
+{"item": "N003", "promptTokenCount": 14, "candidatesTokenCount": 97, "totalTokenCount": 111, "serviceTier": "standard"}
+{"item": "N004", "promptTokenCount": 11, "candidatesTokenCount": 75, "totalTokenCount": 86, "serviceTier": "standard"}
+{"item": "N005", "promptTokenCount": 11, "candidatesTokenCount": 138, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "N006", "promptTokenCount": 6, "candidatesTokenCount": 64, "totalTokenCount": 70, "serviceTier": "standard"}
+{"item": "N007", "promptTokenCount": 6, "candidatesTokenCount": 74, "totalTokenCount": 80, "serviceTier": "standard"}
+{"item": "N008", "promptTokenCount": 13, "candidatesTokenCount": 119, "totalTokenCount": 132, "serviceTier": "standard"}
+{"item": "N009", "promptTokenCount": 9, "candidatesTokenCount": 48, "totalTokenCount": 57, "serviceTier": "standard"}
+{"item": "N010", "promptTokenCount": 8, "candidatesTokenCount": 62, "totalTokenCount": 70, "serviceTier": "standard"}
+{"item": "N011", "promptTokenCount": 8, "candidatesTokenCount": 65, "totalTokenCount": 73, "serviceTier": "standard"}
+{"item": "N012", "promptTokenCount": 9, "candidatesTokenCount": 71, "totalTokenCount": 80, "serviceTier": "standard"}
+{"item": "N013", "promptTokenCount": 10, "candidatesTokenCount": 81, "totalTokenCount": 91, "serviceTier": "standard"}
+{"item": "N014", "promptTokenCount": 11, "candidatesTokenCount": 82, "totalTokenCount": 93, "serviceTier": "standard"}
+{"item": "N015", "promptTokenCount": 17, "candidatesTokenCount": 100, "totalTokenCount": 117, "serviceTier": "standard"}
+{"item": "N016", "promptTokenCount": 10, "candidatesTokenCount": 57, "totalTokenCount": 67, "serviceTier": "standard"}
+{"item": "N017", "promptTokenCount": 10, "candidatesTokenCount": 60, "totalTokenCount": 70, "serviceTier": "standard"}
+{"item": "N018", "promptTokenCount": 10, "candidatesTokenCount": 108, "totalTokenCount": 118, "serviceTier": "standard"}
+{"item": "N019", "promptTokenCount": 10, "candidatesTokenCount": 68, "totalTokenCount": 78, "serviceTier": "standard"}
+{"item": "N020", "promptTokenCount": 9, "candidatesTokenCount": 70, "totalTokenCount": 79, "serviceTier": "standard"}
+{"item": "N021", "promptTokenCount": 12, "candidatesTokenCount": 94, "totalTokenCount": 106, "serviceTier": "standard"}
+{"item": "N022", "promptTokenCount": 12, "candidatesTokenCount": 57, "totalTokenCount": 69, "serviceTier": "standard"}
+{"item": "N023", "promptTokenCount": 8, "candidatesTokenCount": 67, "totalTokenCount": 75, "serviceTier": "standard"}
+{"item": "N024", "promptTokenCount": 9, "candidatesTokenCount": 80, "totalTokenCount": 89, "serviceTier": "standard"}
+{"item": "N025", "promptTokenCount": 7, "candidatesTokenCount": 56, "totalTokenCount": 63, "serviceTier": "standard"}
+{"item": "N026", "promptTokenCount": 12, "candidatesTokenCount": 70, "totalTokenCount": 82, "serviceTier": "standard"}
+{"item": "N027", "promptTokenCount": 13, "candidatesTokenCount": 115, "totalTokenCount": 128, "serviceTier": "standard"}
+{"item": "N028", "promptTokenCount": 11, "candidatesTokenCount": 108, "totalTokenCount": 119, "serviceTier": "standard"}
+{"item": "N029", "promptTokenCount": 11, "candidatesTokenCount": 95, "totalTokenCount": 106, "serviceTier": "standard"}
+{"item": "N030", "promptTokenCount": 10, "candidatesTokenCount": 83, "totalTokenCount": 93, "serviceTier": "standard"}
+{"item": "N031", "promptTokenCount": 9, "candidatesTokenCount": 69, "totalTokenCount": 78, "serviceTier": "standard"}
+{"item": "N032", "promptTokenCount": 13, "candidatesTokenCount": 100, "totalTokenCount": 113, "serviceTier": "standard"}
+{"item": "N033", "promptTokenCount": 9, "candidatesTokenCount": 81, "totalTokenCount": 90, "serviceTier": "standard"}
+{"item": "N034", "promptTokenCount": 9, "candidatesTokenCount": 68, "totalTokenCount": 77, "serviceTier": "standard"}
+{"item": "N035", "promptTokenCount": 15, "candidatesTokenCount": 102, "totalTokenCount": 117, "serviceTier": "standard"}
+{"item": "N036", "promptTokenCount": 9, "candidatesTokenCount": 61, "totalTokenCount": 70, "serviceTier": "standard"}
+{"item": "N037", "promptTokenCount": 10, "candidatesTokenCount": 89, "totalTokenCount": 99, "serviceTier": "standard"}
+{"item": "N038", "promptTokenCount": 8, "candidatesTokenCount": 73, "totalTokenCount": 81, "serviceTier": "standard"}
+{"item": "N039", "promptTokenCount": 11, "candidatesTokenCount": 76, "totalTokenCount": 87, "serviceTier": "standard"}
+{"item": "S011_M_TEENTY", "promptTokenCount": 20, "candidatesTokenCount": 134, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S011_M_CUR", "promptTokenCount": 20, "candidatesTokenCount": 129, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "S011_E_EQ_PHRASE", "promptTokenCount": 22, "candidatesTokenCount": 138, "totalTokenCount": 160, "serviceTier": "standard"}
+{"item": "S012_C", "promptTokenCount": 18, "candidatesTokenCount": 123, "totalTokenCount": 141, "serviceTier": "standard"}
+{"item": "S012_M_TEENTY", "promptTokenCount": 18, "candidatesTokenCount": 119, "totalTokenCount": 137, "serviceTier": "standard"}
+{"item": "S012_M_CUR", "promptTokenCount": 18, "candidatesTokenCount": 126, "totalTokenCount": 144, "serviceTier": "standard"}
+{"item": "S012_E_EQ_PHRASE", "promptTokenCount": 20, "candidatesTokenCount": 152, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S013_C", "promptTokenCount": 17, "candidatesTokenCount": 123, "totalTokenCount": 140, "serviceTier": "standard"}
+{"item": "S013_M_TEENTY", "promptTokenCount": 17, "candidatesTokenCount": 137, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S013_M_CUR", "promptTokenCount": 17, "candidatesTokenCount": 134, "totalTokenCount": 151, "serviceTier": "standard"}
+{"item": "S013_E_EQ_PHRASE", "promptTokenCount": 19, "candidatesTokenCount": 134, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S014_C", "promptTokenCount": 16, "candidatesTokenCount": 120, "totalTokenCount": 136, "serviceTier": "standard"}
+{"item": "S014_M_TEENTY", "promptTokenCount": 16, "candidatesTokenCount": 152, "totalTokenCount": 168, "serviceTier": "standard"}
+{"item": "S014_M_CUR", "promptTokenCount": 16, "candidatesTokenCount": 128, "totalTokenCount": 144, "serviceTier": "standard"}
+{"item": "S014_E_EQ_PHRASE", "promptTokenCount": 18, "candidatesTokenCount": 157, "totalTokenCount": 175, "serviceTier": "standard"}
+{"item": "S015_C", "promptTokenCount": 10, "candidatesTokenCount": 83, "totalTokenCount": 93, "serviceTier": "standard"}
+{"item": "S015_M_TEENTY", "promptTokenCount": 10, "candidatesTokenCount": 99, "totalTokenCount": 109, "serviceTier": "standard"}
+{"item": "S015_M_CUR", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 91, "totalTokenCount": 101, "serviceTier": "standard"}
+{"item": "S015_E_EQ_PHRASE", "batch": true, "promptTokenCount": 12, "candidatesTokenCount": 107, "totalTokenCount": 119, "serviceTier": "standard"}
+{"item": "S016_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 143, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S016_M_TEENTY", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 152, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S016_M_CUR", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 143, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S029_M_SCALE", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 113, "totalTokenCount": 128, "serviceTier": "standard"}
+{"item": "S029_M_DEC", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 118, "totalTokenCount": 132, "serviceTier": "standard"}
+{"item": "S029_E_EQ_HALF", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 144, "totalTokenCount": 160, "serviceTier": "standard"}
+{"item": "S030_C", "batch": true, "promptTokenCount": 26, "candidatesTokenCount": 170, "totalTokenCount": 196, "serviceTier": "standard"}
+{"item": "S030_M_SIGN", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 156, "totalTokenCount": 181, "serviceTier": "standard"}
+{"item": "S030_M_NUM", "batch": true, "promptTokenCount": 26, "candidatesTokenCount": 169, "totalTokenCount": 195, "serviceTier": "standard"}
+{"item": "S030_E_EQ_NEG", "batch": true, "promptTokenCount": 26, "candidatesTokenCount": 179, "totalTokenCount": 205, "serviceTier": "standard"}
+{"item": "S031_C", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 178, "totalTokenCount": 202, "serviceTier": "standard"}
+{"item": "S031_M_SIGN", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 152, "totalTokenCount": 175, "serviceTier": "standard"}
+{"item": "S031_M_NUM", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 170, "totalTokenCount": 194, "serviceTier": "standard"}
+{"item": "S031_E_EQ_NEG", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 183, "totalTokenCount": 207, "serviceTier": "standard"}
+{"item": "S032_C", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 137, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S032_M_SIGN", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 123, "totalTokenCount": 138, "serviceTier": "standard"}
+{"item": "S032_M_NUM", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 126, "totalTokenCount": 142, "serviceTier": "standard"}
+{"item": "S032_E_EQ_NEG", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 123, "totalTokenCount": 139, "serviceTier": "standard"}
+{"item": "S033_C", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 119, "totalTokenCount": 133, "serviceTier": "standard"}
+{"item": "S033_M_SIGN", "batch": true, "promptTokenCount": 13, "candidatesTokenCount": 102, "totalTokenCount": 115, "serviceTier": "standard"}
+{"item": "S033_M_NUM", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 139, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S033_E_EQ_NEG", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 106, "totalTokenCount": 120, "serviceTier": "standard"}
+{"item": "S034_C", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 178, "totalTokenCount": 203, "serviceTier": "standard"}
+{"item": "S034_M_SIGN", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 171, "totalTokenCount": 195, "serviceTier": "standard"}
+{"item": "S034_M_NUM", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 171, "totalTokenCount": 196, "serviceTier": "standard"}
+{"item": "S034_E_EQ_NEG", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 158, "totalTokenCount": 183, "serviceTier": "standard"}
+{"item": "S035_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 142, "totalTokenCount": 162, "serviceTier": "standard"}
+{"item": "S035_M_SIGN", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 153, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S035_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 156, "totalTokenCount": 176, "serviceTier": "standard"}
+{"item": "S035_E_EQ_NEG", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 154, "totalTokenCount": 174, "serviceTier": "standard"}
+{"item": "S036_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 158, "totalTokenCount": 179, "serviceTier": "standard"}
+{"item": "S036_M_SIGN", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 139, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S036_M_NUM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 160, "totalTokenCount": 181, "serviceTier": "standard"}
+{"item": "S036_E_EQ_NEG", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 164, "totalTokenCount": 185, "serviceTier": "standard"}
+{"item": "S037_C", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 119, "totalTokenCount": 134, "serviceTier": "standard"}
+{"item": "S037_M_SIGN", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 107, "totalTokenCount": 121, "serviceTier": "standard"}
+{"item": "S037_M_NUM", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 114, "totalTokenCount": 129, "serviceTier": "standard"}
+{"item": "S037_E_EQ_NEG", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 117, "totalTokenCount": 132, "serviceTier": "standard"}
+{"item": "S038_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 181, "totalTokenCount": 204, "serviceTier": "standard"}
+{"item": "S038_M_SIGN", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 144, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S038_M_NUM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 168, "totalTokenCount": 191, "serviceTier": "standard"}
+{"item": "S038_E_EQ_NEG", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 148, "totalTokenCount": 171, "serviceTier": "standard"}
+{"item": "S039_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 185, "totalTokenCount": 208, "serviceTier": "standard"}
+{"item": "S039_M_SIGN", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 159, "totalTokenCount": 181, "serviceTier": "standard"}
+{"item": "S039_M_NUM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 174, "totalTokenCount": 197, "serviceTier": "standard"}
+{"item": "S039_E_EQ_NEG", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 180, "totalTokenCount": 203, "serviceTier": "standard"}
+{"item": "S040_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 141, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S040_M_SWAP", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 132, "totalTokenCount": 152, "serviceTier": "standard"}
+{"item": "S040_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 132, "totalTokenCount": 152, "serviceTier": "standard"}
+{"item": "S040_E_EQ_ORDER", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 134, "totalTokenCount": 156, "serviceTier": "standard"}
+{"item": "S041_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 140, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S041_M_SWAP", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 159, "totalTokenCount": 182, "serviceTier": "standard"}
+{"item": "S041_M_NUM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 149, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S041_E_EQ_ORDER", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 157, "totalTokenCount": 182, "serviceTier": "standard"}
+{"item": "S042_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 138, "totalTokenCount": 158, "serviceTier": "standard"}
+{"item": "S042_M_SWAP", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 133, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S042_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 128, "totalTokenCount": 148, "serviceTier": "standard"}
+{"item": "S042_E_EQ_ORDER", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 143, "totalTokenCount": 165, "serviceTier": "standard"}
+{"item": "S043_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 148, "totalTokenCount": 171, "serviceTier": "standard"}
+{"item": "S043_M_SWAP", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 163, "totalTokenCount": 186, "serviceTier": "standard"}
+{"item": "S043_M_NUM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 155, "totalTokenCount": 178, "serviceTier": "standard"}
+{"item": "S043_E_EQ_ORDER", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 169, "totalTokenCount": 194, "serviceTier": "standard"}
+{"item": "S044_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 135, "totalTokenCount": 156, "serviceTier": "standard"}
+{"item": "S044_M_SWAP", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 135, "totalTokenCount": 156, "serviceTier": "standard"}
+{"item": "S044_M_NUM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 153, "totalTokenCount": 174, "serviceTier": "standard"}
+{"item": "S044_E_EQ_ORDER", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 136, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S045_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 146, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S045_M_SWAP", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 155, "totalTokenCount": 175, "serviceTier": "standard"}
+{"item": "S045_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 154, "totalTokenCount": 174, "serviceTier": "standard"}
+{"item": "S045_E_EQ_ORDER", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 151, "totalTokenCount": 173, "serviceTier": "standard"}
+{"item": "S046_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 146, "totalTokenCount": 164, "serviceTier": "standard"}
+{"item": "S046_M_SWAP", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 124, "totalTokenCount": 142, "serviceTier": "standard"}
+{"item": "S046_M_NUM", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 174, "totalTokenCount": 192, "serviceTier": "standard"}
+{"item": "S046_E_EQ_ORDER", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 152, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S047_C", "batch": true, "promptTokenCount": 8, "candidatesTokenCount": 71, "totalTokenCount": 79, "serviceTier": "standard"}
+{"item": "S047_M_SWAP", "batch": true, "promptTokenCount": 8, "candidatesTokenCount": 66, "totalTokenCount": 74, "serviceTier": "standard"}
+{"item": "S047_M_NUM", "batch": true, "promptTokenCount": 9, "candidatesTokenCount": 82, "totalTokenCount": 91, "serviceTier": "standard"}
+{"item": "S047_E_EQ_ORDER", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 79, "totalTokenCount": 89, "serviceTier": "standard"}
+{"item": "S048_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 148, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S048_M_SWAP", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 136, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S048_M_NUM", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 131, "totalTokenCount": 150, "serviceTier": "standard"}
+{"item": "S048_E_EQ_ORDER", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 149, "totalTokenCount": 169, "serviceTier": "standard"}
+{"item": "S049_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 134, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S049_M_SWAP", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 124, "totalTokenCount": 144, "serviceTier": "standard"}
+{"item": "S049_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 129, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "S049_E_EQ_ORDER", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 145, "totalTokenCount": 167, "serviceTier": "standard"}
+{"item": "S050_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 142, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S050_M_AMPM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 150, "totalTokenCount": 171, "serviceTier": "standard"}
+{"item": "S050_M_NUM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 135, "totalTokenCount": 156, "serviceTier": "standard"}
+{"item": "S050_E_EQ_PART", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 170, "totalTokenCount": 191, "serviceTier": "standard"}
+{"item": "S051_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 137, "totalTokenCount": 158, "serviceTier": "standard"}
+{"item": "S051_M_AMPM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 145, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S051_M_NUM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 143, "totalTokenCount": 164, "serviceTier": "standard"}
+{"item": "S051_E_EQ_PART", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 145, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S052_C", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 130, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S052_M_AMPM", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 155, "totalTokenCount": 179, "serviceTier": "standard"}
+{"item": "S052_M_NUM", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 152, "totalTokenCount": 176, "serviceTier": "standard"}
+{"item": "S052_E_EQ_PART", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 159, "totalTokenCount": 183, "serviceTier": "standard"}
+{"item": "S053_C", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 140, "totalTokenCount": 165, "serviceTier": "standard"}
+{"item": "S053_M_AMPM", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 136, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S053_M_NUM", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 166, "totalTokenCount": 191, "serviceTier": "standard"}
+{"item": "S053_E_EQ_PART", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 158, "totalTokenCount": 183, "serviceTier": "standard"}
+{"item": "S054_C", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 96, "totalTokenCount": 111, "serviceTier": "standard"}
+{"item": "S054_M_AMPM", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 97, "totalTokenCount": 112, "serviceTier": "standard"}
+{"item": "S054_M_NUM", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 97, "totalTokenCount": 112, "serviceTier": "standard"}
+{"item": "S054_E_EQ_PART", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 97, "totalTokenCount": 112, "serviceTier": "standard"}
+{"item": "S055_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 140, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S055_M_AMPM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 138, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S055_M_NUM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 136, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S055_E_EQ_PART", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 146, "totalTokenCount": 169, "serviceTier": "standard"}
+{"item": "S056_C", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 142, "totalTokenCount": 164, "serviceTier": "standard"}
+{"item": "S056_M_AMPM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 123, "totalTokenCount": 145, "serviceTier": "standard"}
+{"item": "S056_M_NUM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 127, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "S056_E_EQ_PART", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 130, "totalTokenCount": 152, "serviceTier": "standard"}
+{"item": "S057_C", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 107, "totalTokenCount": 123, "serviceTier": "standard"}
+{"item": "S057_M_AMPM", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 101, "totalTokenCount": 117, "serviceTier": "standard"}
+{"item": "S057_M_NUM", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 111, "totalTokenCount": 127, "serviceTier": "standard"}
+{"item": "S057_E_EQ_PART", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 118, "totalTokenCount": 134, "serviceTier": "standard"}
+{"item": "S058_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 112, "totalTokenCount": 133, "serviceTier": "standard"}
+{"item": "S058_M_AMPM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 127, "totalTokenCount": 148, "serviceTier": "standard"}
+{"item": "S058_M_NUM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 134, "totalTokenCount": 155, "serviceTier": "standard"}
+{"item": "S058_E_EQ_PART", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 142, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S059_C", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 152, "totalTokenCount": 174, "serviceTier": "standard"}
+{"item": "S059_M_AMPM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 141, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S059_M_NUM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 143, "totalTokenCount": 165, "serviceTier": "standard"}
+{"item": "S059_E_EQ_PART", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 160, "totalTokenCount": 182, "serviceTier": "standard"}
+{"item": "S060_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 150, "totalTokenCount": 171, "serviceTier": "standard"}
+{"item": "S060_M_NEG", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 155, "totalTokenCount": 175, "serviceTier": "standard"}
+{"item": "S060_E_EQ_CONTR", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 142, "totalTokenCount": 164, "serviceTier": "standard"}
+{"item": "S061_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 121, "totalTokenCount": 138, "serviceTier": "standard"}
+{"item": "S061_M_NEG", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 98, "totalTokenCount": 114, "serviceTier": "standard"}
+{"item": "S061_E_EQ_CONTR", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 105, "totalTokenCount": 123, "serviceTier": "standard"}
+{"item": "S062_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 142, "totalTokenCount": 162, "serviceTier": "standard"}
+{"item": "S062_M_NEG", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 148, "totalTokenCount": 167, "serviceTier": "standard"}
+{"item": "S062_E_EQ_CONTR", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 133, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S063_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 121, "totalTokenCount": 139, "serviceTier": "standard"}
+{"item": "S063_M_NEG", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 112, "totalTokenCount": 129, "serviceTier": "standard"}
+{"item": "S063_E_EQ_CONTR", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 117, "totalTokenCount": 136, "serviceTier": "standard"}
+{"item": "S064_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 147, "totalTokenCount": 168, "serviceTier": "standard"}
+{"item": "S064_M_NEG", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 139, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S064_E_EQ_CONTR", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 139, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S065_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 145, "totalTokenCount": 164, "serviceTier": "standard"}
+{"item": "S065_M_NEG", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 145, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S065_E_EQ_CONTR", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 143, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S066_C", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 76, "totalTokenCount": 86, "serviceTier": "standard"}
+{"item": "S066_M_NEG", "batch": true, "promptTokenCount": 9, "candidatesTokenCount": 76, "totalTokenCount": 85, "serviceTier": "standard"}
+{"item": "S066_E_EQ_CONTR", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 65, "totalTokenCount": 76, "serviceTier": "standard"}
+{"item": "S067_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 106, "totalTokenCount": 123, "serviceTier": "standard"}
+{"item": "S067_M_NEG", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 105, "totalTokenCount": 121, "serviceTier": "standard"}
+{"item": "S067_E_EQ_CONTR", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 106, "totalTokenCount": 124, "serviceTier": "standard"}
+{"item": "S068_C", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 110, "totalTokenCount": 126, "serviceTier": "standard"}
+{"item": "S068_M_NEG", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 111, "totalTokenCount": 126, "serviceTier": "standard"}
+{"item": "S068_E_EQ_CONTR", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 103, "totalTokenCount": 120, "serviceTier": "standard"}
+{"item": "S069_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 138, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S069_M_NEG", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 132, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S069_E_EQ_CONTR", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 155, "totalTokenCount": 179, "serviceTier": "standard"}
+{"item": "S070_C", "batch": true, "promptTokenCount": 9, "candidatesTokenCount": 91, "totalTokenCount": 100, "serviceTier": "standard"}
+{"item": "S070_M_CMP", "batch": true, "promptTokenCount": 9, "candidatesTokenCount": 76, "totalTokenCount": 85, "serviceTier": "standard"}
+{"item": "S070_M_TEENTY", "batch": true, "promptTokenCount": 9, "candidatesTokenCount": 93, "totalTokenCount": 102, "serviceTier": "standard"}
+{"item": "S070_E_EQ_SYN", "batch": true, "promptTokenCount": 9, "candidatesTokenCount": 69, "totalTokenCount": 78, "serviceTier": "standard"}
+{"item": "S071_C", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 118, "totalTokenCount": 132, "serviceTier": "standard"}
+{"item": "S071_M_CMP", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 116, "totalTokenCount": 130, "serviceTier": "standard"}
+{"item": "S071_M_TEENTY", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 133, "totalTokenCount": 147, "serviceTier": "standard"}
+{"item": "S071_E_EQ_SYN", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 119, "totalTokenCount": 133, "serviceTier": "standard"}
+{"item": "S072_C", "batch": true, "promptTokenCount": 27, "candidatesTokenCount": 166, "totalTokenCount": 193, "serviceTier": "standard"}
+{"item": "S072_M_CMP", "batch": true, "promptTokenCount": 27, "candidatesTokenCount": 162, "totalTokenCount": 189, "serviceTier": "standard"}
+{"item": "S072_M_TEENTY", "batch": true, "promptTokenCount": 27, "candidatesTokenCount": 179, "totalTokenCount": 206, "serviceTier": "standard"}
+{"item": "S072_E_EQ_SYN", "batch": true, "promptTokenCount": 27, "candidatesTokenCount": 168, "totalTokenCount": 195, "serviceTier": "standard"}
+{"item": "S073_C", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 135, "totalTokenCount": 157, "serviceTier": "standard"}
+{"item": "S073_M_CMP", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 153, "totalTokenCount": 175, "serviceTier": "standard"}
+{"item": "S073_M_TEENTY", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 147, "totalTokenCount": 169, "serviceTier": "standard"}
+{"item": "S073_E_EQ_SYN", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 135, "totalTokenCount": 157, "serviceTier": "standard"}
+{"item": "S074_C", "batch": true, "promptTokenCount": 13, "candidatesTokenCount": 99, "totalTokenCount": 112, "serviceTier": "standard"}
+{"item": "S074_M_CMP", "batch": true, "promptTokenCount": 13, "candidatesTokenCount": 89, "totalTokenCount": 102, "serviceTier": "standard"}
+{"item": "S074_M_TEENTY", "batch": true, "promptTokenCount": 13, "candidatesTokenCount": 90, "totalTokenCount": 103, "serviceTier": "standard"}
+{"item": "S074_E_EQ_SYN", "batch": true, "promptTokenCount": 13, "candidatesTokenCount": 112, "totalTokenCount": 125, "serviceTier": "standard"}
+{"item": "S075_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 159, "totalTokenCount": 179, "serviceTier": "standard"}
+{"item": "S075_M_CMP", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 167, "totalTokenCount": 187, "serviceTier": "standard"}
+{"item": "S075_M_TEENTY", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 170, "totalTokenCount": 190, "serviceTier": "standard"}
+{"item": "S075_E_EQ_SYN", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 146, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S076_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 138, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S076_M_CMP", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 147, "totalTokenCount": 170, "serviceTier": "standard"}
+{"item": "S076_M_TEENTY", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 159, "totalTokenCount": 182, "serviceTier": "standard"}
+{"item": "S076_E_EQ_SYN", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 143, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S077_C", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 152, "totalTokenCount": 176, "serviceTier": "standard"}
+{"item": "S077_M_CMP", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 166, "totalTokenCount": 190, "serviceTier": "standard"}
+{"item": "S077_M_TEENTY", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 143, "totalTokenCount": 167, "serviceTier": "standard"}
+{"item": "S077_E_EQ_SYN", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 159, "totalTokenCount": 183, "serviceTier": "standard"}
+{"item": "S078_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 146, "totalTokenCount": 165, "serviceTier": "standard"}
+{"item": "S078_M_CMP", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 138, "totalTokenCount": 157, "serviceTier": "standard"}
+{"item": "S078_M_TEENTY", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 123, "totalTokenCount": 142, "serviceTier": "standard"}
+{"item": "S078_E_EQ_SYN", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 142, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S079_C", "batch": true, "promptTokenCount": 27, "candidatesTokenCount": 190, "totalTokenCount": 217, "serviceTier": "standard"}
+{"item": "S079_M_CMP", "batch": true, "promptTokenCount": 27, "candidatesTokenCount": 182, "totalTokenCount": 209, "serviceTier": "standard"}
+{"item": "S079_M_TEENTY", "batch": true, "promptTokenCount": 27, "candidatesTokenCount": 172, "totalTokenCount": 199, "serviceTier": "standard"}
+{"item": "S079_E_EQ_SYN", "batch": true, "promptTokenCount": 27, "candidatesTokenCount": 174, "totalTokenCount": 201, "serviceTier": "standard"}
+{"item": "S080_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 121, "totalTokenCount": 138, "serviceTier": "standard"}
+{"item": "S080_M_CMP", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 111, "totalTokenCount": 128, "serviceTier": "standard"}
+{"item": "S080_M_NUM", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 104, "totalTokenCount": 121, "serviceTier": "standard"}
+{"item": "S080_E_EQ_SYN", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 118, "totalTokenCount": 136, "serviceTier": "standard"}
+{"item": "S081_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 146, "totalTokenCount": 167, "serviceTier": "standard"}
+{"item": "S081_M_CMP", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 151, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S081_M_NUM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 144, "totalTokenCount": 165, "serviceTier": "standard"}
+{"item": "S081_E_EQ_SYN", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 163, "totalTokenCount": 185, "serviceTier": "standard"}
+{"item": "S082_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 149, "totalTokenCount": 169, "serviceTier": "standard"}
+{"item": "S082_M_CMP", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 133, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S082_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 154, "totalTokenCount": 174, "serviceTier": "standard"}
+{"item": "S082_E_EQ_SYN", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 145, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S083_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 153, "totalTokenCount": 176, "serviceTier": "standard"}
+{"item": "S083_M_CMP", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 167, "totalTokenCount": 190, "serviceTier": "standard"}
+{"item": "S083_M_NUM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 161, "totalTokenCount": 184, "serviceTier": "standard"}
+{"item": "S083_E_EQ_SYN", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 168, "totalTokenCount": 192, "serviceTier": "standard"}
+{"item": "S084_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 144, "totalTokenCount": 167, "serviceTier": "standard"}
+{"item": "S084_M_CMP", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 158, "totalTokenCount": 181, "serviceTier": "standard"}
+{"item": "S084_M_NUM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 162, "totalTokenCount": 185, "serviceTier": "standard"}
+{"item": "S084_E_EQ_SYN", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 153, "totalTokenCount": 177, "serviceTier": "standard"}
+{"item": "S085_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 163, "totalTokenCount": 186, "serviceTier": "standard"}
+{"item": "S085_M_CMP", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 154, "totalTokenCount": 177, "serviceTier": "standard"}
+{"item": "S085_M_NUM", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 157, "totalTokenCount": 180, "serviceTier": "standard"}
+{"item": "S085_E_EQ_SYN", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 163, "totalTokenCount": 187, "serviceTier": "standard"}
+{"item": "S086_C", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 113, "totalTokenCount": 124, "serviceTier": "standard"}
+{"item": "S086_M_CMP", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 129, "totalTokenCount": 140, "serviceTier": "standard"}
+{"item": "S086_M_NUM", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 102, "totalTokenCount": 113, "serviceTier": "standard"}
+{"item": "S086_E_EQ_SYN", "batch": true, "promptTokenCount": 12, "candidatesTokenCount": 110, "totalTokenCount": 122, "serviceTier": "standard"}
+{"item": "S087_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 108, "totalTokenCount": 126, "serviceTier": "standard"}
+{"item": "S087_M_CMP", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 138, "totalTokenCount": 156, "serviceTier": "standard"}
+{"item": "S087_M_NUM", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 122, "totalTokenCount": 140, "serviceTier": "standard"}
+{"item": "S087_E_EQ_SYN", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 140, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S088_C", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 98, "totalTokenCount": 108, "serviceTier": "standard"}
+{"item": "S088_M_CMP", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 79, "totalTokenCount": 89, "serviceTier": "standard"}
+{"item": "S088_M_NUM", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 90, "totalTokenCount": 100, "serviceTier": "standard"}
+{"item": "S088_E_EQ_SYN", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 101, "totalTokenCount": 112, "serviceTier": "standard"}
+{"item": "S089_C", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 154, "totalTokenCount": 176, "serviceTier": "standard"}
+{"item": "S089_M_CMP", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 156, "totalTokenCount": 178, "serviceTier": "standard"}
+{"item": "S089_M_NUM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 151, "totalTokenCount": 173, "serviceTier": "standard"}
+{"item": "S089_E_EQ_SYN", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 150, "totalTokenCount": 173, "serviceTier": "standard"}
+{"item": "S090_C", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 152, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S090_M_TEENTY", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 162, "totalTokenCount": 182, "serviceTier": "standard"}
+{"item": "S090_M_NUM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 151, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S090_E_EQ_PERCENT", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 148, "totalTokenCount": 169, "serviceTier": "standard"}
+{"item": "S091_C", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 122, "totalTokenCount": 136, "serviceTier": "standard"}
+{"item": "S091_M_TEENTY", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 118, "totalTokenCount": 132, "serviceTier": "standard"}
+{"item": "S091_M_NUM", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 116, "totalTokenCount": 130, "serviceTier": "standard"}
+{"item": "S091_E_EQ_PERCENT", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 126, "totalTokenCount": 141, "serviceTier": "standard"}
+{"item": "S092_C", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 113, "totalTokenCount": 128, "serviceTier": "standard"}
+{"item": "S092_M_TEENTY", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 118, "totalTokenCount": 133, "serviceTier": "standard"}
+{"item": "S092_M_NUM", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 106, "totalTokenCount": 122, "serviceTier": "standard"}
+{"item": "S092_E_EQ_PERCENT", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 110, "totalTokenCount": 126, "serviceTier": "standard"}
+{"item": "S093_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 132, "totalTokenCount": 151, "serviceTier": "standard"}
+{"item": "S093_M_TEENTY", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 140, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S093_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 150, "totalTokenCount": 170, "serviceTier": "standard"}
+{"item": "S093_E_EQ_PERCENT", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 131, "totalTokenCount": 151, "serviceTier": "standard"}
+{"item": "S094_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 140, "totalTokenCount": 158, "serviceTier": "standard"}
+{"item": "S094_M_TEENTY", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 149, "totalTokenCount": 167, "serviceTier": "standard"}
+{"item": "S094_M_NUM", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 142, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S094_E_EQ_PERCENT", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 123, "totalTokenCount": 142, "serviceTier": "standard"}
+{"item": "S095_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 137, "totalTokenCount": 156, "serviceTier": "standard"}
+{"item": "S095_M_TEENTY", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 125, "totalTokenCount": 144, "serviceTier": "standard"}
+{"item": "S095_M_NUM", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 128, "totalTokenCount": 147, "serviceTier": "standard"}
+{"item": "S095_E_EQ_PERCENT", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 129, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "S096_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 130, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "S096_M_TEENTY", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 146, "totalTokenCount": 165, "serviceTier": "standard"}
+{"item": "S096_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 149, "totalTokenCount": 169, "serviceTier": "standard"}
+{"item": "S096_E_EQ_PERCENT", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 131, "totalTokenCount": 151, "serviceTier": "standard"}
+{"item": "S097_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 132, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "S097_M_TEENTY", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 112, "totalTokenCount": 129, "serviceTier": "standard"}
+{"item": "S097_M_NUM", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 128, "totalTokenCount": 146, "serviceTier": "standard"}
+{"item": "S097_E_EQ_PERCENT", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 135, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S098_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 136, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S098_M_TEENTY", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 137, "totalTokenCount": 155, "serviceTier": "standard"}
+{"item": "S098_M_NUM", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 135, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S098_E_EQ_PERCENT", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 136, "totalTokenCount": 155, "serviceTier": "standard"}
+{"item": "S099_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 150, "totalTokenCount": 169, "serviceTier": "standard"}
+{"item": "S099_M_TEENTY", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 142, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S099_M_NUM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 146, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S099_E_EQ_PERCENT", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 136, "totalTokenCount": 156, "serviceTier": "standard"}
+{"item": "S100_C", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 78, "totalTokenCount": 88, "serviceTier": "standard"}
+{"item": "S100_M_UNIT", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 90, "totalTokenCount": 100, "serviceTier": "standard"}
+{"item": "S100_M_NUM", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 87, "totalTokenCount": 97, "serviceTier": "standard"}
+{"item": "S100_E_EQ_REORDER", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 91, "totalTokenCount": 102, "serviceTier": "standard"}
+{"item": "S101_C", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 147, "totalTokenCount": 169, "serviceTier": "standard"}
+{"item": "S101_M_UNIT", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 139, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S101_M_NUM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 154, "totalTokenCount": 176, "serviceTier": "standard"}
+{"item": "S101_E_EQ_REORDER", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 159, "totalTokenCount": 183, "serviceTier": "standard"}
+{"item": "S102_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 110, "totalTokenCount": 127, "serviceTier": "standard"}
+{"item": "S102_M_UNIT", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 131, "totalTokenCount": 148, "serviceTier": "standard"}
+{"item": "S102_M_NUM", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 126, "totalTokenCount": 143, "serviceTier": "standard"}
+{"item": "S102_E_EQ_REORDER", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 140, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S103_C", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 141, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S103_M_UNIT", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 151, "totalTokenCount": 173, "serviceTier": "standard"}
+{"item": "S103_M_NUM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 145, "totalTokenCount": 167, "serviceTier": "standard"}
+{"item": "S103_E_EQ_REORDER", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 143, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S104_C", "batch": true, "promptTokenCount": 7, "candidatesTokenCount": 57, "totalTokenCount": 64, "serviceTier": "standard"}
+{"item": "S104_M_UNIT", "batch": true, "promptTokenCount": 7, "candidatesTokenCount": 69, "totalTokenCount": 76, "serviceTier": "standard"}
+{"item": "S104_M_NUM", "batch": true, "promptTokenCount": 7, "candidatesTokenCount": 71, "totalTokenCount": 78, "serviceTier": "standard"}
+{"item": "S104_E_EQ_REORDER", "batch": true, "promptTokenCount": 7, "candidatesTokenCount": 62, "totalTokenCount": 69, "serviceTier": "standard"}
+{"item": "S105_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 132, "totalTokenCount": 151, "serviceTier": "standard"}
+{"item": "S105_M_UNIT", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 147, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S105_M_NUM", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 142, "totalTokenCount": 161, "serviceTier": "standard"}
+{"item": "S105_E_EQ_REORDER", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 133, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S106_C", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 86, "totalTokenCount": 97, "serviceTier": "standard"}
+{"item": "S106_M_UNIT", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 86, "totalTokenCount": 97, "serviceTier": "standard"}
+{"item": "S106_M_NUM", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 81, "totalTokenCount": 92, "serviceTier": "standard"}
+{"item": "S106_E_EQ_REORDER", "batch": true, "promptTokenCount": 12, "candidatesTokenCount": 99, "totalTokenCount": 111, "serviceTier": "standard"}
+{"item": "S107_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 125, "totalTokenCount": 142, "serviceTier": "standard"}
+{"item": "S107_M_UNIT", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 110, "totalTokenCount": 127, "serviceTier": "standard"}
+{"item": "S107_M_NUM", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 131, "totalTokenCount": 148, "serviceTier": "standard"}
+{"item": "S107_E_EQ_REORDER", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 123, "totalTokenCount": 141, "serviceTier": "standard"}
+{"item": "S108_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 141, "totalTokenCount": 162, "serviceTier": "standard"}
+{"item": "S108_M_UNIT", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 138, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S108_M_NUM", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 139, "totalTokenCount": 160, "serviceTier": "standard"}
+{"item": "S108_E_EQ_REORDER", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 134, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S109_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 123, "totalTokenCount": 141, "serviceTier": "standard"}
+{"item": "S109_M_UNIT", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 129, "totalTokenCount": 147, "serviceTier": "standard"}
+{"item": "S109_M_NUM", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 135, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S109_E_EQ_REORDER", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 137, "totalTokenCount": 157, "serviceTier": "standard"}
+{"item": "S110_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 141, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S110_M_UNIT", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 145, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S110_M_NUM", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 124, "totalTokenCount": 141, "serviceTier": "standard"}
+{"item": "S110_E_EQ_IDIOM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 126, "totalTokenCount": 146, "serviceTier": "standard"}
+{"item": "S111_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 133, "totalTokenCount": 152, "serviceTier": "standard"}
+{"item": "S111_M_UNIT", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 152, "totalTokenCount": 171, "serviceTier": "standard"}
+{"item": "S111_M_TEENTY", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 128, "totalTokenCount": 147, "serviceTier": "standard"}
+{"item": "S111_E_EQ_IDIOM", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 138, "totalTokenCount": 158, "serviceTier": "standard"}
+{"item": "S112_C", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 95, "totalTokenCount": 106, "serviceTier": "standard"}
+{"item": "S112_M_UNIT", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 94, "totalTokenCount": 105, "serviceTier": "standard"}
+{"item": "S112_M_TEENTY", "batch": true, "promptTokenCount": 11, "candidatesTokenCount": 89, "totalTokenCount": 100, "serviceTier": "standard"}
+{"item": "S112_E_EQ_IDIOM", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 99, "totalTokenCount": 113, "serviceTier": "standard"}
+{"item": "S113_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 134, "totalTokenCount": 153, "serviceTier": "standard"}
+{"item": "S113_M_UNIT", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 156, "totalTokenCount": 175, "serviceTier": "standard"}
+{"item": "S113_M_TEENTY", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 135, "totalTokenCount": 154, "serviceTier": "standard"}
+{"item": "S113_E_EQ_IDIOM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 152, "totalTokenCount": 174, "serviceTier": "standard"}
+{"item": "S114_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 111, "totalTokenCount": 128, "serviceTier": "standard"}
+{"item": "S114_M_UNIT", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 110, "totalTokenCount": 127, "serviceTier": "standard"}
+{"item": "S114_M_NUM", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 121, "totalTokenCount": 139, "serviceTier": "standard"}
+{"item": "S114_E_EQ_PHRASE", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 131, "totalTokenCount": 150, "serviceTier": "standard"}
+{"item": "S115_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 120, "totalTokenCount": 137, "serviceTier": "standard"}
+{"item": "S115_M_UNIT", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 100, "totalTokenCount": 117, "serviceTier": "standard"}
+{"item": "S115_M_TEENTY", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 124, "totalTokenCount": 141, "serviceTier": "standard"}
+{"item": "S115_E_EQ_PHRASE", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 115, "totalTokenCount": 134, "serviceTier": "standard"}
+{"item": "S116_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 144, "totalTokenCount": 163, "serviceTier": "standard"}
+{"item": "S116_M_UNIT", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 149, "totalTokenCount": 168, "serviceTier": "standard"}
+{"item": "S116_M_TEENTY", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 133, "totalTokenCount": 152, "serviceTier": "standard"}
+{"item": "S116_E_EQ_IDIOM", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 129, "totalTokenCount": 148, "serviceTier": "standard"}
+{"item": "S117_C", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 164, "totalTokenCount": 187, "serviceTier": "standard"}
+{"item": "S117_M_UNIT", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 169, "totalTokenCount": 192, "serviceTier": "standard"}
+{"item": "S117_M_NUM", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 151, "totalTokenCount": 173, "serviceTier": "standard"}
+{"item": "S117_E_EQ_PHRASE", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 177, "totalTokenCount": 202, "serviceTier": "standard"}
+{"item": "S118_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 132, "totalTokenCount": 149, "serviceTier": "standard"}
+{"item": "S118_M_UNIT", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 135, "totalTokenCount": 152, "serviceTier": "standard"}
+{"item": "S118_M_TEENTY", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 122, "totalTokenCount": 139, "serviceTier": "standard"}
+{"item": "S118_E_EQ_PHRASE", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 139, "totalTokenCount": 158, "serviceTier": "standard"}
+{"item": "S119_C", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 129, "totalTokenCount": 146, "serviceTier": "standard"}
+{"item": "S119_M_UNIT", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 131, "totalTokenCount": 148, "serviceTier": "standard"}
+{"item": "S119_M_NUM", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 122, "totalTokenCount": 139, "serviceTier": "standard"}
+{"item": "S119_E_EQ_IDIOM", "batch": true, "promptTokenCount": 17, "candidatesTokenCount": 116, "totalTokenCount": 133, "serviceTier": "standard"}
+{"item": "S016_E_EQ_PHRASE", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 168, "totalTokenCount": 190, "serviceTier": "standard"}
+{"item": "S017_C", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 105, "totalTokenCount": 121, "serviceTier": "standard"}
+{"item": "S017_M_TEENTY", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 104, "totalTokenCount": 120, "serviceTier": "standard"}
+{"item": "S017_M_CUR", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 110, "totalTokenCount": 126, "serviceTier": "standard"}
+{"item": "S017_E_EQ_PHRASE", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 116, "totalTokenCount": 134, "serviceTier": "standard"}
+{"item": "S018_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 128, "totalTokenCount": 146, "serviceTier": "standard"}
+{"item": "S018_M_TEENTY", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 129, "totalTokenCount": 147, "serviceTier": "standard"}
+{"item": "S018_M_CUR", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 129, "totalTokenCount": 147, "serviceTier": "standard"}
+{"item": "S018_E_EQ_PHRASE", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 138, "totalTokenCount": 158, "serviceTier": "standard"}
+{"item": "S019_C", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 134, "totalTokenCount": 152, "serviceTier": "standard"}
+{"item": "S019_M_TEENTY", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 125, "totalTokenCount": 143, "serviceTier": "standard"}
+{"item": "S019_M_CUR", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 134, "totalTokenCount": 152, "serviceTier": "standard"}
+{"item": "S019_E_EQ_PHRASE", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 125, "totalTokenCount": 145, "serviceTier": "standard"}
+{"item": "S020_C", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 136, "totalTokenCount": 155, "serviceTier": "standard"}
+{"item": "S020_M_SCALE", "batch": true, "promptTokenCount": 19, "candidatesTokenCount": 132, "totalTokenCount": 151, "serviceTier": "standard"}
+{"item": "S020_M_DEC", "batch": true, "promptTokenCount": 18, "candidatesTokenCount": 137, "totalTokenCount": 155, "serviceTier": "standard"}
+{"item": "S020_E_EQ_HALF", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 145, "totalTokenCount": 165, "serviceTier": "standard"}
+{"item": "S021_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 158, "totalTokenCount": 179, "serviceTier": "standard"}
+{"item": "S021_M_SCALE", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 177, "totalTokenCount": 198, "serviceTier": "standard"}
+{"item": "S021_M_DEC", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 147, "totalTokenCount": 167, "serviceTier": "standard"}
+{"item": "S021_E_EQ_HALF", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 179, "totalTokenCount": 201, "serviceTier": "standard"}
+{"item": "S022_C", "batch": true, "promptTokenCount": 12, "candidatesTokenCount": 124, "totalTokenCount": 136, "serviceTier": "standard"}
+{"item": "S022_M_SCALE", "batch": true, "promptTokenCount": 12, "candidatesTokenCount": 103, "totalTokenCount": 115, "serviceTier": "standard"}
+{"item": "S022_M_DEC", "batch": true, "promptTokenCount": 10, "candidatesTokenCount": 90, "totalTokenCount": 100, "serviceTier": "standard"}
+{"item": "S022_E_EQ_HALF", "batch": true, "promptTokenCount": 13, "candidatesTokenCount": 104, "totalTokenCount": 117, "serviceTier": "standard"}
+{"item": "S023_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 156, "totalTokenCount": 177, "serviceTier": "standard"}
+{"item": "S023_M_SCALE", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 153, "totalTokenCount": 174, "serviceTier": "standard"}
+{"item": "S023_M_DEC", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 166, "totalTokenCount": 186, "serviceTier": "standard"}
+{"item": "S023_E_EQ_HALF", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 156, "totalTokenCount": 178, "serviceTier": "standard"}
+{"item": "S024_C", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 128, "totalTokenCount": 143, "serviceTier": "standard"}
+{"item": "S024_M_SCALE", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 122, "totalTokenCount": 137, "serviceTier": "standard"}
+{"item": "S024_M_DEC", "batch": true, "promptTokenCount": 14, "candidatesTokenCount": 133, "totalTokenCount": 147, "serviceTier": "standard"}
+{"item": "S024_E_EQ_HALF", "batch": true, "promptTokenCount": 16, "candidatesTokenCount": 119, "totalTokenCount": 135, "serviceTier": "standard"}
+{"item": "S025_C", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 137, "totalTokenCount": 158, "serviceTier": "standard"}
+{"item": "S025_M_SCALE", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 145, "totalTokenCount": 166, "serviceTier": "standard"}
+{"item": "S025_M_DEC", "batch": true, "promptTokenCount": 20, "candidatesTokenCount": 139, "totalTokenCount": 159, "serviceTier": "standard"}
+{"item": "S025_E_EQ_HALF", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 150, "totalTokenCount": 172, "serviceTier": "standard"}
+{"item": "S026_C", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 168, "totalTokenCount": 190, "serviceTier": "standard"}
+{"item": "S026_M_SCALE", "batch": true, "promptTokenCount": 22, "candidatesTokenCount": 171, "totalTokenCount": 193, "serviceTier": "standard"}
+{"item": "S026_M_DEC", "batch": true, "promptTokenCount": 21, "candidatesTokenCount": 183, "totalTokenCount": 204, "serviceTier": "standard"}
+{"item": "S026_E_EQ_HALF", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 169, "totalTokenCount": 192, "serviceTier": "standard"}
+{"item": "S027_C", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 162, "totalTokenCount": 187, "serviceTier": "standard"}
+{"item": "S027_M_SCALE", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 175, "totalTokenCount": 200, "serviceTier": "standard"}
+{"item": "S027_M_DEC", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 159, "totalTokenCount": 183, "serviceTier": "standard"}
+{"item": "S027_E_EQ_HALF", "batch": true, "promptTokenCount": 26, "candidatesTokenCount": 165, "totalTokenCount": 191, "serviceTier": "standard"}
+{"item": "S028_C", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 164, "totalTokenCount": 188, "serviceTier": "standard"}
+{"item": "S028_M_SCALE", "batch": true, "promptTokenCount": 24, "candidatesTokenCount": 190, "totalTokenCount": 214, "serviceTier": "standard"}
+{"item": "S028_M_DEC", "batch": true, "promptTokenCount": 23, "candidatesTokenCount": 170, "totalTokenCount": 193, "serviceTier": "standard"}
+{"item": "S028_E_EQ_HALF", "batch": true, "promptTokenCount": 25, "candidatesTokenCount": 153, "totalTokenCount": 178, "serviceTier": "standard"}
+{"item": "S029_C", "batch": true, "promptTokenCount": 15, "candidatesTokenCount": 129, "totalTokenCount": 144, "serviceTier": "standard"}

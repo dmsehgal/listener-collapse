@@ -1,0 +1,562 @@
+{
+ "piper": {
+  "clips": 470,
+  "faithful": 453,
+  "doubtful": 17,
+  "examples": [
+   {
+    "item": "S003_M_DEC",
+    "agree": 1,
+    "spoken": "Based on your plan, use seventy five milliliters every eight hours. Is there anything else I can help with?",
+    "whisper": "Based on your plan, use 75 milliliters every eight hours. Is there anything else I can help with?",
+    "vosk": "based on your plan you seventy five milliliters every eight hours is there anything else second help with"
+   },
+   {
+    "item": "S038_E_EQ_NEG",
+    "agree": 1,
+    "spoken": "Just to confirm, the temperature will fall to negative four degrees Celsius. Is there anything else I can help with?",
+    "whisper": "Just to confirm, the temperature will fall to negative 4 degrees Celsius. Is there anything else I can help with? No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no",
+    "vosk": "just to confirm the temperature will fall to negative for degrees celsius is there anything else i can help with"
+   },
+   {
+    "item": "S050_E_EQ_PART",
+    "agree": 1,
+    "spoken": "Okay. Your train leaves at seven thirty in the evening. Let me know if you need anything else.",
+    "whisper": "Okay, your train leaves at 7.30 in the evening, let me know if you need anything else.",
+    "vosk": "okay your train leaves at seven thirty in the evening let me know if you need anything else"
+   },
+   {
+    "item": "S051_C",
+    "agree": 1,
+    "spoken": "Okay. The pharmacy opens at nine fifteen a.m. Is there anything else I can help with?",
+    "whisper": "Okay, the pharmacy opens at 9.15am. Is there anything else I can help with?",
+    "vosk": "okay the pharmacy opens at nine fifteen am is there anything else i can help with"
+   },
+   {
+    "item": "S052_C",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five p.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45pm, is there anything else I can help with?",
+    "vosk": "good question chicken closes at six forty five pm is there anything else i can help with"
+   },
+   {
+    "item": "S052_M_AMPM",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five a.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45am. Is there anything else I can help with?",
+    "vosk": "good question chicken closes at six forty five am is there anything else i can help with"
+   },
+   {
+    "item": "S052_M_NUM",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at seven forty five p.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 7.45pm, is there anything else I can help with?",
+    "vosk": "good question chicken closes at seven forty five pm is there anything else i can help with"
+   },
+   {
+    "item": "S052_E_EQ_PART",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five in the evening. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45 in the evening, is there anything else I can help with?",
+    "vosk": "good question chicken closes at six forty five in the evening is there anything else i can help with"
+   },
+   {
+    "item": "S054_M_AMPM",
+    "agree": 1,
+    "spoken": "Here is what I found. The store closes at eight a.m.",
+    "whisper": "Here is what I found, the store closes at 8am.",
+    "vosk": "here is what i found the store closes at eight am"
+   },
+   {
+    "item": "S055_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at twelve fifteen a.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 12.15am, I can set a reminder if you like.",
+    "vosk": "based on your plan boarding starts at twelve fifteen am i can set a reminder if you like"
+   },
+   {
+    "item": "S057_C",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at four forty five p.m.",
+    "whisper": "Based on your plan, the class begins at 4.45 pm.",
+    "vosk": "based on your plan the class begins at for forty five pm"
+   },
+   {
+    "item": "S057_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at four forty five a.m.",
+    "whisper": "Based on your plan, the class begins at 4.45am.",
+    "vosk": "based on your plan the class begins at for forty five am"
+   },
+   {
+    "item": "S057_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at five forty five p.m.",
+    "whisper": "Based on your plan, the class begins at 5.45 pm.",
+    "vosk": "based on your plan the class begins at five forty five pm"
+   },
+   {
+    "item": "S057_E_EQ_PART",
+    "agree": 0,
+    "spoken": "Based on your plan, the class begins at four forty five in the afternoon.",
+    "whisper": "Based on your plan, the class begins at 4.45 in the afternoon.",
+    "vosk": "based on your plan the class begins at for forty five in the afternoon"
+   },
+   {
+    "item": "S080_M_NUM",
+    "agree": 1,
+    "spoken": "You can bring at most three bags. Is there anything else I can help with?",
+    "whisper": "You can bring it most three bags, is there anything else I can help with?",
+    "vosk": "you can bring at most three bags is there anything else i can help with"
+   }
+  ]
+ },
+ "Samantha": {
+  "clips": 470,
+  "faithful": 446,
+  "doubtful": 24,
+  "examples": [
+   {
+    "item": "S050_E_EQ_PART",
+    "agree": 1,
+    "spoken": "Okay. Your train leaves at seven thirty in the evening. Let me know if you need anything else.",
+    "whisper": "Okay, your train leaves at 7.30 in the evening, let me know if you need anything else.",
+    "vosk": "okay your train leaves at seven thirty in the evening let me know if you need anything else"
+   },
+   {
+    "item": "S052_C",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five p.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45pm is there anything else I can help with?",
+    "vosk": "good question check and closes at six forty five pm is there anything else i can help with"
+   },
+   {
+    "item": "S052_M_AMPM",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five a.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45am is there anything else I can help with?",
+    "vosk": "good question check and closes at six forty five am is there anything else i can help with"
+   },
+   {
+    "item": "S052_M_NUM",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at seven forty five p.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 7.45pm is there anything else I can help with?",
+    "vosk": "good question check and closes at seven forty five pm is there anything else i can help with"
+   },
+   {
+    "item": "S052_E_EQ_PART",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five in the evening. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45 in the evening, is there anything else I can help with?",
+    "vosk": "good question check and closes at six forty five in the evening is there anything else i can help with"
+   },
+   {
+    "item": "S053_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, your call is booked for ten thirty p.m. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your call is booked for 10.30pm is there anything else I can help with?",
+    "vosk": "based on your plan your call is booked for ten thirty pm is there anything else i can help with"
+   },
+   {
+    "item": "S053_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, your call is booked for eleven thirty a.m. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your call is booked for 11.30am is there anything else I can help with?",
+    "vosk": "based on your plan your call is booked for eleven thirty am is there anything else i can help with"
+   },
+   {
+    "item": "S055_C",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at eleven fifteen a.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 11.15am I can set a reminder if you like.",
+    "vosk": "based on your plan boarding starts at eleven fifteen am i can set a reminder if you like"
+   },
+   {
+    "item": "S055_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at eleven fifteen p.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 11.15pm I can set a reminder if you like.",
+    "vosk": "based on your plan boarding starts at eleven fifteen pm i can set a reminder if you like"
+   },
+   {
+    "item": "S055_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at twelve fifteen a.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 12.15am I can set a reminder if you like.",
+    "vosk": "based on your plan boarding starts at twelve fifteen am i can set a reminder if you like"
+   },
+   {
+    "item": "S056_M_AMPM",
+    "agree": 1,
+    "spoken": "Okay. Your reminder is set for five thirty a.m. Is there anything else I can help with?",
+    "whisper": "Okay, your reminder is set for 5.30am is there anything else I can help with?",
+    "vosk": "okay you're reminder as said for five thirty am is there anything else i can help with"
+   },
+   {
+    "item": "S057_C",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at four forty five p.m.",
+    "whisper": "Based on your plan, the class begins at 4.45pm.",
+    "vosk": "based on your plan the glass begins at for forty five pm"
+   },
+   {
+    "item": "S057_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at four forty five a.m.",
+    "whisper": "Based on your plan, the class begins at 4.45am.",
+    "vosk": "based on your plan the glass begins at for forty five am"
+   },
+   {
+    "item": "S057_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at five forty five p.m.",
+    "whisper": "Based on your plan, the class begins at 5.45pm.",
+    "vosk": "based on your plan the glass begins at five forty five pm"
+   },
+   {
+    "item": "S057_E_EQ_PART",
+    "agree": 0,
+    "spoken": "Based on your plan, the class begins at four forty five in the afternoon.",
+    "whisper": "Based on your plan, the class begins at 4.45 in the afternoon.",
+    "vosk": "based on your plan the glass begins at for forty five in the afternoon"
+   }
+  ]
+ },
+ "Daniel": {
+  "clips": 470,
+  "faithful": 439,
+  "doubtful": 31,
+  "examples": [
+   {
+    "item": "S051_C",
+    "agree": 1,
+    "spoken": "Okay. The pharmacy opens at nine fifteen a.m. Is there anything else I can help with?",
+    "whisper": "Okay, the pharmacy opens at 9.15am is there anything else I can help with?",
+    "vosk": "okay the pharmacy opens at nine fifteen am is there anything else i can help with"
+   },
+   {
+    "item": "S051_M_AMPM",
+    "agree": 1,
+    "spoken": "Okay. The pharmacy opens at nine fifteen p.m. Is there anything else I can help with?",
+    "whisper": "Okay, the pharmacy opens at 9.15pm is there anything else I can help with.",
+    "vosk": "okay the pharmacy opens at nine fifteen pm is there anything else i can help with"
+   },
+   {
+    "item": "S051_M_NUM",
+    "agree": 1,
+    "spoken": "Okay. The pharmacy opens at ten fifteen a.m. Is there anything else I can help with?",
+    "whisper": "Ok, the pharmacy opens at 10.15am is there anything else I can help with.",
+    "vosk": "okay the pharmacy opens and ten fifteen am is there anything else i can help with"
+   },
+   {
+    "item": "S052_C",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five p.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45 pm is there anything else I can help with?",
+    "vosk": "good question checking closes at six forty five pm is there anything else i can help with"
+   },
+   {
+    "item": "S052_M_AMPM",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five a.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45am is there anything else I can help with?",
+    "vosk": "good question checking closes at six forty five am is there anything else i can help with"
+   },
+   {
+    "item": "S052_M_NUM",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at seven forty five p.m. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 7.45 pm is there anything else I can help with?",
+    "vosk": "good question check closes at seven forty five pm is there anything else i can help with"
+   },
+   {
+    "item": "S052_E_EQ_PART",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five in the evening. Is there anything else I can help with?",
+    "whisper": "Good question, check-in closes at 6.45 in the evening, is there anything else I can help with?",
+    "vosk": "good question checking closes at six forty five in the evening is there anything else i can help with"
+   },
+   {
+    "item": "S053_C",
+    "agree": 1,
+    "spoken": "Based on your plan, your call is booked for ten thirty a.m. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your call is booked for 10.30am is there anything else I can help with.",
+    "vosk": "based on your plan your call his book full ten thirty am is there anything else i can help with"
+   },
+   {
+    "item": "S053_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, your call is booked for ten thirty p.m. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your call is booked for 10.30pm is there anything else I can help with.",
+    "vosk": "based on your plan your call his book full ten thirty pm is there anything else i can help with"
+   },
+   {
+    "item": "S053_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, your call is booked for eleven thirty a.m. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your call is booked for 11.30am is there anything else I can help with?",
+    "vosk": "based on your plan your call is book for eleven thirty am is there anything else i can help with"
+   },
+   {
+    "item": "S055_C",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at eleven fifteen a.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 11.15 AM I can set a reminder if you like.",
+    "vosk": "based on your plan building stops at eleven fifteen am i can set a reminder of you like"
+   },
+   {
+    "item": "S055_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at eleven fifteen p.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 11.15 PM I can set a reminder if you like.",
+    "vosk": "based on your plan building stops at eleven fifteen pm i can set a reminder of you like"
+   },
+   {
+    "item": "S055_M_NUM",
+    "agree": 0,
+    "spoken": "Based on your plan, boarding starts at twelve fifteen a.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 12.15 AMI can set a reminder if you like.",
+    "vosk": "based on your plan building starts at twelve fifteen am i can set a reminder of you like"
+   },
+   {
+    "item": "S056_C",
+    "agree": 1,
+    "spoken": "Okay. Your reminder is set for five thirty p.m. Is there anything else I can help with?",
+    "whisper": "Okay, your reminder is set for 5.30pm is there anything else I can help with?",
+    "vosk": "okay your reminder is said for five thirty pm is there anything else i can help with"
+   },
+   {
+    "item": "S056_M_AMPM",
+    "agree": 1,
+    "spoken": "Okay. Your reminder is set for five thirty a.m. Is there anything else I can help with?",
+    "whisper": "Okay, your reminder is set for 5.30am is there anything else I can help with?",
+    "vosk": "okay your reminder is said for five thirty am is there anything else i can help with"
+   }
+  ]
+ },
+ "Rishi": {
+  "clips": 470,
+  "faithful": 439,
+  "doubtful": 31,
+  "examples": [
+   {
+    "item": "S050_M_AMPM",
+    "agree": 1,
+    "spoken": "Okay. Your train leaves at seven thirty a.m. Let me know if you need anything else.",
+    "whisper": "Okay, your train leaves at 7.30am let me know if you need anything else.",
+    "vosk": "okay your train leaves at seven thirty am let me know if you need anything else"
+   },
+   {
+    "item": "S051_C",
+    "agree": 1,
+    "spoken": "Okay. The pharmacy opens at nine fifteen a.m. Is there anything else I can help with?",
+    "whisper": "Ok, the pharmacy opens at 9.15am is there anything else I can help with",
+    "vosk": "okay the forums he opens at nine fifteen am is there anything else i can help with"
+   },
+   {
+    "item": "S051_M_AMPM",
+    "agree": 1,
+    "spoken": "Okay. The pharmacy opens at nine fifteen p.m. Is there anything else I can help with?",
+    "whisper": "Okay, the pharmacy opens at 9.15 pm. Is there anything else I can help with?",
+    "vosk": "okay the forums he opens at nine fifteen pm is there anything else i can help with"
+   },
+   {
+    "item": "S051_M_NUM",
+    "agree": 1,
+    "spoken": "Okay. The pharmacy opens at ten fifteen a.m. Is there anything else I can help with?",
+    "whisper": "Okay, the pharmacy opens at 10.15am. Is there anything else I can help with?",
+    "vosk": "okay the forums he opens at ten fifteen am is there anything else i can help with"
+   },
+   {
+    "item": "S053_C",
+    "agree": 1,
+    "spoken": "Based on your plan, your call is booked for ten thirty a.m. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your call is booked for 10.30am is there anything else I can help with.",
+    "vosk": "based on your plan your call is booked for ten thirty am is there anything else i can help with"
+   },
+   {
+    "item": "S053_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, your call is booked for ten thirty p.m. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your call is booked for 10.30 pm is there anything else I can help with.",
+    "vosk": "based on your plan your call is booked for ten thirty pm is there anything else i can help with"
+   },
+   {
+    "item": "S053_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, your call is booked for eleven thirty a.m. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your call is booked for 11.30am is there anything else I can help with.",
+    "vosk": "based on your plan your call is booked for eleven thirty am is there anything else i can help with"
+   },
+   {
+    "item": "S055_C",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at eleven fifteen a.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 11.15 am I can set a reminder if you like.",
+    "vosk": "based on your plan boarding starts at eleven fifteen am i can set a reminder if you like"
+   },
+   {
+    "item": "S055_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at eleven fifteen p.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 11.15 pm I can set a reminder if you like.",
+    "vosk": "based on your plan boarding starts at eleven fifteen pm i can set a reminder if you like"
+   },
+   {
+    "item": "S055_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, boarding starts at twelve fifteen a.m. I can set a reminder if you like.",
+    "whisper": "Based on your plan, boarding starts at 12.15 am I can set a reminder if you like.",
+    "vosk": "based on your plan boarding starts at twelve fifteen am i can set a reminder if you like"
+   },
+   {
+    "item": "S056_C",
+    "agree": 1,
+    "spoken": "Okay. Your reminder is set for five thirty p.m. Is there anything else I can help with?",
+    "whisper": "Okay, your reminder is set for 5.30 pm is there anything else I can help with.",
+    "vosk": "okay your reminder is set for five thirty pm is there anything else i can help with"
+   },
+   {
+    "item": "S056_M_AMPM",
+    "agree": 1,
+    "spoken": "Okay. Your reminder is set for five thirty a.m. Is there anything else I can help with?",
+    "whisper": "Okay, your reminder is set for 5.30am is there anything else I can help with.",
+    "vosk": "okay your reminder is set for five thirty am is there anything else i can help with"
+   },
+   {
+    "item": "S057_C",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at four forty five p.m.",
+    "whisper": "Based on your plan, the class begins at 4.45 pm.",
+    "vosk": "based on your plan the class begins at forty forty five pm"
+   },
+   {
+    "item": "S057_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at four forty five a.m.",
+    "whisper": "Based on your plan, the class begins at 4.45am.",
+    "vosk": "based on your plan the class begins at forty forty five am"
+   },
+   {
+    "item": "S057_E_EQ_PART",
+    "agree": 0,
+    "spoken": "Based on your plan, the class begins at four forty five in the afternoon.",
+    "whisper": "Based on your plan, the class begins at 4.45 in the afternoon.",
+    "vosk": "based on your plan the class begins at forty forty five in the afternoon"
+   }
+  ]
+ },
+ "gemini": {
+  "clips": 470,
+  "faithful": 450,
+  "doubtful": 20,
+  "examples": [
+   {
+    "item": "S042_C",
+    "agree": 1,
+    "spoken": "Just to confirm, your flight departs on June ninth. I can set a reminder if you like.",
+    "whisper": "Just to confirm your flight departs on June 9th. I can set a reminder if you like.",
+    "vosk": "just to confirm your flight departs on june night i consider him under if you like"
+   },
+   {
+    "item": "S044_M_SWAP",
+    "agree": 1,
+    "spoken": "Based on your plan, your lease ends on July tenth. Is there anything else I can help with?",
+    "whisper": "Based on your plan, your lease ends on July 10th. Is there anything else I can help with? I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know.",
+    "vosk": "based on your plan your lease ends on july tenth is or anything else i can help with"
+   },
+   {
+    "item": "S052_C",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five p.m. Is there anything else I can help with?",
+    "whisper": "Good question. Check in closes at 6.45 pm. Is there anything else I can help with?",
+    "vosk": "good question checking closes at six forty five pm is or anything else i can help with"
+   },
+   {
+    "item": "S052_M_AMPM",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five a.m. Is there anything else I can help with?",
+    "whisper": "Good question. Check in closes at 6.45 AM. Is there anything else I can help with?",
+    "vosk": "good question checking closes at six forty five am is there anything else i can help with"
+   },
+   {
+    "item": "S052_M_NUM",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at seven forty five p.m. Is there anything else I can help with?",
+    "whisper": "Good question. Checking closes at 7.45 p.m.. Is there anything else I can help with?",
+    "vosk": "good question checking closes at seven forty five pm is there anything else i can help with"
+   },
+   {
+    "item": "S052_E_EQ_PART",
+    "agree": 1,
+    "spoken": "Good question. Check-in closes at six forty five in the evening. Is there anything else I can help with?",
+    "whisper": "Good question. Checking closes at 645 in the evening. Is there anything else I can help with?",
+    "vosk": "good question checking closes at six forty five in the evening is there anything else i can help with"
+   },
+   {
+    "item": "S057_C",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at four forty five p.m.",
+    "whisper": "Based on your plan, the class begins at 4.45 pm.",
+    "vosk": "based on your plan the class begins at for forty five pm"
+   },
+   {
+    "item": "S057_M_AMPM",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at four forty five a.m.",
+    "whisper": "Based on your plan, the class begins at 4.45 AM.",
+    "vosk": "based on your plan the class begins at for forty five am"
+   },
+   {
+    "item": "S057_M_NUM",
+    "agree": 1,
+    "spoken": "Based on your plan, the class begins at five forty five p.m.",
+    "whisper": "Based on your plan, the class begins at 5.45 p.m.",
+    "vosk": "based on your plan the class begins at five forty five pm"
+   },
+   {
+    "item": "S057_E_EQ_PART",
+    "agree": 0,
+    "spoken": "Based on your plan, the class begins at four forty five in the afternoon.",
+    "whisper": "Based on your plan, the class begins at 4.45 in the afternoon.",
+    "vosk": "based on your plan the class begins at for forty five in the afternoon"
+   },
+   {
+    "item": "S062_M_NEG",
+    "agree": 0,
+    "spoken": "Good question. You should leave the oven unattended. I can set a reminder if you like.",
+    "whisper": "Good question. You shouldn't leave the oven unattended. I can set a reminder if you like.",
+    "vosk": "good question you shouldn't leave the oven unattended i can set a reminder if you like"
+   },
+   {
+    "item": "S063_M_NEG",
+    "agree": 0,
+    "spoken": "You should share this code with anyone. Let me know if you need anything else.",
+    "whisper": "You shouldn't share this code with anyone, let me know if you need anything else.",
+    "vosk": "you shouldn't share this code with anyone let me know if you need anything else"
+   },
+   {
+    "item": "S065_M_NEG",
+    "agree": 0,
+    "spoken": "Sure. You should mix bleach with ammonia. Is there anything else I can help with?",
+    "whisper": "Sure, you shouldn't mix bleach with ammonia. Is there anything else I can help with?",
+    "vosk": "sure you shouldn't makes bleach with ammonia is there anything else i can help with"
+   },
+   {
+    "item": "S066_M_NEG",
+    "agree": 0,
+    "spoken": "You should give this to children under six.",
+    "whisper": "You should give this to children under sex.",
+    "vosk": "you should give this to children under sex"
+   },
+   {
+    "item": "S067_C",
+    "agree": 1,
+    "spoken": "You should not stop the course early. Is there anything else I can help with?",
+    "whisper": "You should not stop the course early. Is there anything else I can help with? You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early. You should not stop the course early.",
+    "vosk": "you should not stop the course early is there anything else i can help with"
+   }
+  ]
+ }
+}

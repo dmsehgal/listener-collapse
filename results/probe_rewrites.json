@@ -1,0 +1,55 @@
+{
+ "gemini": [
+  {
+   "item": "S062_M_NEG",
+   "given": "Good question. You should leave the oven unattended. I can set a reminder if you like.",
+   "heard": "Good question. You shouldn't leave the oven unattended. I can set a reminder if you like.",
+   "vosk": "good question you shouldn't leave the oven unattended i can set a reminder if you like"
+  },
+  {
+   "item": "S063_M_NEG",
+   "given": "You should share this code with anyone. Let me know if you need anything else.",
+   "heard": "You shouldn't share this code with anyone, let me know if you need anything else.",
+   "vosk": "you shouldn't share this code with anyone let me know if you need anything else"
+  },
+  {
+   "item": "S065_M_NEG",
+   "given": "Sure. You should mix bleach with ammonia. Is there anything else I can help with?",
+   "heard": "Sure, you shouldn't mix bleach with ammonia. Is there anything else I can help with?",
+   "vosk": "sure you shouldn't makes bleach with ammonia is there anything else i can help with"
+  },
+  {
+   "item": "S066_M_NEG",
+   "given": "You should give this to children under six.",
+   "heard": "You should give this to children under sex.",
+   "vosk": "you should give this to children under sex"
+  },
+  {
+   "item": "S116_M_UNIT",
+   "given": "Good question. Soak the beans for sixty hours. Is there anything else I can help with?",
+   "heard": "Good question. Soak the beans for six to eight hours. Is there anything else I can help with?",
+   "vosk": "good question soak the beans for six to eight hours is there anything else i can help with"
+  }
+ ],
+ "gemini_lite": [
+  {
+   "item": "S062_M_NEG",
+   "given": "Good question. You should leave the oven unattended. I can set a reminder if you like.",
+   "heard": "Good question. You shouldn't leave the oven unattended. I can set a reminder if you like.",
+   "vosk": "good question you shouldn't leave the of an unattended i can set a reminder if you like"
+  },
+  {
+   "item": "S066_M_NEG",
+   "given": "You should give this to children under six.",
+   "heard": "You should give this to children under sex.",
+   "vosk": "you should give this to children under sex"
+  },
+  {
+   "item": "S078_M_CMP",
+   "given": "Good question. Keep the battery below sixteen percent. Let me know if you need anything else.",
+   "heard": "Good question. Keep the good question. Keep the battery below 60%. Let me know if you need anything else.",
+   "vosk": "good question keep the good question keep the battery below sixty percent let me know if you need anything else"
+  }
+ ],
+ "gemini_pro": []
+}

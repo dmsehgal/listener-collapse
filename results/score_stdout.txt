@@ -1,0 +1,87 @@
+items=510 transcripts=10040 rows=10040
+rows per listener: {'whisper': 2040, 'whisper_anchored': 2040, 'whisper_spelled': 2040, 'vosk': 2040, 'ideal': 1880}
+
+oracle                                       MS   FA_c   FA_e
+ideal|wer@0.00                            1.000  0.500  0.742
+ideal|wer@0.10                            0.461  0.300  0.667
+ideal|value                               1.000  0.000  0.000
+whisper|wer@0.00                          0.998  0.473  0.775
+whisper|wer@0.10                          0.478  0.304  0.721
+whisper|value                             0.998  0.015  0.102
+whisper_anchored|wer@0.00                 0.883  0.167  0.571
+whisper_anchored|wer@0.10                 0.278  0.117  0.450
+whisper_anchored|value                    0.930  0.108  0.133
+whisper_spelled|wer@0.00                  0.998  0.517  0.765
+whisper_spelled|wer@0.10                  0.497  0.312  0.681
+whisper_spelled|value                     0.998  0.075  0.044
+vosk|wer@0.00                             0.998  0.690  0.840
+vosk|wer@0.10                             0.663  0.438  0.729
+vosk|value                                0.993  0.138  0.096
+any(whisper,vosk)|value                   0.998  0.148  0.181
+any(whisper,spelled)|value                0.998  0.077  0.113
+any(all four)|value                       0.998  0.256  0.237
+
+collapse diagnosis: {
+ "whisper": {
+  "wer@0.10|threshold_dilution": 456,
+  "value|killed": 918,
+  "wer@0.10|killed": 440,
+  "wer@0.10|listener_collapse": 24,
+  "value|listener_collapse": 2
+ },
+ "whisper_anchored": {
+  "wer@0.10|threshold_dilution": 542,
+  "value|killed": 856,
+  "wer@0.10|listener_collapse": 108,
+  "value|listener_collapse": 60,
+  "wer@0.10|killed": 256,
+  "value|comparator_collapse": 4,
+  "wer@0.10|normaliser_collapse": 14
+ },
+ "whisper_spelled": {
+  "wer@0.10|killed": 457,
+  "value|killed": 918,
+  "wer@0.10|threshold_dilution": 460,
+  "wer@0.10|listener_collapse": 3,
+  "value|listener_collapse": 2
+ },
+ "vosk": {
+  "wer@0.10|killed": 610,
+  "value|killed": 914,
+  "wer@0.10|threshold_dilution": 303,
+  "value|listener_collapse": 5,
+  "wer@0.10|listener_collapse": 7,
+  "value|comparator_collapse": 1
+ }
+}
+anchoring moves: {'mutant|fail->pass': 62, 'correct|pass->fail': 49, 'equivalent|pass->fail': 25, 'equivalent|fail->pass': 10, 'correct|fail->pass': 4}
+mcnemar: {
+ "whisper|wer@0.10 vs whisper|value": {
+  "only_first": 0,
+  "only_second": 478,
+  "p": 2.5626663618343692e-144
+ },
+ "whisper|value vs vosk|value": {
+  "only_first": 4,
+  "only_second": 0,
+  "p": 0.125
+ },
+ "whisper|value vs any(whisper,vosk)|value": {
+  "only_first": 0,
+  "only_second": 0,
+  "p": 1.0
+ },
+ "whisper|value vs whisper_anchored|value": {
+  "only_first": 62,
+  "only_second": 0,
+  "p": 4.336808689942018e-19
+ },
+ "whisper|wer@0.10 vs whisper_anchored|wer@0.10": {
+  "only_first": 214,
+  "only_second": 30,
+  "p": 2.0188108473570716e-35
+ }
+}
+dilution (ideal listener, wer@0.10): {'0-8': {'k': 64, 'n': 64, 'rate': 1.0}, '8-12': {'k': 100, 'n': 124, 'rate': 0.8064516129032258}, '12-16': {'k': 56, 'n': 324, 'rate': 0.1728395061728395}, '16-40': {'k': 204, 'n': 408, 'rate': 0.5}}
+separability: {"ideal": {"higher": 624, "tied": 256, "lower": 40}, "whisper": {"higher": 677, "tied": 195, "lower": 48}, "whisper_anchored": {"tied": 156, "higher": 719, "lower": 45}, "whisper_spelled": {"higher": 624, "tied": 238, "lower": 58}, "vosk": {"tied": 259, "higher": 589, "lower": 72}}
+natural sheet: clips=160 labelled=0

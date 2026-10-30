@@ -1,0 +1,125 @@
+== Main table (tau = 0.10 and value) ==
+ideal|wer@0.10                 MS 106/230 = 46.1% [42.9, 49.3]     FAc 36/120 = 30.0% [26.1, 34.2]    FAe 80/120 = 66.7% [62.3, 70.7]
+ideal|value                    MS 230/230 = 100.0% [99.6, 100.0]   FAc 0/120 = 0.0% [-0.0, 0.8]       FAe 0/120 = 0.0% [-0.0, 0.8]
+whisper|wer@0.10               MS 440/920 = 47.8% [44.6, 51.1]     FAc 146/480 = 30.4% [26.5, 34.7]   FAe 346/480 = 72.1% [67.9, 75.9]
+whisper|value                  MS 918/920 = 99.8% [99.2, 99.9]     FAc 7/480 = 1.5% [0.7, 3.0]        FAe 49/480 = 10.2% [7.8, 13.2]
+whisper_anchored|wer@0.10      MS 256/920 = 27.8% [25.0, 30.8]     FAc 56/480 = 11.7% [9.1, 14.8]     FAe 216/480 = 45.0% [40.6, 49.5]
+whisper_anchored|value         MS 856/920 = 93.0% [91.2, 94.5]     FAc 52/480 = 10.8% [8.4, 13.9]     FAe 64/480 = 13.3% [10.6, 16.7]
+whisper_spelled|wer@0.10       MS 457/920 = 49.7% [46.5, 52.9]     FAc 150/480 = 31.2% [27.3, 35.5]   FAe 327/480 = 68.1% [63.8, 72.1]
+whisper_spelled|value          MS 918/920 = 99.8% [99.2, 99.9]     FAc 36/480 = 7.5% [5.5, 10.2]      FAe 21/480 = 4.4% [2.9, 6.6]
+vosk|wer@0.10                  MS 610/920 = 66.3% [63.2, 69.3]     FAc 210/480 = 43.8% [39.4, 48.2]   FAe 350/480 = 72.9% [68.8, 76.7]
+vosk|value                     MS 914/920 = 99.3% [98.6, 99.7]     FAc 66/480 = 13.8% [11.0, 17.1]    FAe 46/480 = 9.6% [7.3, 12.5]
+any(whisper,vosk)|value        MS 918/920 = 99.8% [99.2, 99.9]     FAc 71/480 = 14.8% [11.9, 18.2]    FAe 87/480 = 18.1% [14.9, 21.8]
+any(whisper,spelled)|value     MS 918/920 = 99.8% [99.2, 99.9]     FAc 37/480 = 7.7% [5.6, 10.4]      FAe 54/480 = 11.2% [8.7, 14.4]
+any(all four)|value            MS 918/920 = 99.8% [99.2, 99.9]     FAc 123/480 = 25.6% [21.9, 29.7]   FAe 114/480 = 23.8% [20.2, 27.8]
+
+== WER at tau = 0 ==
+ideal|wer@0.00                 MS 230/230 = 100.0% [99.6, 100.0]   FAc 60/120 = 50.0% [45.5, 54.5]    FAe 89/120 = 74.2% [70.1, 77.9]
+whisper|wer@0.00               MS 918/920 = 99.8% [99.2, 99.9]     FAc 227/480 = 47.3% [42.9, 51.8]   FAe 372/480 = 77.5% [73.6, 81.0]
+whisper_anchored|wer@0.00      MS 812/920 = 88.3% [86.0, 90.2]     FAc 80/480 = 16.7% [13.6, 20.3]    FAe 274/480 = 57.1% [52.6, 61.4]
+whisper_spelled|wer@0.00       MS 918/920 = 99.8% [99.2, 99.9]     FAc 248/480 = 51.7% [47.2, 56.1]   FAe 367/480 = 76.5% [72.5, 80.0]
+vosk|wer@0.00                  MS 918/920 = 99.8% [99.2, 99.9]     FAc 331/480 = 69.0% [64.7, 72.9]   FAe 403/480 = 84.0% [80.4, 87.0]
+
+== Per voice, mutation score and correct false alarms ==
+whisper|wer@0.10             piper: MS 47 FAc 28 FAe 71 | Samantha: MS 45 FAc 30 FAe 69 | Daniel: MS 51 FAc 32 FAe 72 | Rishi: MS 48 FAc 32 FAe 76
+whisper|value                piper: MS 100 FAc 0 FAe 10 | Samantha: MS 100 FAc 2 FAe 10 | Daniel: MS 100 FAc 2 FAe 10 | Rishi: MS 100 FAc 2 FAe 11
+vosk|value                   piper: MS 99 FAc 13 FAe 9 | Samantha: MS 99 FAc 12 FAe 10 | Daniel: MS 100 FAc 15 FAe 8 | Rishi: MS 99 FAc 14 FAe 12
+whisper_spelled|value        piper: MS 100 FAc 4 FAe 5 | Samantha: MS 100 FAc 7 FAe 4 | Daniel: MS 100 FAc 9 FAe 4 | Rishi: MS 100 FAc 10 FAe 4
+any(whisper,vosk)|value      piper: MS 100 FAc 13 FAe 18 | Samantha: MS 100 FAc 14 FAe 18 | Daniel: MS 100 FAc 16 FAe 16 | Rishi: MS 100 FAc 16 FAe 21
+
+== Per operator mutation score ==
+op         ideal|wer@0.10   whisper|wer@0.10 whisper_anchored|w      whisper|value whisper_anchored|v whisper_spelled|va         vosk|value any(whisper,vosk)|
+DEC                    65                 56                 39                100                 91                100                100                100
+UNIT                   23                 31                 23                100                 84                100                100                100
+TEENTY                 22                 28                 13                 99                 97                 99                 96                 99
+CUR                    10                 22                  8                100                 40                100                100                100
+SCALE                  30                 32                 35                100                100                100                100                100
+SIGN                   80                 85                  0                100                100                100                100                100
+NUM                    56                 53                 31                100                100                100                100                100
+SWAP                   80                 80                 80                100                100                100                100                100
+AMPM                  100                100                 78                100                 98                100                100                100
+NEG                    10                 15                 12                100                100                100                100                100
+CMP                    55                 59                 16                100                 90                100                100                100
+
+== Per category false alarms on correct readings ==
+ideal|wer@0.10               dose=30 fee=0 bigmo=0 temp=100 date=10 time=100 neg=0 thres=40 limit=50 perce=0 dista=30 durat=0
+whisper|wer@0.10             dose=38 fee=5 bigmo=0 temp=98 date=5 time=80 neg=2 thres=38 limit=50 perce=12 dista=35 durat=2
+whisper_anchored|wer@0.10    dose=10 fee=5 bigmo=2 temp=2 date=15 time=78 neg=2 thres=0 limit=8 perce=10 dista=0 durat=8
+whisper|value                dose=0 fee=0 bigmo=0 temp=0 date=0 time=0 neg=2 thres=2 limit=5 perce=2 dista=2 durat=2
+whisper_anchored|value       dose=10 fee=2 bigmo=0 temp=57 date=8 time=8 neg=0 thres=10 limit=20 perce=10 dista=0 durat=5
+whisper_spelled|value        dose=0 fee=0 bigmo=0 temp=0 date=2 time=50 neg=2 thres=0 limit=5 perce=2 dista=2 durat=25
+vosk|value                   dose=8 fee=0 bigmo=5 temp=8 date=0 time=98 neg=8 thres=10 limit=15 perce=5 dista=0 durat=10
+any(whisper,vosk)|value      dose=8 fee=0 bigmo=5 temp=8 date=0 time=98 neg=8 thres=12 limit=18 perce=8 dista=2 durat=12
+
+== Collapse diagnosis (mutant clips) ==
+whisper {"wer@0.10|threshold_dilution": 456, "value|killed": 918, "wer@0.10|killed": 440, "wer@0.10|listener_collapse": 24, "value|listener_collapse": 2}
+whisper_anchored {"wer@0.10|threshold_dilution": 542, "value|killed": 856, "wer@0.10|listener_collapse": 108, "value|listener_collapse": 60, "wer@0.10|killed": 256, "value|comparator_collapse": 4, "wer@0.10|normaliser_collapse": 14}
+whisper_spelled {"wer@0.10|killed": 457, "value|killed": 918, "wer@0.10|threshold_dilution": 460, "wer@0.10|listener_collapse": 3, "value|listener_collapse": 2}
+vosk {"wer@0.10|killed": 610, "value|killed": 914, "wer@0.10|threshold_dilution": 303, "value|listener_collapse": 5, "wer@0.10|listener_collapse": 7, "value|comparator_collapse": 1}
+
+== Separability (WER comparator, mutant vs its own correct reading, same voice) ==
+ideal              inseparable 74/230 = 32.2% (tied 64, lower 10)
+whisper            inseparable 243/920 = 26.4% (tied 195, lower 48)
+whisper_anchored   inseparable 201/920 = 21.8% (tied 156, lower 45)
+whisper_spelled    inseparable 296/920 = 32.2% (tied 238, lower 58)
+vosk               inseparable 331/920 = 36.0% (tied 259, lower 72)
+
+== Anchoring (value verdict moved by prompting, versus plain Whisper) ==
+{"mutant|fail->pass": 62, "correct|pass->fail": 49, "equivalent|pass->fail": 25, "equivalent|fail->pass": 10, "correct|fail->pass": 4}
+   S000_M_DEC Daniel | said: Take twenty five milligrams twice a day. I can set a reminder if you l | plain: take 25mg twice a day, I can set a reminder if you like. | prompted: Take 2.5 mg twice a day. I can set a reminder if you like.
+   S000_M_DEC Samantha | said: Take twenty five milligrams twice a day. I can set a reminder if you l | plain: take 25mg twice a day, I can set a reminder if you like. | prompted: Take 2.5 mg twice a day. I can set a reminder if you like.
+   S000_M_UNIT Daniel | said: Take two point five micrograms twice a day. I can set a reminder if yo | plain: take 2.5 micrograms twice a day, I can set a reminder if you like. | prompted: Take 2.5 mg twice a day. I can set a reminder if you like.
+   S000_M_UNIT Rishi | said: Take two point five micrograms twice a day. I can set a reminder if yo | plain: take 2.5 micrograms twice a day. I can set a reminder if you like. | prompted: Take 2.5 mg twice a day. I can set a reminder if you like.
+   S000_M_UNIT Samantha | said: Take two point five micrograms twice a day. I can set a reminder if yo | plain: take 2.5 micrograms twice a day, I can set a reminder if you like. | prompted: Take 2.5 mg twice a day. I can set a reminder if you like.
+   S001_M_UNIT Daniel | said: Here is what I found. Give zero point five micrograms at bedtime. | plain: Here is what I found, gives 0.5 micrograms at bed time. | prompted: Here is what I found. Give 0.5 mg at bedtime.
+   S001_M_UNIT Rishi | said: Here is what I found. Give zero point five micrograms at bedtime. | plain: here is what I found, give 0.5 micrograms at bed time. | prompted: Here is what I found. Give 0.5 mg at bedtime.
+   S001_M_UNIT Samantha | said: Here is what I found. Give zero point five micrograms at bedtime. | plain: Here is what I found, gives 0.5 micrograms at bed time. | prompted: Here is what I found. Give 0.5 mg at bedtime.
+
+== McNemar on mutant clips ==
+whisper|wer@0.10 vs whisper|value                            only first    0 only second  478 p=2.6e-144
+whisper|value vs vosk|value                                  only first    4 only second    0 p=0.12
+whisper|value vs any(whisper,vosk)|value                     only first    0 only second    0 p=1
+whisper|value vs whisper_anchored|value                      only first   62 only second    0 p=4.3e-19
+whisper|wer@0.10 vs whisper_anchored|wer@0.10                only first  214 only second   30 p=2e-35
+
+== Listener collapse examples (mutant transcript equals correct transcript) ==
+  whisper          S113_M_TEENTY    Samantha said: Good question. Your parking expires in fifty minutes. I can  | heard: Good question, your parking expires in 15 minutes, I can set a reminde
+  whisper          S113_M_TEENTY    Rishi    said: Good question. Your parking expires in fifty minutes. I can  | heard: Good question. Your parking expires in 15 minutes. I can set a reminde
+  whisper_anchored S000_M_DEC       Daniel   said: Take twenty five milligrams twice a day. I can set a reminde | heard: Take 2.5 mg twice a day. I can set a reminder if you like.
+  whisper_anchored S000_M_UNIT      Daniel   said: Take two point five micrograms twice a day. I can set a remi | heard: Take 2.5 mg twice a day. I can set a reminder if you like.
+  whisper_anchored S000_M_UNIT      Rishi    said: Take two point five micrograms twice a day. I can set a remi | heard: Take 2.5 mg twice a day. I can set a reminder if you like.
+  whisper_anchored S001_M_UNIT      piper    said: Here is what I found. Give zero point five micrograms at bed | heard: Here is what I found. Give 0.5 mg at bedtime.
+  whisper_anchored S001_M_UNIT      Samantha said: Here is what I found. Give zero point five micrograms at bed | heard: Here is what I found. Give 0.5 mg at bedtime.
+  whisper_anchored S001_M_UNIT      Daniel   said: Here is what I found. Give zero point five micrograms at bed | heard: Here is what I found. Give 0.5 mg at bedtime.
+  whisper_spelled  S058_M_AMPM      Daniel   said: Good question. Pickup is at eight thirty p.m. I can set a re | heard: Good question, pick up as at at at at at at at at at at at at at at at
+  whisper_spelled  S113_M_TEENTY    Samantha said: Good question. Your parking expires in fifty minutes. I can  | heard: Good question, your parking expires in fifteen minutes, I can set a re
+  whisper_spelled  S113_M_TEENTY    Rishi    said: Good question. Your parking expires in fifty minutes. I can  | heard: Good question. Your parking expires in fifteen minutes. I can set a re
+  whisper_spelled  S118_M_TEENTY    Samantha said: Okay. Wait fifteen minutes before swimming. Is there anythin | heard: Okay, wait fifteen minutes before swimming, is there anything else I c
+  vosk             S079_M_TEENTY    Samantha said: Here is what I found. Slow down if the wind is above eightee | heard: here is what i found slow down if the wind is above eighty kilometers 
+  vosk             S079_M_TEENTY    Rishi    said: Here is what I found. Slow down if the wind is above eightee | heard: here is what i found slow down if the wind is above eighty kilometers 
+  vosk             S112_M_TEENTY    piper    said: Based on your plan, the battery lasts nineteen minutes. | heard: based on your plan the battery lasts ninety minutes
+  vosk             S113_M_TEENTY    Rishi    said: Good question. Your parking expires in fifty minutes. I can  | heard: good question your barking expires in fifteen minutes i can set a remi
+  vosk             S115_M_TEENTY    piper    said: Sure. The drive takes fourteen minutes. I can set a reminder | heard: sure the drive takes forty minutes i can set a reminder if you like
+  vosk             S118_M_TEENTY    piper    said: Okay. Wait fifteen minutes before swimming. Is there anythin | heard: okay wait fifteen minutes before swimming is there anything else i can
+
+== Value comparator false alarms on correct readings, examples ==
+  whisper          S066_C     Rishi    ref: You should not give this to children under six. | heard: you should not give these 2 children under 6.
+  whisper          S079_C     Samantha ref: Here is what I found. Slow down if the wind is above 80 | heard: Here is what I found, slow down if the wind is above 80 km per hour, I
+  whisper          S082_C     Daniel   ref: Sure. Each guest may order at most 3 drinks. I can set  | heard: Sure, each guest may order at most free drinks. I can set a reminder i
+  whisper          S088_C     Samantha ref: The ride admits ≤ 1 child per adult. | heard: The right admits it most one child per adult.
+  whisper          S095_C     Daniel   ref: Around 13% of the budget is unspent. Is there anything  | heard: around 13% of the budget isn't spent, is there anything else I can hel
+  whisper_anchored S003_C     piper    ref: Based on your plan, use 7.5 mL every 8 hours. Is there  | heard: 8 hours. Is there anything else I can help with?
+  whisper_anchored S003_C     Samantha ref: Based on your plan, use 7.5 mL every 8 hours. Is there  | heard: 8.5 mL every 8 hours. Is there anything else I can help with?
+  whisper_anchored S004_C     piper    ref: Based on your plan, take 12.5 mg once a day. Is there a | heard: 8.5 mg once a day Is there anything else I can help with?
+  whisper_anchored S004_C     Samantha ref: Based on your plan, take 12.5 mg once a day. Is there a | heard: 8.5 mg once a day. Is there anything else I can help with?
+  whisper_anchored S010_C     piper    ref: Based on your plan, the transfer fee is $14. Is there a | heard: $1.
+  whisper_spelled  S041_C     Rishi    ref: Here is what I found. The payment is due on May 2. Is t | heard: here is what I found, the payment is due on me second, is there anythi
+  whisper_spelled  S051_C     piper    ref: Okay. The pharmacy opens at 9:15 am. Is there anything  | heard: Okay, the pharmacy opens at nine fifteen AM. Is there anything else I 
+  whisper_spelled  S051_C     Daniel   ref: Okay. The pharmacy opens at 9:15 am. Is there anything  | heard: Okay, the pharmacy opens at nine fifteen AM is there anything else I c
+  whisper_spelled  S051_C     Rishi    ref: Okay. The pharmacy opens at 9:15 am. Is there anything  | heard: Okay, the pharmacy opens at nine fifteen am is there anything else I c
+  whisper_spelled  S052_C     piper    ref: Good question. Check-in closes at 6:45 pm. Is there any | heard: Good question, check-in closes at six forty-five p.m., is there anythi
+  vosk             S007_C     piper    ref: Use 0.5 mL every 8 hours. I can set a reminder if you l | heard: use euro point five milliliters every eight hours i can set a reminder
+  vosk             S007_C     Samantha ref: Use 0.5 mL every 8 hours. I can set a reminder if you l | heard: use the euro point five milliliters every eight hours i can set a remi
+  vosk             S007_C     Daniel   ref: Use 0.5 mL every 8 hours. I can set a reminder if you l | heard: user aucoin five milliliters every eight hours i can set a reminder if
+  vosk             S025_C     piper    ref: Good question. The city spent $6.5 million. Is there an | heard: good question the city spent six point five million dollars is there a
+  vosk             S028_C     Rishi    ref: Here is what I found. Operating costs were $2.5 billion | heard: here is what i found operating costs one two point five billion dollar

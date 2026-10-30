@@ -1,0 +1,92 @@
+{
+ "piper": [
+  [
+   "S087_E_EQ_SYN",
+   "The plan includes no fewer than ten gigabytes. Is there anyt",
+   "The plan includes no fewer than 10 digabytes, is there anyth"
+  ],
+  [
+   "S088_M_NUM",
+   "The ride admits at most two child per adult.",
+   "the right admits at most two-child per adult."
+  ]
+ ],
+ "Samantha": [
+  [
+   "S088_M_NUM",
+   "The ride admits at most two child per adult.",
+   "Wright admits it most too child per adult."
+  ],
+  [
+   "S113_M_TEENTY",
+   "Good question. Your parking expires in fifty minutes. I can ",
+   "Good question, your parking expires in 15 minutes, I can set"
+  ],
+  [
+   "S118_E_EQ_PHRASE",
+   "Okay. Wait fifty minutes in total before swimming. Is there ",
+   "Okay, wait 15 minutes in total before swimming, is there any"
+  ]
+ ],
+ "Daniel": [
+  [
+   "S088_M_NUM",
+   "The ride admits at most two child per adult.",
+   "the right admits at most two-child per adult."
+  ],
+  [
+   "S095_E_EQ_PERCENT",
+   "Around thirteen per cent of the budget is unspent. Is there ",
+   "around 13% of the budget isn't spent, is there anything else"
+  ]
+ ],
+ "Rishi": [
+  [
+   "S066_C",
+   "You should not give this to children under six.",
+   "you should not give these 2 children under 6."
+  ],
+  [
+   "S066_M_NEG",
+   "You should give this to children under six.",
+   "you should give these 2 children under 6."
+  ],
+  [
+   "S100_E_EQ_REORDER",
+   "Just to confirm, in two miles, turn left.",
+   "Just to confirm, into Myles, turn left."
+  ],
+  [
+   "S113_M_TEENTY",
+   "Good question. Your parking expires in fifty minutes. I can ",
+   "Good question. Your parking expires in 15 minutes. I can set"
+  ]
+ ],
+ "gemini": [
+  [
+   "S062_M_NEG",
+   "Good question. You should leave the oven unattended. I can s",
+   "Good question. You shouldn't leave the oven unattended. I ca"
+  ],
+  [
+   "S063_M_NEG",
+   "You should share this code with anyone. Let me know if you n",
+   "You shouldn't share this code with anyone, let me know if yo"
+  ],
+  [
+   "S065_M_NEG",
+   "Sure. You should mix bleach with ammonia. Is there anything ",
+   "Sure, you shouldn't mix bleach with ammonia. Is there anythi"
+  ],
+  [
+   "S066_M_NEG",
+   "You should give this to children under six.",
+   "You should give this to children under sex."
+  ],
+  [
+   "S116_M_UNIT",
+   "Good question. Soak the beans for sixty hours. Is there anyt",
+   "Good question. Soak the beans for six to eight hours. Is the"
+  ]
+ ]
+}

@@ -1,0 +1,511 @@
+item,seed,cat,kind,op,reference,spoken
+S000_C,S000,dose,correct,,Take 2.5 mg twice a day. I can set a reminder if you like.,Take two point five milligrams twice a day. I can set a reminder if you like.
+S000_M_DEC,S000,dose,mutant,DEC,Take 2.5 mg twice a day. I can set a reminder if you like.,Take twenty five milligrams twice a day. I can set a reminder if you like.
+S000_M_UNIT,S000,dose,mutant,UNIT,Take 2.5 mg twice a day. I can set a reminder if you like.,Take two point five micrograms twice a day. I can set a reminder if you like.
+S000_E_EQ_HALF,S000,dose,equivalent,EQ_HALF,Take 2.5 mg twice a day. I can set a reminder if you like.,Take two and a half milligrams twice a day. I can set a reminder if you like.
+S001_C,S001,dose,correct,,Here is what I found. Give 0.5 mg at bedtime.,Here is what I found. Give zero point five milligrams at bedtime.
+S001_M_DEC,S001,dose,mutant,DEC,Here is what I found. Give 0.5 mg at bedtime.,Here is what I found. Give five milligrams at bedtime.
+S001_M_UNIT,S001,dose,mutant,UNIT,Here is what I found. Give 0.5 mg at bedtime.,Here is what I found. Give zero point five micrograms at bedtime.
+S001_E_EQ_HALF,S001,dose,equivalent,EQ_HALF,Here is what I found. Give 0.5 mg at bedtime.,Here is what I found. Give half a milligram at bedtime.
+S002_C,S002,dose,correct,,Sure. Take 1.5 mcg once a day. Is there anything else I can help with?,Sure. Take one point five micrograms once a day. Is there anything else I can help with?
+S002_M_DEC,S002,dose,mutant,DEC,Sure. Take 1.5 mcg once a day. Is there anything else I can help with?,Sure. Take fifteen micrograms once a day. Is there anything else I can help with?
+S002_M_UNIT,S002,dose,mutant,UNIT,Sure. Take 1.5 mcg once a day. Is there anything else I can help with?,Sure. Take one point five milligrams once a day. Is there anything else I can help with?
+S002_E_EQ_HALF,S002,dose,equivalent,EQ_HALF,Sure. Take 1.5 mcg once a day. Is there anything else I can help with?,Sure. Take one and a half micrograms once a day. Is there anything else I can help with?
+S003_C,S003,dose,correct,,"Based on your plan, use 7.5 mL every 8 hours. Is there anything else I can help with?","Based on your plan, use seven point five milliliters every eight hours. Is there anything else I can help with?"
+S003_M_DEC,S003,dose,mutant,DEC,"Based on your plan, use 7.5 mL every 8 hours. Is there anything else I can help with?","Based on your plan, use seventy five milliliters every eight hours. Is there anything else I can help with?"
+S003_M_UNIT,S003,dose,mutant,UNIT,"Based on your plan, use 7.5 mL every 8 hours. Is there anything else I can help with?","Based on your plan, use seven point five liters every eight hours. Is there anything else I can help with?"
+S003_E_EQ_HALF,S003,dose,equivalent,EQ_HALF,"Based on your plan, use 7.5 mL every 8 hours. Is there anything else I can help with?","Based on your plan, use seven and a half milliliters every eight hours. Is there anything else I can help with?"
+S004_C,S004,dose,correct,,"Based on your plan, take 12.5 mg once a day. Is there anything else I can help with?","Based on your plan, take twelve point five milligrams once a day. Is there anything else I can help with?"
+S004_M_DEC,S004,dose,mutant,DEC,"Based on your plan, take 12.5 mg once a day. Is there anything else I can help with?","Based on your plan, take one hundred twenty five milligrams once a day. Is there anything else I can help with?"
+S004_M_UNIT,S004,dose,mutant,UNIT,"Based on your plan, take 12.5 mg once a day. Is there anything else I can help with?","Based on your plan, take twelve point five micrograms once a day. Is there anything else I can help with?"
+S004_E_EQ_HALF,S004,dose,equivalent,EQ_HALF,"Based on your plan, take 12.5 mg once a day. Is there anything else I can help with?","Based on your plan, take twelve and a half milligrams once a day. Is there anything else I can help with?"
+S005_C,S005,dose,correct,,Sure. Give 5.5 mL twice a day.,Sure. Give five point five milliliters twice a day.
+S005_M_DEC,S005,dose,mutant,DEC,Sure. Give 5.5 mL twice a day.,Sure. Give fifty five milliliters twice a day.
+S005_M_UNIT,S005,dose,mutant,UNIT,Sure. Give 5.5 mL twice a day.,Sure. Give five point five liters twice a day.
+S005_E_EQ_HALF,S005,dose,equivalent,EQ_HALF,Sure. Give 5.5 mL twice a day.,Sure. Give five and a half milliliters twice a day.
+S006_C,S006,dose,correct,,Here is what I found. Take 3.5 mcg every 12 hours.,Here is what I found. Take three point five micrograms every twelve hours.
+S006_M_DEC,S006,dose,mutant,DEC,Here is what I found. Take 3.5 mcg every 12 hours.,Here is what I found. Take thirty five micrograms every twelve hours.
+S006_M_UNIT,S006,dose,mutant,UNIT,Here is what I found. Take 3.5 mcg every 12 hours.,Here is what I found. Take three point five milligrams every twelve hours.
+S006_E_EQ_HALF,S006,dose,equivalent,EQ_HALF,Here is what I found. Take 3.5 mcg every 12 hours.,Here is what I found. Take three and a half micrograms every twelve hours.
+S007_C,S007,dose,correct,,Use 0.5 mL every 8 hours. I can set a reminder if you like.,Use zero point five milliliters every eight hours. I can set a reminder if you like.
+S007_M_DEC,S007,dose,mutant,DEC,Use 0.5 mL every 8 hours. I can set a reminder if you like.,Use five milliliters every eight hours. I can set a reminder if you like.
+S007_M_UNIT,S007,dose,mutant,UNIT,Use 0.5 mL every 8 hours. I can set a reminder if you like.,Use zero point five liters every eight hours. I can set a reminder if you like.
+S007_E_EQ_HALF,S007,dose,equivalent,EQ_HALF,Use 0.5 mL every 8 hours. I can set a reminder if you like.,Use half a milliliter every eight hours. I can set a reminder if you like.
+S008_C,S008,dose,correct,,"Based on your plan, take 1.5 mg at bedtime.","Based on your plan, take one point five milligrams at bedtime."
+S008_M_DEC,S008,dose,mutant,DEC,"Based on your plan, take 1.5 mg at bedtime.","Based on your plan, take fifteen milligrams at bedtime."
+S008_M_UNIT,S008,dose,mutant,UNIT,"Based on your plan, take 1.5 mg at bedtime.","Based on your plan, take one point five micrograms at bedtime."
+S008_E_EQ_HALF,S008,dose,equivalent,EQ_HALF,"Based on your plan, take 1.5 mg at bedtime.","Based on your plan, take one and a half milligrams at bedtime."
+S009_C,S009,dose,correct,,Good question. Give 2.5 mL once a day.,Good question. Give two point five milliliters once a day.
+S009_M_DEC,S009,dose,mutant,DEC,Good question. Give 2.5 mL once a day.,Good question. Give twenty five milliliters once a day.
+S009_M_UNIT,S009,dose,mutant,UNIT,Good question. Give 2.5 mL once a day.,Good question. Give two point five liters once a day.
+S009_E_EQ_HALF,S009,dose,equivalent,EQ_HALF,Good question. Give 2.5 mL once a day.,Good question. Give two and a half milliliters once a day.
+S010_C,S010,fee,correct,,"Based on your plan, the transfer fee is $14. Is there anything else I can help with?","Based on your plan, the transfer fee is fourteen dollars. Is there anything else I can help with?"
+S010_M_TEENTY,S010,fee,mutant,TEENTY,"Based on your plan, the transfer fee is $14. Is there anything else I can help with?","Based on your plan, the transfer fee is forty dollars. Is there anything else I can help with?"
+S010_M_CUR,S010,fee,mutant,CUR,"Based on your plan, the transfer fee is $14. Is there anything else I can help with?","Based on your plan, the transfer fee is fourteen pounds. Is there anything else I can help with?"
+S010_E_EQ_PHRASE,S010,fee,equivalent,EQ_PHRASE,"Based on your plan, the transfer fee is $14. Is there anything else I can help with?","Based on your plan, the transfer fee is fourteen dollars in total. Is there anything else I can help with?"
+S011_C,S011,fee,correct,,"Just to confirm, your copay is $40. I can set a reminder if you like.","Just to confirm, your copay is forty dollars. I can set a reminder if you like."
+S011_M_TEENTY,S011,fee,mutant,TEENTY,"Just to confirm, your copay is $40. I can set a reminder if you like.","Just to confirm, your copay is fourteen dollars. I can set a reminder if you like."
+S011_M_CUR,S011,fee,mutant,CUR,"Just to confirm, your copay is $40. I can set a reminder if you like.","Just to confirm, your copay is forty pounds. I can set a reminder if you like."
+S011_E_EQ_PHRASE,S011,fee,equivalent,EQ_PHRASE,"Just to confirm, your copay is $40. I can set a reminder if you like.","Just to confirm, your copay is forty dollars in total. I can set a reminder if you like."
+S012_C,S012,fee,correct,,Sure. The late fee is $15. Is there anything else I can help with?,Sure. The late fee is fifteen dollars. Is there anything else I can help with?
+S012_M_TEENTY,S012,fee,mutant,TEENTY,Sure. The late fee is $15. Is there anything else I can help with?,Sure. The late fee is fifty dollars. Is there anything else I can help with?
+S012_M_CUR,S012,fee,mutant,CUR,Sure. The late fee is $15. Is there anything else I can help with?,Sure. The late fee is fifteen pounds. Is there anything else I can help with?
+S012_E_EQ_PHRASE,S012,fee,equivalent,EQ_PHRASE,Sure. The late fee is $15. Is there anything else I can help with?,Sure. The late fee is fifteen dollars in total. Is there anything else I can help with?
+S013_C,S013,fee,correct,,Okay. The ticket costs $50. I can set a reminder if you like.,Okay. The ticket costs fifty dollars. I can set a reminder if you like.
+S013_M_TEENTY,S013,fee,mutant,TEENTY,Okay. The ticket costs $50. I can set a reminder if you like.,Okay. The ticket costs fifteen dollars. I can set a reminder if you like.
+S013_M_CUR,S013,fee,mutant,CUR,Okay. The ticket costs $50. I can set a reminder if you like.,Okay. The ticket costs fifty pounds. I can set a reminder if you like.
+S013_E_EQ_PHRASE,S013,fee,equivalent,EQ_PHRASE,Okay. The ticket costs $50. I can set a reminder if you like.,Okay. The ticket costs fifty dollars in total. I can set a reminder if you like.
+S014_C,S014,fee,correct,,Okay. Shipping costs $16. Is there anything else I can help with?,Okay. Shipping costs sixteen dollars. Is there anything else I can help with?
+S014_M_TEENTY,S014,fee,mutant,TEENTY,Okay. Shipping costs $16. Is there anything else I can help with?,Okay. Shipping costs sixty dollars. Is there anything else I can help with?
+S014_M_CUR,S014,fee,mutant,CUR,Okay. Shipping costs $16. Is there anything else I can help with?,Okay. Shipping costs sixteen pounds. Is there anything else I can help with?
+S014_E_EQ_PHRASE,S014,fee,equivalent,EQ_PHRASE,Okay. Shipping costs $16. Is there anything else I can help with?,Okay. Shipping costs sixteen dollars in total. Is there anything else I can help with?
+S015_C,S015,fee,correct,,"Just to confirm, the deposit is $60.","Just to confirm, the deposit is sixty dollars."
+S015_M_TEENTY,S015,fee,mutant,TEENTY,"Just to confirm, the deposit is $60.","Just to confirm, the deposit is sixteen dollars."
+S015_M_CUR,S015,fee,mutant,CUR,"Just to confirm, the deposit is $60.","Just to confirm, the deposit is sixty pounds."
+S015_E_EQ_PHRASE,S015,fee,equivalent,EQ_PHRASE,"Just to confirm, the deposit is $60.","Just to confirm, the deposit is sixty dollars in total."
+S016_C,S016,fee,correct,,"Just to confirm, the cancellation fee is $17. I can set a reminder if you like.","Just to confirm, the cancellation fee is seventeen dollars. I can set a reminder if you like."
+S016_M_TEENTY,S016,fee,mutant,TEENTY,"Just to confirm, the cancellation fee is $17. I can set a reminder if you like.","Just to confirm, the cancellation fee is seventy dollars. I can set a reminder if you like."
+S016_M_CUR,S016,fee,mutant,CUR,"Just to confirm, the cancellation fee is $17. I can set a reminder if you like.","Just to confirm, the cancellation fee is seventeen pounds. I can set a reminder if you like."
+S016_E_EQ_PHRASE,S016,fee,equivalent,EQ_PHRASE,"Just to confirm, the cancellation fee is $17. I can set a reminder if you like.","Just to confirm, the cancellation fee is seventeen dollars in total. I can set a reminder if you like."
+S017_C,S017,fee,correct,,Your monthly charge is $70. I can set a reminder if you like.,Your monthly charge is seventy dollars. I can set a reminder if you like.
+S017_M_TEENTY,S017,fee,mutant,TEENTY,Your monthly charge is $70. I can set a reminder if you like.,Your monthly charge is seventeen dollars. I can set a reminder if you like.
+S017_M_CUR,S017,fee,mutant,CUR,Your monthly charge is $70. I can set a reminder if you like.,Your monthly charge is seventy pounds. I can set a reminder if you like.
+S017_E_EQ_PHRASE,S017,fee,equivalent,EQ_PHRASE,Your monthly charge is $70. I can set a reminder if you like.,Your monthly charge is seventy dollars in total. I can set a reminder if you like.
+S018_C,S018,fee,correct,,Okay. The parking fine is $18. Is there anything else I can help with?,Okay. The parking fine is eighteen dollars. Is there anything else I can help with?
+S018_M_TEENTY,S018,fee,mutant,TEENTY,Okay. The parking fine is $18. Is there anything else I can help with?,Okay. The parking fine is eighty dollars. Is there anything else I can help with?
+S018_M_CUR,S018,fee,mutant,CUR,Okay. The parking fine is $18. Is there anything else I can help with?,Okay. The parking fine is eighteen pounds. Is there anything else I can help with?
+S018_E_EQ_PHRASE,S018,fee,equivalent,EQ_PHRASE,Okay. The parking fine is $18. Is there anything else I can help with?,Okay. The parking fine is eighteen dollars in total. Is there anything else I can help with?
+S019_C,S019,fee,correct,,Sure. The booking fee is $80. I can set a reminder if you like.,Sure. The booking fee is eighty dollars. I can set a reminder if you like.
+S019_M_TEENTY,S019,fee,mutant,TEENTY,Sure. The booking fee is $80. I can set a reminder if you like.,Sure. The booking fee is eighteen dollars. I can set a reminder if you like.
+S019_M_CUR,S019,fee,mutant,CUR,Sure. The booking fee is $80. I can set a reminder if you like.,Sure. The booking fee is eighty pounds. I can set a reminder if you like.
+S019_E_EQ_PHRASE,S019,fee,equivalent,EQ_PHRASE,Sure. The booking fee is $80. I can set a reminder if you like.,Sure. The booking fee is eighty dollars in total. I can set a reminder if you like.
+S020_C,S020,bigmoney,correct,,Revenue last quarter was $3.5 billion. I can set a reminder if you like.,Revenue last quarter was three point five billion dollars. I can set a reminder if you like.
+S020_M_SCALE,S020,bigmoney,mutant,SCALE,Revenue last quarter was $3.5 billion. I can set a reminder if you like.,Revenue last quarter was three point five million dollars. I can set a reminder if you like.
+S020_M_DEC,S020,bigmoney,mutant,DEC,Revenue last quarter was $3.5 billion. I can set a reminder if you like.,Revenue last quarter was thirty five billion dollars. I can set a reminder if you like.
+S020_E_EQ_HALF,S020,bigmoney,equivalent,EQ_HALF,Revenue last quarter was $3.5 billion. I can set a reminder if you like.,Revenue last quarter was three and a half billion dollars. I can set a reminder if you like.
+S021_C,S021,bigmoney,correct,,Okay. The project budget is $2.5 million. Is there anything else I can help with?,Okay. The project budget is two point five million dollars. Is there anything else I can help with?
+S021_M_SCALE,S021,bigmoney,mutant,SCALE,Okay. The project budget is $2.5 million. Is there anything else I can help with?,Okay. The project budget is two point five billion dollars. Is there anything else I can help with?
+S021_M_DEC,S021,bigmoney,mutant,DEC,Okay. The project budget is $2.5 million. Is there anything else I can help with?,Okay. The project budget is twenty five million dollars. Is there anything else I can help with?
+S021_E_EQ_HALF,S021,bigmoney,equivalent,EQ_HALF,Okay. The project budget is $2.5 million. Is there anything else I can help with?,Okay. The project budget is two and a half million dollars. Is there anything else I can help with?
+S022_C,S022,bigmoney,correct,,Good question. The company raised $1.5 billion.,Good question. The company raised one point five billion dollars.
+S022_M_SCALE,S022,bigmoney,mutant,SCALE,Good question. The company raised $1.5 billion.,Good question. The company raised one point five million dollars.
+S022_M_DEC,S022,bigmoney,mutant,DEC,Good question. The company raised $1.5 billion.,Good question. The company raised fifteen billion dollars.
+S022_E_EQ_HALF,S022,bigmoney,equivalent,EQ_HALF,Good question. The company raised $1.5 billion.,Good question. The company raised one and a half billion dollars.
+S023_C,S023,bigmoney,correct,,Good question. Annual sales reached $4.5 million. Is there anything else I can help with?,Good question. Annual sales reached four point five million dollars. Is there anything else I can help with?
+S023_M_SCALE,S023,bigmoney,mutant,SCALE,Good question. Annual sales reached $4.5 million. Is there anything else I can help with?,Good question. Annual sales reached four point five billion dollars. Is there anything else I can help with?
+S023_M_DEC,S023,bigmoney,mutant,DEC,Good question. Annual sales reached $4.5 million. Is there anything else I can help with?,Good question. Annual sales reached forty five million dollars. Is there anything else I can help with?
+S023_E_EQ_HALF,S023,bigmoney,equivalent,EQ_HALF,Good question. Annual sales reached $4.5 million. Is there anything else I can help with?,Good question. Annual sales reached four and a half million dollars. Is there anything else I can help with?
+S024_C,S024,bigmoney,correct,,"Based on your plan, the contract is worth $7.5 billion.","Based on your plan, the contract is worth seven point five billion dollars."
+S024_M_SCALE,S024,bigmoney,mutant,SCALE,"Based on your plan, the contract is worth $7.5 billion.","Based on your plan, the contract is worth seven point five million dollars."
+S024_M_DEC,S024,bigmoney,mutant,DEC,"Based on your plan, the contract is worth $7.5 billion.","Based on your plan, the contract is worth seventy five billion dollars."
+S024_E_EQ_HALF,S024,bigmoney,equivalent,EQ_HALF,"Based on your plan, the contract is worth $7.5 billion.","Based on your plan, the contract is worth seven and a half billion dollars."
+S025_C,S025,bigmoney,correct,,Good question. The city spent $6.5 million. Is there anything else I can help with?,Good question. The city spent six point five million dollars. Is there anything else I can help with?
+S025_M_SCALE,S025,bigmoney,mutant,SCALE,Good question. The city spent $6.5 million. Is there anything else I can help with?,Good question. The city spent six point five billion dollars. Is there anything else I can help with?
+S025_M_DEC,S025,bigmoney,mutant,DEC,Good question. The city spent $6.5 million. Is there anything else I can help with?,Good question. The city spent sixty five million dollars. Is there anything else I can help with?
+S025_E_EQ_HALF,S025,bigmoney,equivalent,EQ_HALF,Good question. The city spent $6.5 million. Is there anything else I can help with?,Good question. The city spent six and a half million dollars. Is there anything else I can help with?
+S026_C,S026,bigmoney,correct,,Good question. Total donations came to $8.5 billion. I can set a reminder if you like.,Good question. Total donations came to eight point five billion dollars. I can set a reminder if you like.
+S026_M_SCALE,S026,bigmoney,mutant,SCALE,Good question. Total donations came to $8.5 billion. I can set a reminder if you like.,Good question. Total donations came to eight point five million dollars. I can set a reminder if you like.
+S026_M_DEC,S026,bigmoney,mutant,DEC,Good question. Total donations came to $8.5 billion. I can set a reminder if you like.,Good question. Total donations came to eighty five billion dollars. I can set a reminder if you like.
+S026_E_EQ_HALF,S026,bigmoney,equivalent,EQ_HALF,Good question. Total donations came to $8.5 billion. I can set a reminder if you like.,Good question. Total donations came to eight and a half billion dollars. I can set a reminder if you like.
+S027_C,S027,bigmoney,correct,,"Based on your plan, the merger is valued at $9.5 million. Is there anything else I can help with?","Based on your plan, the merger is valued at nine point five million dollars. Is there anything else I can help with?"
+S027_M_SCALE,S027,bigmoney,mutant,SCALE,"Based on your plan, the merger is valued at $9.5 million. Is there anything else I can help with?","Based on your plan, the merger is valued at nine point five billion dollars. Is there anything else I can help with?"
+S027_M_DEC,S027,bigmoney,mutant,DEC,"Based on your plan, the merger is valued at $9.5 million. Is there anything else I can help with?","Based on your plan, the merger is valued at ninety five million dollars. Is there anything else I can help with?"
+S027_E_EQ_HALF,S027,bigmoney,equivalent,EQ_HALF,"Based on your plan, the merger is valued at $9.5 million. Is there anything else I can help with?","Based on your plan, the merger is valued at nine and a half million dollars. Is there anything else I can help with?"
+S028_C,S028,bigmoney,correct,,Here is what I found. Operating costs were $2.5 billion. Is there anything else I can help with?,Here is what I found. Operating costs were two point five billion dollars. Is there anything else I can help with?
+S028_M_SCALE,S028,bigmoney,mutant,SCALE,Here is what I found. Operating costs were $2.5 billion. Is there anything else I can help with?,Here is what I found. Operating costs were two point five million dollars. Is there anything else I can help with?
+S028_M_DEC,S028,bigmoney,mutant,DEC,Here is what I found. Operating costs were $2.5 billion. Is there anything else I can help with?,Here is what I found. Operating costs were twenty five billion dollars. Is there anything else I can help with?
+S028_E_EQ_HALF,S028,bigmoney,equivalent,EQ_HALF,Here is what I found. Operating costs were $2.5 billion. Is there anything else I can help with?,Here is what I found. Operating costs were two and a half billion dollars. Is there anything else I can help with?
+S029_C,S029,bigmoney,correct,,Here is what I found. The fund manages $5.5 million.,Here is what I found. The fund manages five point five million dollars.
+S029_M_SCALE,S029,bigmoney,mutant,SCALE,Here is what I found. The fund manages $5.5 million.,Here is what I found. The fund manages five point five billion dollars.
+S029_M_DEC,S029,bigmoney,mutant,DEC,Here is what I found. The fund manages $5.5 million.,Here is what I found. The fund manages fifty five million dollars.
+S029_E_EQ_HALF,S029,bigmoney,equivalent,EQ_HALF,Here is what I found. The fund manages $5.5 million.,Here is what I found. The fund manages five and a half million dollars.
+S030_C,S030,temp,correct,,Here is what I found. Tonight's low will be -5°C. Let me know if you need anything else.,Here is what I found. Tonight's low will be minus five degrees Celsius. Let me know if you need anything else.
+S030_M_SIGN,S030,temp,mutant,SIGN,Here is what I found. Tonight's low will be -5°C. Let me know if you need anything else.,Here is what I found. Tonight's low will be five degrees Celsius. Let me know if you need anything else.
+S030_M_NUM,S030,temp,mutant,NUM,Here is what I found. Tonight's low will be -5°C. Let me know if you need anything else.,Here is what I found. Tonight's low will be minus seven degrees Celsius. Let me know if you need anything else.
+S030_E_EQ_NEG,S030,temp,equivalent,EQ_NEG,Here is what I found. Tonight's low will be -5°C. Let me know if you need anything else.,Here is what I found. Tonight's low will be negative five degrees Celsius. Let me know if you need anything else.
+S031_C,S031,temp,correct,,"Based on your plan, tomorrow morning it will be -3°C. Let me know if you need anything else.","Based on your plan, tomorrow morning it will be minus three degrees Celsius. Let me know if you need anything else."
+S031_M_SIGN,S031,temp,mutant,SIGN,"Based on your plan, tomorrow morning it will be -3°C. Let me know if you need anything else.","Based on your plan, tomorrow morning it will be three degrees Celsius. Let me know if you need anything else."
+S031_M_NUM,S031,temp,mutant,NUM,"Based on your plan, tomorrow morning it will be -3°C. Let me know if you need anything else.","Based on your plan, tomorrow morning it will be minus five degrees Celsius. Let me know if you need anything else."
+S031_E_EQ_NEG,S031,temp,equivalent,EQ_NEG,"Based on your plan, tomorrow morning it will be -3°C. Let me know if you need anything else.","Based on your plan, tomorrow morning it will be negative three degrees Celsius. Let me know if you need anything else."
+S032_C,S032,temp,correct,,"Based on your plan, the freezer should be set to -18°C.","Based on your plan, the freezer should be set to minus eighteen degrees Celsius."
+S032_M_SIGN,S032,temp,mutant,SIGN,"Based on your plan, the freezer should be set to -18°C.","Based on your plan, the freezer should be set to eighteen degrees Celsius."
+S032_M_NUM,S032,temp,mutant,NUM,"Based on your plan, the freezer should be set to -18°C.","Based on your plan, the freezer should be set to minus twenty degrees Celsius."
+S032_E_EQ_NEG,S032,temp,equivalent,EQ_NEG,"Based on your plan, the freezer should be set to -18°C.","Based on your plan, the freezer should be set to negative eighteen degrees Celsius."
+S033_C,S033,temp,correct,,"Just to confirm, overnight it will drop to -12°C.","Just to confirm, overnight it will drop to minus twelve degrees Celsius."
+S033_M_SIGN,S033,temp,mutant,SIGN,"Just to confirm, overnight it will drop to -12°C.","Just to confirm, overnight it will drop to twelve degrees Celsius."
+S033_M_NUM,S033,temp,mutant,NUM,"Just to confirm, overnight it will drop to -12°C.","Just to confirm, overnight it will drop to minus fourteen degrees Celsius."
+S033_E_EQ_NEG,S033,temp,equivalent,EQ_NEG,"Just to confirm, overnight it will drop to -12°C.","Just to confirm, overnight it will drop to negative twelve degrees Celsius."
+S034_C,S034,temp,correct,,"Just to confirm, with wind chill it will feel like -15°C. Is there anything else I can help with?","Just to confirm, with wind chill it will feel like minus fifteen degrees Celsius. Is there anything else I can help with?"
+S034_M_SIGN,S034,temp,mutant,SIGN,"Just to confirm, with wind chill it will feel like -15°C. Is there anything else I can help with?","Just to confirm, with wind chill it will feel like fifteen degrees Celsius. Is there anything else I can help with?"
+S034_M_NUM,S034,temp,mutant,NUM,"Just to confirm, with wind chill it will feel like -15°C. Is there anything else I can help with?","Just to confirm, with wind chill it will feel like minus seventeen degrees Celsius. Is there anything else I can help with?"
+S034_E_EQ_NEG,S034,temp,equivalent,EQ_NEG,"Just to confirm, with wind chill it will feel like -15°C. Is there anything else I can help with?","Just to confirm, with wind chill it will feel like negative fifteen degrees Celsius. Is there anything else I can help with?"
+S035_C,S035,temp,correct,,Good question. Expect lows of -2°C. Let me know if you need anything else.,Good question. Expect lows of minus two degrees Celsius. Let me know if you need anything else.
+S035_M_SIGN,S035,temp,mutant,SIGN,Good question. Expect lows of -2°C. Let me know if you need anything else.,Good question. Expect lows of two degrees Celsius. Let me know if you need anything else.
+S035_M_NUM,S035,temp,mutant,NUM,Good question. Expect lows of -2°C. Let me know if you need anything else.,Good question. Expect lows of minus four degrees Celsius. Let me know if you need anything else.
+S035_E_EQ_NEG,S035,temp,equivalent,EQ_NEG,Good question. Expect lows of -2°C. Let me know if you need anything else.,Good question. Expect lows of negative two degrees Celsius. Let me know if you need anything else.
+S036_C,S036,temp,correct,,Good question. The forecast low is -7°C. Let me know if you need anything else.,Good question. The forecast low is minus seven degrees Celsius. Let me know if you need anything else.
+S036_M_SIGN,S036,temp,mutant,SIGN,Good question. The forecast low is -7°C. Let me know if you need anything else.,Good question. The forecast low is seven degrees Celsius. Let me know if you need anything else.
+S036_M_NUM,S036,temp,mutant,NUM,Good question. The forecast low is -7°C. Let me know if you need anything else.,Good question. The forecast low is minus nine degrees Celsius. Let me know if you need anything else.
+S036_E_EQ_NEG,S036,temp,equivalent,EQ_NEG,Good question. The forecast low is -7°C. Let me know if you need anything else.,Good question. The forecast low is negative seven degrees Celsius. Let me know if you need anything else.
+S037_C,S037,temp,correct,,"Based on your plan, at dawn it will be -10°C.","Based on your plan, at dawn it will be minus ten degrees Celsius."
+S037_M_SIGN,S037,temp,mutant,SIGN,"Based on your plan, at dawn it will be -10°C.","Based on your plan, at dawn it will be ten degrees Celsius."
+S037_M_NUM,S037,temp,mutant,NUM,"Based on your plan, at dawn it will be -10°C.","Based on your plan, at dawn it will be minus twelve degrees Celsius."
+S037_E_EQ_NEG,S037,temp,equivalent,EQ_NEG,"Based on your plan, at dawn it will be -10°C.","Based on your plan, at dawn it will be negative ten degrees Celsius."
+S038_C,S038,temp,correct,,"Just to confirm, the temperature will fall to -4°C. Is there anything else I can help with?","Just to confirm, the temperature will fall to minus four degrees Celsius. Is there anything else I can help with?"
+S038_M_SIGN,S038,temp,mutant,SIGN,"Just to confirm, the temperature will fall to -4°C. Is there anything else I can help with?","Just to confirm, the temperature will fall to four degrees Celsius. Is there anything else I can help with?"
+S038_M_NUM,S038,temp,mutant,NUM,"Just to confirm, the temperature will fall to -4°C. Is there anything else I can help with?","Just to confirm, the temperature will fall to minus six degrees Celsius. Is there anything else I can help with?"
+S038_E_EQ_NEG,S038,temp,equivalent,EQ_NEG,"Just to confirm, the temperature will fall to -4°C. Is there anything else I can help with?","Just to confirm, the temperature will fall to negative four degrees Celsius. Is there anything else I can help with?"
+S039_C,S039,temp,correct,,"Just to confirm, by midnight it will reach -14°C. Is there anything else I can help with?","Just to confirm, by midnight it will reach minus fourteen degrees Celsius. Is there anything else I can help with?"
+S039_M_SIGN,S039,temp,mutant,SIGN,"Just to confirm, by midnight it will reach -14°C. Is there anything else I can help with?","Just to confirm, by midnight it will reach fourteen degrees Celsius. Is there anything else I can help with?"
+S039_M_NUM,S039,temp,mutant,NUM,"Just to confirm, by midnight it will reach -14°C. Is there anything else I can help with?","Just to confirm, by midnight it will reach minus sixteen degrees Celsius. Is there anything else I can help with?"
+S039_E_EQ_NEG,S039,temp,equivalent,EQ_NEG,"Just to confirm, by midnight it will reach -14°C. Is there anything else I can help with?","Just to confirm, by midnight it will reach negative fourteen degrees Celsius. Is there anything else I can help with?"
+S040_C,S040,date,correct,,"Just to confirm, your appointment is on March 4. I can set a reminder if you like.","Just to confirm, your appointment is on March fourth. I can set a reminder if you like."
+S040_M_SWAP,S040,date,mutant,SWAP,"Just to confirm, your appointment is on March 4. I can set a reminder if you like.","Just to confirm, your appointment is on April third. I can set a reminder if you like."
+S040_M_NUM,S040,date,mutant,NUM,"Just to confirm, your appointment is on March 4. I can set a reminder if you like.","Just to confirm, your appointment is on March fourteenth. I can set a reminder if you like."
+S040_E_EQ_ORDER,S040,date,equivalent,EQ_ORDER,"Just to confirm, your appointment is on March 4. I can set a reminder if you like.","Just to confirm, your appointment is on the fourth of March. I can set a reminder if you like."
+S041_C,S041,date,correct,,Here is what I found. The payment is due on May 2. Is there anything else I can help with?,Here is what I found. The payment is due on May second. Is there anything else I can help with?
+S041_M_SWAP,S041,date,mutant,SWAP,Here is what I found. The payment is due on May 2. Is there anything else I can help with?,Here is what I found. The payment is due on February fifth. Is there anything else I can help with?
+S041_M_NUM,S041,date,mutant,NUM,Here is what I found. The payment is due on May 2. Is there anything else I can help with?,Here is what I found. The payment is due on May twelfth. Is there anything else I can help with?
+S041_E_EQ_ORDER,S041,date,equivalent,EQ_ORDER,Here is what I found. The payment is due on May 2. Is there anything else I can help with?,Here is what I found. The payment is due on the second of May. Is there anything else I can help with?
+S042_C,S042,date,correct,,"Just to confirm, your flight departs on June 9. I can set a reminder if you like.","Just to confirm, your flight departs on June ninth. I can set a reminder if you like."
+S042_M_SWAP,S042,date,mutant,SWAP,"Just to confirm, your flight departs on June 9. I can set a reminder if you like.","Just to confirm, your flight departs on September sixth. I can set a reminder if you like."
+S042_M_NUM,S042,date,mutant,NUM,"Just to confirm, your flight departs on June 9. I can set a reminder if you like.","Just to confirm, your flight departs on June nineteenth. I can set a reminder if you like."
+S042_E_EQ_ORDER,S042,date,equivalent,EQ_ORDER,"Just to confirm, your flight departs on June 9. I can set a reminder if you like.","Just to confirm, your flight departs on the ninth of June. I can set a reminder if you like."
+S043_C,S043,date,correct,,Here is what I found. The package will arrive on August 3. Is there anything else I can help with?,Here is what I found. The package will arrive on August third. Is there anything else I can help with?
+S043_M_SWAP,S043,date,mutant,SWAP,Here is what I found. The package will arrive on August 3. Is there anything else I can help with?,Here is what I found. The package will arrive on March eighth. Is there anything else I can help with?
+S043_M_NUM,S043,date,mutant,NUM,Here is what I found. The package will arrive on August 3. Is there anything else I can help with?,Here is what I found. The package will arrive on August thirteenth. Is there anything else I can help with?
+S043_E_EQ_ORDER,S043,date,equivalent,EQ_ORDER,Here is what I found. The package will arrive on August 3. Is there anything else I can help with?,Here is what I found. The package will arrive on the third of August. Is there anything else I can help with?
+S044_C,S044,date,correct,,"Based on your plan, your lease ends on October 7. Is there anything else I can help with?","Based on your plan, your lease ends on October seventh. Is there anything else I can help with?"
+S044_M_SWAP,S044,date,mutant,SWAP,"Based on your plan, your lease ends on October 7. Is there anything else I can help with?","Based on your plan, your lease ends on July tenth. Is there anything else I can help with?"
+S044_M_NUM,S044,date,mutant,NUM,"Based on your plan, your lease ends on October 7. Is there anything else I can help with?","Based on your plan, your lease ends on October seventeenth. Is there anything else I can help with?"
+S044_E_EQ_ORDER,S044,date,equivalent,EQ_ORDER,"Based on your plan, your lease ends on October 7. Is there anything else I can help with?","Based on your plan, your lease ends on the seventh of October. Is there anything else I can help with?"
+S045_C,S045,date,correct,,Good question. The meeting is scheduled for November 5. Let me know if you need anything else.,Good question. The meeting is scheduled for November fifth. Let me know if you need anything else.
+S045_M_SWAP,S045,date,mutant,SWAP,Good question. The meeting is scheduled for November 5. Let me know if you need anything else.,Good question. The meeting is scheduled for May eleventh. Let me know if you need anything else.
+S045_M_NUM,S045,date,mutant,NUM,Good question. The meeting is scheduled for November 5. Let me know if you need anything else.,Good question. The meeting is scheduled for November fifteenth. Let me know if you need anything else.
+S045_E_EQ_ORDER,S045,date,equivalent,EQ_ORDER,Good question. The meeting is scheduled for November 5. Let me know if you need anything else.,Good question. The meeting is scheduled for the fifth of November. Let me know if you need anything else.
+S046_C,S046,date,correct,,Okay. Your prescription expires on January 6. I can set a reminder if you like.,Okay. Your prescription expires on January sixth. I can set a reminder if you like.
+S046_M_SWAP,S046,date,mutant,SWAP,Okay. Your prescription expires on January 6. I can set a reminder if you like.,Okay. Your prescription expires on June first. I can set a reminder if you like.
+S046_M_NUM,S046,date,mutant,NUM,Okay. Your prescription expires on January 6. I can set a reminder if you like.,Okay. Your prescription expires on January sixteenth. I can set a reminder if you like.
+S046_E_EQ_ORDER,S046,date,equivalent,EQ_ORDER,Okay. Your prescription expires on January 6. I can set a reminder if you like.,Okay. Your prescription expires on the sixth of January. I can set a reminder if you like.
+S047_C,S047,date,correct,,The event takes place on September 12.,The event takes place on September twelfth.
+S047_M_SWAP,S047,date,mutant,SWAP,The event takes place on September 12.,The event takes place on December ninth.
+S047_M_NUM,S047,date,mutant,NUM,The event takes place on September 12.,The event takes place on September twenty second.
+S047_E_EQ_ORDER,S047,date,equivalent,EQ_ORDER,The event takes place on September 12.,The event takes place on the twelfth of September.
+S048_C,S048,date,correct,,Sure. Your trial ends on April 11. Is there anything else I can help with?,Sure. Your trial ends on April eleventh. Is there anything else I can help with?
+S048_M_SWAP,S048,date,mutant,SWAP,Sure. Your trial ends on April 11. Is there anything else I can help with?,Sure. Your trial ends on November fourth. Is there anything else I can help with?
+S048_M_NUM,S048,date,mutant,NUM,Sure. Your trial ends on April 11. Is there anything else I can help with?,Sure. Your trial ends on April twenty first. Is there anything else I can help with?
+S048_E_EQ_ORDER,S048,date,equivalent,EQ_ORDER,Sure. Your trial ends on April 11. Is there anything else I can help with?,Sure. Your trial ends on the eleventh of April. Is there anything else I can help with?
+S049_C,S049,date,correct,,"Based on your plan, the deadline is December 8. Is there anything else I can help with?","Based on your plan, the deadline is December eighth. Is there anything else I can help with?"
+S049_M_SWAP,S049,date,mutant,SWAP,"Based on your plan, the deadline is December 8. Is there anything else I can help with?","Based on your plan, the deadline is August twelfth. Is there anything else I can help with?"
+S049_M_NUM,S049,date,mutant,NUM,"Based on your plan, the deadline is December 8. Is there anything else I can help with?","Based on your plan, the deadline is December eighteenth. Is there anything else I can help with?"
+S049_E_EQ_ORDER,S049,date,equivalent,EQ_ORDER,"Based on your plan, the deadline is December 8. Is there anything else I can help with?","Based on your plan, the deadline is the eighth of December. Is there anything else I can help with?"
+S050_C,S050,time,correct,,Okay. Your train leaves at 7:30 pm. Let me know if you need anything else.,Okay. Your train leaves at seven thirty p.m. Let me know if you need anything else.
+S050_M_AMPM,S050,time,mutant,AMPM,Okay. Your train leaves at 7:30 pm. Let me know if you need anything else.,Okay. Your train leaves at seven thirty a.m. Let me know if you need anything else.
+S050_M_NUM,S050,time,mutant,NUM,Okay. Your train leaves at 7:30 pm. Let me know if you need anything else.,Okay. Your train leaves at eight thirty p.m. Let me know if you need anything else.
+S050_E_EQ_PART,S050,time,equivalent,EQ_PART,Okay. Your train leaves at 7:30 pm. Let me know if you need anything else.,Okay. Your train leaves at seven thirty in the evening. Let me know if you need anything else.
+S051_C,S051,time,correct,,Okay. The pharmacy opens at 9:15 am. Is there anything else I can help with?,Okay. The pharmacy opens at nine fifteen a.m. Is there anything else I can help with?
+S051_M_AMPM,S051,time,mutant,AMPM,Okay. The pharmacy opens at 9:15 am. Is there anything else I can help with?,Okay. The pharmacy opens at nine fifteen p.m. Is there anything else I can help with?
+S051_M_NUM,S051,time,mutant,NUM,Okay. The pharmacy opens at 9:15 am. Is there anything else I can help with?,Okay. The pharmacy opens at ten fifteen a.m. Is there anything else I can help with?
+S051_E_EQ_PART,S051,time,equivalent,EQ_PART,Okay. The pharmacy opens at 9:15 am. Is there anything else I can help with?,Okay. The pharmacy opens at nine fifteen in the morning. Is there anything else I can help with?
+S052_C,S052,time,correct,,Good question. Check-in closes at 6:45 pm. Is there anything else I can help with?,Good question. Check-in closes at six forty five p.m. Is there anything else I can help with?
+S052_M_AMPM,S052,time,mutant,AMPM,Good question. Check-in closes at 6:45 pm. Is there anything else I can help with?,Good question. Check-in closes at six forty five a.m. Is there anything else I can help with?
+S052_M_NUM,S052,time,mutant,NUM,Good question. Check-in closes at 6:45 pm. Is there anything else I can help with?,Good question. Check-in closes at seven forty five p.m. Is there anything else I can help with?
+S052_E_EQ_PART,S052,time,equivalent,EQ_PART,Good question. Check-in closes at 6:45 pm. Is there anything else I can help with?,Good question. Check-in closes at six forty five in the evening. Is there anything else I can help with?
+S053_C,S053,time,correct,,"Based on your plan, your call is booked for 10:30 am. Is there anything else I can help with?","Based on your plan, your call is booked for ten thirty a.m. Is there anything else I can help with?"
+S053_M_AMPM,S053,time,mutant,AMPM,"Based on your plan, your call is booked for 10:30 am. Is there anything else I can help with?","Based on your plan, your call is booked for ten thirty p.m. Is there anything else I can help with?"
+S053_M_NUM,S053,time,mutant,NUM,"Based on your plan, your call is booked for 10:30 am. Is there anything else I can help with?","Based on your plan, your call is booked for eleven thirty a.m. Is there anything else I can help with?"
+S053_E_EQ_PART,S053,time,equivalent,EQ_PART,"Based on your plan, your call is booked for 10:30 am. Is there anything else I can help with?","Based on your plan, your call is booked for ten thirty in the morning. Is there anything else I can help with?"
+S054_C,S054,time,correct,,Here is what I found. The store closes at 8:00 pm.,Here is what I found. The store closes at eight p.m.
+S054_M_AMPM,S054,time,mutant,AMPM,Here is what I found. The store closes at 8:00 pm.,Here is what I found. The store closes at eight a.m.
+S054_M_NUM,S054,time,mutant,NUM,Here is what I found. The store closes at 8:00 pm.,Here is what I found. The store closes at nine p.m.
+S054_E_EQ_PART,S054,time,equivalent,EQ_PART,Here is what I found. The store closes at 8:00 pm.,Here is what I found. The store closes at eight in the evening.
+S055_C,S055,time,correct,,"Based on your plan, boarding starts at 11:15 am. I can set a reminder if you like.","Based on your plan, boarding starts at eleven fifteen a.m. I can set a reminder if you like."
+S055_M_AMPM,S055,time,mutant,AMPM,"Based on your plan, boarding starts at 11:15 am. I can set a reminder if you like.","Based on your plan, boarding starts at eleven fifteen p.m. I can set a reminder if you like."
+S055_M_NUM,S055,time,mutant,NUM,"Based on your plan, boarding starts at 11:15 am. I can set a reminder if you like.","Based on your plan, boarding starts at twelve fifteen a.m. I can set a reminder if you like."
+S055_E_EQ_PART,S055,time,equivalent,EQ_PART,"Based on your plan, boarding starts at 11:15 am. I can set a reminder if you like.","Based on your plan, boarding starts at eleven fifteen in the morning. I can set a reminder if you like."
+S056_C,S056,time,correct,,Okay. Your reminder is set for 5:30 pm. Is there anything else I can help with?,Okay. Your reminder is set for five thirty p.m. Is there anything else I can help with?
+S056_M_AMPM,S056,time,mutant,AMPM,Okay. Your reminder is set for 5:30 pm. Is there anything else I can help with?,Okay. Your reminder is set for five thirty a.m. Is there anything else I can help with?
+S056_M_NUM,S056,time,mutant,NUM,Okay. Your reminder is set for 5:30 pm. Is there anything else I can help with?,Okay. Your reminder is set for six thirty p.m. Is there anything else I can help with?
+S056_E_EQ_PART,S056,time,equivalent,EQ_PART,Okay. Your reminder is set for 5:30 pm. Is there anything else I can help with?,Okay. Your reminder is set for five thirty in the evening. Is there anything else I can help with?
+S057_C,S057,time,correct,,"Based on your plan, the class begins at 4:45 pm.","Based on your plan, the class begins at four forty five p.m."
+S057_M_AMPM,S057,time,mutant,AMPM,"Based on your plan, the class begins at 4:45 pm.","Based on your plan, the class begins at four forty five a.m."
+S057_M_NUM,S057,time,mutant,NUM,"Based on your plan, the class begins at 4:45 pm.","Based on your plan, the class begins at five forty five p.m."
+S057_E_EQ_PART,S057,time,equivalent,EQ_PART,"Based on your plan, the class begins at 4:45 pm.","Based on your plan, the class begins at four forty five in the afternoon."
+S058_C,S058,time,correct,,Good question. Pickup is at 8:30 am. I can set a reminder if you like.,Good question. Pickup is at eight thirty a.m. I can set a reminder if you like.
+S058_M_AMPM,S058,time,mutant,AMPM,Good question. Pickup is at 8:30 am. I can set a reminder if you like.,Good question. Pickup is at eight thirty p.m. I can set a reminder if you like.
+S058_M_NUM,S058,time,mutant,NUM,Good question. Pickup is at 8:30 am. I can set a reminder if you like.,Good question. Pickup is at nine thirty a.m. I can set a reminder if you like.
+S058_E_EQ_PART,S058,time,equivalent,EQ_PART,Good question. Pickup is at 8:30 am. I can set a reminder if you like.,Good question. Pickup is at eight thirty in the morning. I can set a reminder if you like.
+S059_C,S059,time,correct,,Good question. The webinar starts at 3:15 pm. Let me know if you need anything else.,Good question. The webinar starts at three fifteen p.m. Let me know if you need anything else.
+S059_M_AMPM,S059,time,mutant,AMPM,Good question. The webinar starts at 3:15 pm. Let me know if you need anything else.,Good question. The webinar starts at three fifteen a.m. Let me know if you need anything else.
+S059_M_NUM,S059,time,mutant,NUM,Good question. The webinar starts at 3:15 pm. Let me know if you need anything else.,Good question. The webinar starts at four fifteen p.m. Let me know if you need anything else.
+S059_E_EQ_PART,S059,time,equivalent,EQ_PART,Good question. The webinar starts at 3:15 pm. Let me know if you need anything else.,Good question. The webinar starts at three fifteen in the afternoon. Let me know if you need anything else.
+S060_C,S060,neg,correct,,Good question. You should not drive after taking this medicine. Is there anything else I can help with?,Good question. You should not drive after taking this medicine. Is there anything else I can help with?
+S060_M_NEG,S060,neg,mutant,NEG,Good question. You should not drive after taking this medicine. Is there anything else I can help with?,Good question. You should drive after taking this medicine. Is there anything else I can help with?
+S060_E_EQ_CONTR,S060,neg,equivalent,EQ_CONTR,Good question. You should not drive after taking this medicine. Is there anything else I can help with?,Good question. You shouldn't drive after taking this medicine. Is there anything else I can help with?
+S061_C,S061,neg,correct,,You should not take this with alcohol. I can set a reminder if you like.,You should not take this with alcohol. I can set a reminder if you like.
+S061_M_NEG,S061,neg,mutant,NEG,You should not take this with alcohol. I can set a reminder if you like.,You should take this with alcohol. I can set a reminder if you like.
+S061_E_EQ_CONTR,S061,neg,equivalent,EQ_CONTR,You should not take this with alcohol. I can set a reminder if you like.,You shouldn't take this with alcohol. I can set a reminder if you like.
+S062_C,S062,neg,correct,,Good question. You should not leave the oven unattended. I can set a reminder if you like.,Good question. You should not leave the oven unattended. I can set a reminder if you like.
+S062_M_NEG,S062,neg,mutant,NEG,Good question. You should not leave the oven unattended. I can set a reminder if you like.,Good question. You should leave the oven unattended. I can set a reminder if you like.
+S062_E_EQ_CONTR,S062,neg,equivalent,EQ_CONTR,Good question. You should not leave the oven unattended. I can set a reminder if you like.,Good question. You shouldn't leave the oven unattended. I can set a reminder if you like.
+S063_C,S063,neg,correct,,You should not share this code with anyone. Let me know if you need anything else.,You should not share this code with anyone. Let me know if you need anything else.
+S063_M_NEG,S063,neg,mutant,NEG,You should not share this code with anyone. Let me know if you need anything else.,You should share this code with anyone. Let me know if you need anything else.
+S063_E_EQ_CONTR,S063,neg,equivalent,EQ_CONTR,You should not share this code with anyone. Let me know if you need anything else.,You shouldn't share this code with anyone. Let me know if you need anything else.
+S064_C,S064,neg,correct,,"Just to confirm, you should not charge the battery overnight. Is there anything else I can help with?","Just to confirm, you should not charge the battery overnight. Is there anything else I can help with?"
+S064_M_NEG,S064,neg,mutant,NEG,"Just to confirm, you should not charge the battery overnight. Is there anything else I can help with?","Just to confirm, you should charge the battery overnight. Is there anything else I can help with?"
+S064_E_EQ_CONTR,S064,neg,equivalent,EQ_CONTR,"Just to confirm, you should not charge the battery overnight. Is there anything else I can help with?","Just to confirm, you shouldn't charge the battery overnight. Is there anything else I can help with?"
+S065_C,S065,neg,correct,,Sure. You should not mix bleach with ammonia. Is there anything else I can help with?,Sure. You should not mix bleach with ammonia. Is there anything else I can help with?
+S065_M_NEG,S065,neg,mutant,NEG,Sure. You should not mix bleach with ammonia. Is there anything else I can help with?,Sure. You should mix bleach with ammonia. Is there anything else I can help with?
+S065_E_EQ_CONTR,S065,neg,equivalent,EQ_CONTR,Sure. You should not mix bleach with ammonia. Is there anything else I can help with?,Sure. You shouldn't mix bleach with ammonia. Is there anything else I can help with?
+S066_C,S066,neg,correct,,You should not give this to children under six.,You should not give this to children under six.
+S066_M_NEG,S066,neg,mutant,NEG,You should not give this to children under six.,You should give this to children under six.
+S066_E_EQ_CONTR,S066,neg,equivalent,EQ_CONTR,You should not give this to children under six.,You shouldn't give this to children under six.
+S067_C,S067,neg,correct,,You should not stop the course early. Is there anything else I can help with?,You should not stop the course early. Is there anything else I can help with?
+S067_M_NEG,S067,neg,mutant,NEG,You should not stop the course early. Is there anything else I can help with?,You should stop the course early. Is there anything else I can help with?
+S067_E_EQ_CONTR,S067,neg,equivalent,EQ_CONTR,You should not stop the course early. Is there anything else I can help with?,You shouldn't stop the course early. Is there anything else I can help with?
+S068_C,S068,neg,correct,,Here is what I found. You should not store the vaccine in the freezer.,Here is what I found. You should not store the vaccine in the freezer.
+S068_M_NEG,S068,neg,mutant,NEG,Here is what I found. You should not store the vaccine in the freezer.,Here is what I found. You should store the vaccine in the freezer.
+S068_E_EQ_CONTR,S068,neg,equivalent,EQ_CONTR,Here is what I found. You should not store the vaccine in the freezer.,Here is what I found. You shouldn't store the vaccine in the freezer.
+S069_C,S069,neg,correct,,Here is what I found. You should not reply to that message. Let me know if you need anything else.,Here is what I found. You should not reply to that message. Let me know if you need anything else.
+S069_M_NEG,S069,neg,mutant,NEG,Here is what I found. You should not reply to that message. Let me know if you need anything else.,Here is what I found. You should reply to that message. Let me know if you need anything else.
+S069_E_EQ_CONTR,S069,neg,equivalent,EQ_CONTR,Here is what I found. You should not reply to that message. Let me know if you need anything else.,Here is what I found. You shouldn't reply to that message. Let me know if you need anything else.
+S070_C,S070,threshold,correct,,Sure. Keep your blood sugar above 70.,Sure. Keep your blood sugar above seventy.
+S070_M_CMP,S070,threshold,mutant,CMP,Sure. Keep your blood sugar above 70.,Sure. Keep your blood sugar below seventy.
+S070_M_TEENTY,S070,threshold,mutant,TEENTY,Sure. Keep your blood sugar above 70.,Sure. Keep your blood sugar above seventeen.
+S070_E_EQ_SYN,S070,threshold,equivalent,EQ_SYN,Sure. Keep your blood sugar above 70.,Sure. Keep your blood sugar over seventy.
+S071_C,S071,threshold,correct,,Here is what I found. Keep the room humidity below 40%.,Here is what I found. Keep the room humidity below forty percent.
+S071_M_CMP,S071,threshold,mutant,CMP,Here is what I found. Keep the room humidity below 40%.,Here is what I found. Keep the room humidity above forty percent.
+S071_M_TEENTY,S071,threshold,mutant,TEENTY,Here is what I found. Keep the room humidity below 40%.,Here is what I found. Keep the room humidity below fourteen percent.
+S071_E_EQ_SYN,S071,threshold,equivalent,EQ_SYN,Here is what I found. Keep the room humidity below 40%.,Here is what I found. Keep the room humidity under forty percent.
+S072_C,S072,threshold,correct,,"Based on your plan, call us if your heart rate stays above 90 bpm. I can set a reminder if you like.","Based on your plan, call us if your heart rate stays above ninety beats per minute. I can set a reminder if you like."
+S072_M_CMP,S072,threshold,mutant,CMP,"Based on your plan, call us if your heart rate stays above 90 bpm. I can set a reminder if you like.","Based on your plan, call us if your heart rate stays below ninety beats per minute. I can set a reminder if you like."
+S072_M_TEENTY,S072,threshold,mutant,TEENTY,"Based on your plan, call us if your heart rate stays above 90 bpm. I can set a reminder if you like.","Based on your plan, call us if your heart rate stays above nineteen beats per minute. I can set a reminder if you like."
+S072_E_EQ_SYN,S072,threshold,equivalent,EQ_SYN,"Based on your plan, call us if your heart rate stays above 90 bpm. I can set a reminder if you like.","Based on your plan, call us if your heart rate stays over ninety beats per minute. I can set a reminder if you like."
+S073_C,S073,threshold,correct,,"Just to confirm, keep your speed below 15 mph. I can set a reminder if you like.","Just to confirm, keep your speed below fifteen miles per hour. I can set a reminder if you like."
+S073_M_CMP,S073,threshold,mutant,CMP,"Just to confirm, keep your speed below 15 mph. I can set a reminder if you like.","Just to confirm, keep your speed above fifteen miles per hour. I can set a reminder if you like."
+S073_M_TEENTY,S073,threshold,mutant,TEENTY,"Just to confirm, keep your speed below 15 mph. I can set a reminder if you like.","Just to confirm, keep your speed below fifty miles per hour. I can set a reminder if you like."
+S073_E_EQ_SYN,S073,threshold,equivalent,EQ_SYN,"Just to confirm, keep your speed below 15 mph. I can set a reminder if you like.","Just to confirm, keep your speed under fifteen miles per hour. I can set a reminder if you like."
+S074_C,S074,threshold,correct,,Sure. Refill the tank when it falls below 18 L.,Sure. Refill the tank when it falls below eighteen liters.
+S074_M_CMP,S074,threshold,mutant,CMP,Sure. Refill the tank when it falls below 18 L.,Sure. Refill the tank when it falls above eighteen liters.
+S074_M_TEENTY,S074,threshold,mutant,TEENTY,Sure. Refill the tank when it falls below 18 L.,Sure. Refill the tank when it falls below eighty liters.
+S074_E_EQ_SYN,S074,threshold,equivalent,EQ_SYN,Sure. Refill the tank when it falls below 18 L.,Sure. Refill the tank when it falls under eighteen liters.
+S075_C,S075,threshold,correct,,Okay. Keep the water temperature above 60°C. Is there anything else I can help with?,Okay. Keep the water temperature above sixty degrees Celsius. Is there anything else I can help with?
+S075_M_CMP,S075,threshold,mutant,CMP,Okay. Keep the water temperature above 60°C. Is there anything else I can help with?,Okay. Keep the water temperature below sixty degrees Celsius. Is there anything else I can help with?
+S075_M_TEENTY,S075,threshold,mutant,TEENTY,Okay. Keep the water temperature above 60°C. Is there anything else I can help with?,Okay. Keep the water temperature above sixteen degrees Celsius. Is there anything else I can help with?
+S075_E_EQ_SYN,S075,threshold,equivalent,EQ_SYN,Okay. Keep the water temperature above 60°C. Is there anything else I can help with?,Okay. Keep the water temperature over sixty degrees Celsius. Is there anything else I can help with?
+S076_C,S076,threshold,correct,,"Just to confirm, sell if the share price drops below $14. Let me know if you need anything else.","Just to confirm, sell if the share price drops below fourteen dollars. Let me know if you need anything else."
+S076_M_CMP,S076,threshold,mutant,CMP,"Just to confirm, sell if the share price drops below $14. Let me know if you need anything else.","Just to confirm, sell if the share price drops above fourteen dollars. Let me know if you need anything else."
+S076_M_TEENTY,S076,threshold,mutant,TEENTY,"Just to confirm, sell if the share price drops below $14. Let me know if you need anything else.","Just to confirm, sell if the share price drops below forty dollars. Let me know if you need anything else."
+S076_E_EQ_SYN,S076,threshold,equivalent,EQ_SYN,"Just to confirm, sell if the share price drops below $14. Let me know if you need anything else.","Just to confirm, sell if the share price drops under fourteen dollars. Let me know if you need anything else."
+S077_C,S077,threshold,correct,,Here is what I found. Alert me when the reading goes above 50. Let me know if you need anything else.,Here is what I found. Alert me when the reading goes above fifty. Let me know if you need anything else.
+S077_M_CMP,S077,threshold,mutant,CMP,Here is what I found. Alert me when the reading goes above 50. Let me know if you need anything else.,Here is what I found. Alert me when the reading goes below fifty. Let me know if you need anything else.
+S077_M_TEENTY,S077,threshold,mutant,TEENTY,Here is what I found. Alert me when the reading goes above 50. Let me know if you need anything else.,Here is what I found. Alert me when the reading goes above fifteen. Let me know if you need anything else.
+S077_E_EQ_SYN,S077,threshold,equivalent,EQ_SYN,Here is what I found. Alert me when the reading goes above 50. Let me know if you need anything else.,Here is what I found. Alert me when the reading goes over fifty. Let me know if you need anything else.
+S078_C,S078,threshold,correct,,Good question. Keep the battery above 16%. Let me know if you need anything else.,Good question. Keep the battery above sixteen percent. Let me know if you need anything else.
+S078_M_CMP,S078,threshold,mutant,CMP,Good question. Keep the battery above 16%. Let me know if you need anything else.,Good question. Keep the battery below sixteen percent. Let me know if you need anything else.
+S078_M_TEENTY,S078,threshold,mutant,TEENTY,Good question. Keep the battery above 16%. Let me know if you need anything else.,Good question. Keep the battery above sixty percent. Let me know if you need anything else.
+S078_E_EQ_SYN,S078,threshold,equivalent,EQ_SYN,Good question. Keep the battery above 16%. Let me know if you need anything else.,Good question. Keep the battery over sixteen percent. Let me know if you need anything else.
+S079_C,S079,threshold,correct,,Here is what I found. Slow down if the wind is above 80 km/h. I can set a reminder if you like.,Here is what I found. Slow down if the wind is above eighty kilometers per hour. I can set a reminder if you like.
+S079_M_CMP,S079,threshold,mutant,CMP,Here is what I found. Slow down if the wind is above 80 km/h. I can set a reminder if you like.,Here is what I found. Slow down if the wind is below eighty kilometers per hour. I can set a reminder if you like.
+S079_M_TEENTY,S079,threshold,mutant,TEENTY,Here is what I found. Slow down if the wind is above 80 km/h. I can set a reminder if you like.,Here is what I found. Slow down if the wind is above eighteen kilometers per hour. I can set a reminder if you like.
+S079_E_EQ_SYN,S079,threshold,equivalent,EQ_SYN,Here is what I found. Slow down if the wind is above 80 km/h. I can set a reminder if you like.,Here is what I found. Slow down if the wind is over eighty kilometers per hour. I can set a reminder if you like.
+S080_C,S080,limit,correct,,You can bring at most 2 bags. Is there anything else I can help with?,You can bring at most two bags. Is there anything else I can help with?
+S080_M_CMP,S080,limit,mutant,CMP,You can bring at most 2 bags. Is there anything else I can help with?,You can bring at least two bags. Is there anything else I can help with?
+S080_M_NUM,S080,limit,mutant,NUM,You can bring at most 2 bags. Is there anything else I can help with?,You can bring at most three bags. Is there anything else I can help with?
+S080_E_EQ_SYN,S080,limit,equivalent,EQ_SYN,You can bring at most 2 bags. Is there anything else I can help with?,You can bring no more than two bags. Is there anything else I can help with?
+S081_C,S081,limit,correct,,"Just to confirm, your password needs ≥ 8 characters. Let me know if you need anything else.","Just to confirm, your password needs at least eight characters. Let me know if you need anything else."
+S081_M_CMP,S081,limit,mutant,CMP,"Just to confirm, your password needs ≥ 8 characters. Let me know if you need anything else.","Just to confirm, your password needs at most eight characters. Let me know if you need anything else."
+S081_M_NUM,S081,limit,mutant,NUM,"Just to confirm, your password needs ≥ 8 characters. Let me know if you need anything else.","Just to confirm, your password needs at least nine characters. Let me know if you need anything else."
+S081_E_EQ_SYN,S081,limit,equivalent,EQ_SYN,"Just to confirm, your password needs ≥ 8 characters. Let me know if you need anything else.","Just to confirm, your password needs no fewer than eight characters. Let me know if you need anything else."
+S082_C,S082,limit,correct,,Sure. Each guest may order at most 3 drinks. I can set a reminder if you like.,Sure. Each guest may order at most three drinks. I can set a reminder if you like.
+S082_M_CMP,S082,limit,mutant,CMP,Sure. Each guest may order at most 3 drinks. I can set a reminder if you like.,Sure. Each guest may order at least three drinks. I can set a reminder if you like.
+S082_M_NUM,S082,limit,mutant,NUM,Sure. Each guest may order at most 3 drinks. I can set a reminder if you like.,Sure. Each guest may order at most four drinks. I can set a reminder if you like.
+S082_E_EQ_SYN,S082,limit,equivalent,EQ_SYN,Sure. Each guest may order at most 3 drinks. I can set a reminder if you like.,Sure. Each guest may order no more than three drinks. I can set a reminder if you like.
+S083_C,S083,limit,correct,,Here is what I found. The team needs ≥ 6 players. Is there anything else I can help with?,Here is what I found. The team needs at least six players. Is there anything else I can help with?
+S083_M_CMP,S083,limit,mutant,CMP,Here is what I found. The team needs ≥ 6 players. Is there anything else I can help with?,Here is what I found. The team needs at most six players. Is there anything else I can help with?
+S083_M_NUM,S083,limit,mutant,NUM,Here is what I found. The team needs ≥ 6 players. Is there anything else I can help with?,Here is what I found. The team needs at least seven players. Is there anything else I can help with?
+S083_E_EQ_SYN,S083,limit,equivalent,EQ_SYN,Here is what I found. The team needs ≥ 6 players. Is there anything else I can help with?,Here is what I found. The team needs no fewer than six players. Is there anything else I can help with?
+S084_C,S084,limit,correct,,Good question. You may take ≤ 4 tablets in a day. Let me know if you need anything else.,Good question. You may take at most four tablets in a day. Let me know if you need anything else.
+S084_M_CMP,S084,limit,mutant,CMP,Good question. You may take ≤ 4 tablets in a day. Let me know if you need anything else.,Good question. You may take at least four tablets in a day. Let me know if you need anything else.
+S084_M_NUM,S084,limit,mutant,NUM,Good question. You may take ≤ 4 tablets in a day. Let me know if you need anything else.,Good question. You may take at most five tablets in a day. Let me know if you need anything else.
+S084_E_EQ_SYN,S084,limit,equivalent,EQ_SYN,Good question. You may take ≤ 4 tablets in a day. Let me know if you need anything else.,Good question. You may take no more than four tablets in a day. Let me know if you need anything else.
+S085_C,S085,limit,correct,,Here is what I found. The form requires at least 12 digits. Let me know if you need anything else.,Here is what I found. The form requires at least twelve digits. Let me know if you need anything else.
+S085_M_CMP,S085,limit,mutant,CMP,Here is what I found. The form requires at least 12 digits. Let me know if you need anything else.,Here is what I found. The form requires at most twelve digits. Let me know if you need anything else.
+S085_M_NUM,S085,limit,mutant,NUM,Here is what I found. The form requires at least 12 digits. Let me know if you need anything else.,Here is what I found. The form requires at least thirteen digits. Let me know if you need anything else.
+S085_E_EQ_SYN,S085,limit,equivalent,EQ_SYN,Here is what I found. The form requires at least 12 digits. Let me know if you need anything else.,Here is what I found. The form requires no fewer than twelve digits. Let me know if you need anything else.
+S086_C,S086,limit,correct,,Good question. Each account allows ≤ 5 devices.,Good question. Each account allows at most five devices.
+S086_M_CMP,S086,limit,mutant,CMP,Good question. Each account allows ≤ 5 devices.,Good question. Each account allows at least five devices.
+S086_M_NUM,S086,limit,mutant,NUM,Good question. Each account allows ≤ 5 devices.,Good question. Each account allows at most six devices.
+S086_E_EQ_SYN,S086,limit,equivalent,EQ_SYN,Good question. Each account allows ≤ 5 devices.,Good question. Each account allows no more than five devices.
+S087_C,S087,limit,correct,,The plan includes at least 10 gigabytes. Is there anything else I can help with?,The plan includes at least ten gigabytes. Is there anything else I can help with?
+S087_M_CMP,S087,limit,mutant,CMP,The plan includes at least 10 gigabytes. Is there anything else I can help with?,The plan includes at most ten gigabytes. Is there anything else I can help with?
+S087_M_NUM,S087,limit,mutant,NUM,The plan includes at least 10 gigabytes. Is there anything else I can help with?,The plan includes at least eleven gigabytes. Is there anything else I can help with?
+S087_E_EQ_SYN,S087,limit,equivalent,EQ_SYN,The plan includes at least 10 gigabytes. Is there anything else I can help with?,The plan includes no fewer than ten gigabytes. Is there anything else I can help with?
+S088_C,S088,limit,correct,,The ride admits ≤ 1 child per adult.,The ride admits at most one child per adult.
+S088_M_CMP,S088,limit,mutant,CMP,The ride admits ≤ 1 child per adult.,The ride admits at least one child per adult.
+S088_M_NUM,S088,limit,mutant,NUM,The ride admits ≤ 1 child per adult.,The ride admits at most two child per adult.
+S088_E_EQ_SYN,S088,limit,equivalent,EQ_SYN,The ride admits ≤ 1 child per adult.,The ride admits no more than one child per adult.
+S089_C,S089,limit,correct,,"Based on your plan, the class requires at least 7 students. I can set a reminder if you like.","Based on your plan, the class requires at least seven students. I can set a reminder if you like."
+S089_M_CMP,S089,limit,mutant,CMP,"Based on your plan, the class requires at least 7 students. I can set a reminder if you like.","Based on your plan, the class requires at most seven students. I can set a reminder if you like."
+S089_M_NUM,S089,limit,mutant,NUM,"Based on your plan, the class requires at least 7 students. I can set a reminder if you like.","Based on your plan, the class requires at least eight students. I can set a reminder if you like."
+S089_E_EQ_SYN,S089,limit,equivalent,EQ_SYN,"Based on your plan, the class requires at least 7 students. I can set a reminder if you like.","Based on your plan, the class requires no fewer than seven students. I can set a reminder if you like."
+S090_C,S090,percent,correct,,"Just to confirm, about 40% of patients improved. I can set a reminder if you like.","Just to confirm, about forty percent of patients improved. I can set a reminder if you like."
+S090_M_TEENTY,S090,percent,mutant,TEENTY,"Just to confirm, about 40% of patients improved. I can set a reminder if you like.","Just to confirm, about fourteen percent of patients improved. I can set a reminder if you like."
+S090_M_NUM,S090,percent,mutant,NUM,"Just to confirm, about 40% of patients improved. I can set a reminder if you like.","Just to confirm, about forty five percent of patients improved. I can set a reminder if you like."
+S090_E_EQ_PERCENT,S090,percent,equivalent,EQ_PERCENT,"Just to confirm, about 40% of patients improved. I can set a reminder if you like.","Just to confirm, about forty per cent of patients improved. I can set a reminder if you like."
+S091_C,S091,percent,correct,,"Based on your plan, roughly 15% of users never log in.","Based on your plan, roughly fifteen percent of users never log in."
+S091_M_TEENTY,S091,percent,mutant,TEENTY,"Based on your plan, roughly 15% of users never log in.","Based on your plan, roughly fifty percent of users never log in."
+S091_M_NUM,S091,percent,mutant,NUM,"Based on your plan, roughly 15% of users never log in.","Based on your plan, roughly twenty percent of users never log in."
+S091_E_EQ_PERCENT,S091,percent,equivalent,EQ_PERCENT,"Based on your plan, roughly 15% of users never log in.","Based on your plan, roughly fifteen per cent of users never log in."
+S092_C,S092,percent,correct,,Your score was 60%. Is there anything else I can help with?,Your score was sixty percent. Is there anything else I can help with?
+S092_M_TEENTY,S092,percent,mutant,TEENTY,Your score was 60%. Is there anything else I can help with?,Your score was sixteen percent. Is there anything else I can help with?
+S092_M_NUM,S092,percent,mutant,NUM,Your score was 60%. Is there anything else I can help with?,Your score was sixty five percent. Is there anything else I can help with?
+S092_E_EQ_PERCENT,S092,percent,equivalent,EQ_PERCENT,Your score was 60%. Is there anything else I can help with?,Your score was sixty per cent. Is there anything else I can help with?
+S093_C,S093,percent,correct,,Okay. The chance of rain is 17%. I can set a reminder if you like.,Okay. The chance of rain is seventeen percent. I can set a reminder if you like.
+S093_M_TEENTY,S093,percent,mutant,TEENTY,Okay. The chance of rain is 17%. I can set a reminder if you like.,Okay. The chance of rain is seventy percent. I can set a reminder if you like.
+S093_M_NUM,S093,percent,mutant,NUM,Okay. The chance of rain is 17%. I can set a reminder if you like.,Okay. The chance of rain is twenty two percent. I can set a reminder if you like.
+S093_E_EQ_PERCENT,S093,percent,equivalent,EQ_PERCENT,Okay. The chance of rain is 17%. I can set a reminder if you like.,Okay. The chance of rain is seventeen per cent. I can set a reminder if you like.
+S094_C,S094,percent,correct,,Good question. Prices rose by 80%. I can set a reminder if you like.,Good question. Prices rose by eighty percent. I can set a reminder if you like.
+S094_M_TEENTY,S094,percent,mutant,TEENTY,Good question. Prices rose by 80%. I can set a reminder if you like.,Good question. Prices rose by eighteen percent. I can set a reminder if you like.
+S094_M_NUM,S094,percent,mutant,NUM,Good question. Prices rose by 80%. I can set a reminder if you like.,Good question. Prices rose by eighty five percent. I can set a reminder if you like.
+S094_E_EQ_PERCENT,S094,percent,equivalent,EQ_PERCENT,Good question. Prices rose by 80%. I can set a reminder if you like.,Good question. Prices rose by eighty per cent. I can set a reminder if you like.
+S095_C,S095,percent,correct,,Around 13% of the budget is unspent. Is there anything else I can help with?,Around thirteen percent of the budget is unspent. Is there anything else I can help with?
+S095_M_TEENTY,S095,percent,mutant,TEENTY,Around 13% of the budget is unspent. Is there anything else I can help with?,Around thirty percent of the budget is unspent. Is there anything else I can help with?
+S095_M_NUM,S095,percent,mutant,NUM,Around 13% of the budget is unspent. Is there anything else I can help with?,Around eighteen percent of the budget is unspent. Is there anything else I can help with?
+S095_E_EQ_PERCENT,S095,percent,equivalent,EQ_PERCENT,Around 13% of the budget is unspent. Is there anything else I can help with?,Around thirteen per cent of the budget is unspent. Is there anything else I can help with?
+S096_C,S096,percent,correct,,Good question. The battery is at 30%. Let me know if you need anything else.,Good question. The battery is at thirty percent. Let me know if you need anything else.
+S096_M_TEENTY,S096,percent,mutant,TEENTY,Good question. The battery is at 30%. Let me know if you need anything else.,Good question. The battery is at thirteen percent. Let me know if you need anything else.
+S096_M_NUM,S096,percent,mutant,NUM,Good question. The battery is at 30%. Let me know if you need anything else.,Good question. The battery is at thirty five percent. Let me know if you need anything else.
+S096_E_EQ_PERCENT,S096,percent,equivalent,EQ_PERCENT,Good question. The battery is at 30%. Let me know if you need anything else.,Good question. The battery is at thirty per cent. Let me know if you need anything else.
+S097_C,S097,percent,correct,,Sure. Turnout reached 19%. Let me know if you need anything else.,Sure. Turnout reached nineteen percent. Let me know if you need anything else.
+S097_M_TEENTY,S097,percent,mutant,TEENTY,Sure. Turnout reached 19%. Let me know if you need anything else.,Sure. Turnout reached ninety percent. Let me know if you need anything else.
+S097_M_NUM,S097,percent,mutant,NUM,Sure. Turnout reached 19%. Let me know if you need anything else.,Sure. Turnout reached twenty four percent. Let me know if you need anything else.
+S097_E_EQ_PERCENT,S097,percent,equivalent,EQ_PERCENT,Sure. Turnout reached 19%. Let me know if you need anything else.,Sure. Turnout reached nineteen per cent. Let me know if you need anything else.
+S098_C,S098,percent,correct,,Good question. The discount is 50%. I can set a reminder if you like.,Good question. The discount is fifty percent. I can set a reminder if you like.
+S098_M_TEENTY,S098,percent,mutant,TEENTY,Good question. The discount is 50%. I can set a reminder if you like.,Good question. The discount is fifteen percent. I can set a reminder if you like.
+S098_M_NUM,S098,percent,mutant,NUM,Good question. The discount is 50%. I can set a reminder if you like.,Good question. The discount is fifty five percent. I can set a reminder if you like.
+S098_E_EQ_PERCENT,S098,percent,equivalent,EQ_PERCENT,Good question. The discount is 50%. I can set a reminder if you like.,Good question. The discount is fifty per cent. I can set a reminder if you like.
+S099_C,S099,percent,correct,,Good question. Only 70% of tickets remain. Let me know if you need anything else.,Good question. Only seventy percent of tickets remain. Let me know if you need anything else.
+S099_M_TEENTY,S099,percent,mutant,TEENTY,Good question. Only 70% of tickets remain. Let me know if you need anything else.,Good question. Only seventeen percent of tickets remain. Let me know if you need anything else.
+S099_M_NUM,S099,percent,mutant,NUM,Good question. Only 70% of tickets remain. Let me know if you need anything else.,Good question. Only seventy five percent of tickets remain. Let me know if you need anything else.
+S099_E_EQ_PERCENT,S099,percent,equivalent,EQ_PERCENT,Good question. Only 70% of tickets remain. Let me know if you need anything else.,Good question. Only seventy per cent of tickets remain. Let me know if you need anything else.
+S100_C,S100,distance,correct,,"Just to confirm, turn left in 2 mi.","Just to confirm, turn left in two miles."
+S100_M_UNIT,S100,distance,mutant,UNIT,"Just to confirm, turn left in 2 mi.","Just to confirm, turn left in two kilometers."
+S100_M_NUM,S100,distance,mutant,NUM,"Just to confirm, turn left in 2 mi.","Just to confirm, turn left in four miles."
+S100_E_EQ_REORDER,S100,distance,equivalent,EQ_REORDER,"Just to confirm, turn left in 2 mi.","Just to confirm, in two miles, turn left."
+S101_C,S101,distance,correct,,Here is what I found. The station is 3 km away. Is there anything else I can help with?,Here is what I found. The station is three kilometers away. Is there anything else I can help with?
+S101_M_UNIT,S101,distance,mutant,UNIT,Here is what I found. The station is 3 km away. Is there anything else I can help with?,Here is what I found. The station is three miles away. Is there anything else I can help with?
+S101_M_NUM,S101,distance,mutant,NUM,Here is what I found. The station is 3 km away. Is there anything else I can help with?,Here is what I found. The station is five kilometers away. Is there anything else I can help with?
+S101_E_EQ_REORDER,S101,distance,equivalent,EQ_REORDER,Here is what I found. The station is 3 km away. Is there anything else I can help with?,Here is what I found. The station is about three kilometers from here. Is there anything else I can help with?
+S102_C,S102,distance,correct,,The nearest charger is 5 mi north. Let me know if you need anything else.,The nearest charger is five miles north. Let me know if you need anything else.
+S102_M_UNIT,S102,distance,mutant,UNIT,The nearest charger is 5 mi north. Let me know if you need anything else.,The nearest charger is five kilometers north. Let me know if you need anything else.
+S102_M_NUM,S102,distance,mutant,NUM,The nearest charger is 5 mi north. Let me know if you need anything else.,The nearest charger is seven miles north. Let me know if you need anything else.
+S102_E_EQ_REORDER,S102,distance,equivalent,EQ_REORDER,The nearest charger is 5 mi north. Let me know if you need anything else.,Head north for five miles to the nearest charger. Let me know if you need anything else.
+S103_C,S103,distance,correct,,"Just to confirm, your hotel is 4 km from the airport. Let me know if you need anything else.","Just to confirm, your hotel is four kilometers from the airport. Let me know if you need anything else."
+S103_M_UNIT,S103,distance,mutant,UNIT,"Just to confirm, your hotel is 4 km from the airport. Let me know if you need anything else.","Just to confirm, your hotel is four miles from the airport. Let me know if you need anything else."
+S103_M_NUM,S103,distance,mutant,NUM,"Just to confirm, your hotel is 4 km from the airport. Let me know if you need anything else.","Just to confirm, your hotel is six kilometers from the airport. Let me know if you need anything else."
+S103_E_EQ_REORDER,S103,distance,equivalent,EQ_REORDER,"Just to confirm, your hotel is 4 km from the airport. Let me know if you need anything else.","Just to confirm, from the airport, your hotel is four kilometers. Let me know if you need anything else."
+S104_C,S104,distance,correct,,The trail is 6 mi long.,The trail is six miles long.
+S104_M_UNIT,S104,distance,mutant,UNIT,The trail is 6 mi long.,The trail is six kilometers long.
+S104_M_NUM,S104,distance,mutant,NUM,The trail is 6 mi long.,The trail is eight miles long.
+S104_E_EQ_REORDER,S104,distance,equivalent,EQ_REORDER,The trail is 6 mi long.,The whole trail runs six miles.
+S105_C,S105,distance,correct,,Good question. Exit the highway in 8 km. Let me know if you need anything else.,Good question. Exit the highway in eight kilometers. Let me know if you need anything else.
+S105_M_UNIT,S105,distance,mutant,UNIT,Good question. Exit the highway in 8 km. Let me know if you need anything else.,Good question. Exit the highway in eight miles. Let me know if you need anything else.
+S105_M_NUM,S105,distance,mutant,NUM,Good question. Exit the highway in 8 km. Let me know if you need anything else.,Good question. Exit the highway in ten kilometers. Let me know if you need anything else.
+S105_E_EQ_REORDER,S105,distance,equivalent,EQ_REORDER,Good question. Exit the highway in 8 km. Let me know if you need anything else.,"Good question. In eight kilometers, exit the highway. Let me know if you need anything else."
+S106_C,S106,distance,correct,,Good question. The beach is 1 mi from here.,Good question. The beach is one mile from here.
+S106_M_UNIT,S106,distance,mutant,UNIT,Good question. The beach is 1 mi from here.,Good question. The beach is one kilometer from here.
+S106_M_NUM,S106,distance,mutant,NUM,Good question. The beach is 1 mi from here.,Good question. The beach is three miles from here.
+S106_E_EQ_REORDER,S106,distance,equivalent,EQ_REORDER,Good question. The beach is 1 mi from here.,"Good question. From here, the beach is one mile."
+S107_C,S107,distance,correct,,Sure. The detour adds 7 km. Let me know if you need anything else.,Sure. The detour adds seven kilometers. Let me know if you need anything else.
+S107_M_UNIT,S107,distance,mutant,UNIT,Sure. The detour adds 7 km. Let me know if you need anything else.,Sure. The detour adds seven miles. Let me know if you need anything else.
+S107_M_NUM,S107,distance,mutant,NUM,Sure. The detour adds 7 km. Let me know if you need anything else.,Sure. The detour adds nine kilometers. Let me know if you need anything else.
+S107_E_EQ_REORDER,S107,distance,equivalent,EQ_REORDER,Sure. The detour adds 7 km. Let me know if you need anything else.,Sure. The detour will add seven kilometers. Let me know if you need anything else.
+S108_C,S108,distance,correct,,"Based on your plan, your run today was 9 mi. Let me know if you need anything else.","Based on your plan, your run today was nine miles. Let me know if you need anything else."
+S108_M_UNIT,S108,distance,mutant,UNIT,"Based on your plan, your run today was 9 mi. Let me know if you need anything else.","Based on your plan, your run today was nine kilometers. Let me know if you need anything else."
+S108_M_NUM,S108,distance,mutant,NUM,"Based on your plan, your run today was 9 mi. Let me know if you need anything else.","Based on your plan, your run today was eleven miles. Let me know if you need anything else."
+S108_E_EQ_REORDER,S108,distance,equivalent,EQ_REORDER,"Based on your plan, your run today was 9 mi. Let me know if you need anything else.","Based on your plan, today you ran nine miles. Let me know if you need anything else."
+S109_C,S109,distance,correct,,Sure. The bridge is 12 km ahead. Let me know if you need anything else.,Sure. The bridge is twelve kilometers ahead. Let me know if you need anything else.
+S109_M_UNIT,S109,distance,mutant,UNIT,Sure. The bridge is 12 km ahead. Let me know if you need anything else.,Sure. The bridge is twelve miles ahead. Let me know if you need anything else.
+S109_M_NUM,S109,distance,mutant,NUM,Sure. The bridge is 12 km ahead. Let me know if you need anything else.,Sure. The bridge is fourteen kilometers ahead. Let me know if you need anything else.
+S109_E_EQ_REORDER,S109,distance,equivalent,EQ_REORDER,Sure. The bridge is 12 km ahead. Let me know if you need anything else.,"Sure. In twelve kilometers, you reach the bridge. Let me know if you need anything else."
+S110_C,S110,duration,correct,,Good question. Bake for 45 minutes. I can set a reminder if you like.,Good question. Bake for forty five minutes. I can set a reminder if you like.
+S110_M_UNIT,S110,duration,mutant,UNIT,Good question. Bake for 45 minutes. I can set a reminder if you like.,Good question. Bake for forty five hours. I can set a reminder if you like.
+S110_M_NUM,S110,duration,mutant,NUM,Good question. Bake for 45 minutes. I can set a reminder if you like.,Good question. Bake for fifty minutes. I can set a reminder if you like.
+S110_E_EQ_IDIOM,S110,duration,equivalent,EQ_IDIOM,Good question. Bake for 45 minutes. I can set a reminder if you like.,Good question. Bake for three quarters of an hour. I can set a reminder if you like.
+S111_C,S111,duration,correct,,Good question. Let it rest for 30 minutes. Is there anything else I can help with?,Good question. Let it rest for thirty minutes. Is there anything else I can help with?
+S111_M_UNIT,S111,duration,mutant,UNIT,Good question. Let it rest for 30 minutes. Is there anything else I can help with?,Good question. Let it rest for thirty hours. Is there anything else I can help with?
+S111_M_TEENTY,S111,duration,mutant,TEENTY,Good question. Let it rest for 30 minutes. Is there anything else I can help with?,Good question. Let it rest for thirteen minutes. Is there anything else I can help with?
+S111_E_EQ_IDIOM,S111,duration,equivalent,EQ_IDIOM,Good question. Let it rest for 30 minutes. Is there anything else I can help with?,Good question. Let it rest for half an hour. Is there anything else I can help with?
+S112_C,S112,duration,correct,,"Based on your plan, the battery lasts 90 minutes.","Based on your plan, the battery lasts ninety minutes."
+S112_M_UNIT,S112,duration,mutant,UNIT,"Based on your plan, the battery lasts 90 minutes.","Based on your plan, the battery lasts ninety hours."
+S112_M_TEENTY,S112,duration,mutant,TEENTY,"Based on your plan, the battery lasts 90 minutes.","Based on your plan, the battery lasts nineteen minutes."
+S112_E_EQ_IDIOM,S112,duration,equivalent,EQ_IDIOM,"Based on your plan, the battery lasts 90 minutes.","Based on your plan, the battery lasts an hour and a half."
+S113_C,S113,duration,correct,,Good question. Your parking expires in 15 minutes. I can set a reminder if you like.,Good question. Your parking expires in fifteen minutes. I can set a reminder if you like.
+S113_M_UNIT,S113,duration,mutant,UNIT,Good question. Your parking expires in 15 minutes. I can set a reminder if you like.,Good question. Your parking expires in fifteen hours. I can set a reminder if you like.
+S113_M_TEENTY,S113,duration,mutant,TEENTY,Good question. Your parking expires in 15 minutes. I can set a reminder if you like.,Good question. Your parking expires in fifty minutes. I can set a reminder if you like.
+S113_E_EQ_IDIOM,S113,duration,equivalent,EQ_IDIOM,Good question. Your parking expires in 15 minutes. I can set a reminder if you like.,Good question. Your parking expires in a quarter of an hour. I can set a reminder if you like.
+S114_C,S114,duration,correct,,Sure. Charge it for 20 minutes. I can set a reminder if you like.,Sure. Charge it for twenty minutes. I can set a reminder if you like.
+S114_M_UNIT,S114,duration,mutant,UNIT,Sure. Charge it for 20 minutes. I can set a reminder if you like.,Sure. Charge it for twenty hours. I can set a reminder if you like.
+S114_M_NUM,S114,duration,mutant,NUM,Sure. Charge it for 20 minutes. I can set a reminder if you like.,Sure. Charge it for twenty five minutes. I can set a reminder if you like.
+S114_E_EQ_PHRASE,S114,duration,equivalent,EQ_PHRASE,Sure. Charge it for 20 minutes. I can set a reminder if you like.,Sure. Charge it for twenty minutes in total. I can set a reminder if you like.
+S115_C,S115,duration,correct,,Sure. The drive takes 40 minutes. I can set a reminder if you like.,Sure. The drive takes forty minutes. I can set a reminder if you like.
+S115_M_UNIT,S115,duration,mutant,UNIT,Sure. The drive takes 40 minutes. I can set a reminder if you like.,Sure. The drive takes forty hours. I can set a reminder if you like.
+S115_M_TEENTY,S115,duration,mutant,TEENTY,Sure. The drive takes 40 minutes. I can set a reminder if you like.,Sure. The drive takes fourteen minutes. I can set a reminder if you like.
+S115_E_EQ_PHRASE,S115,duration,equivalent,EQ_PHRASE,Sure. The drive takes 40 minutes. I can set a reminder if you like.,Sure. The drive takes forty minutes in total. I can set a reminder if you like.
+S116_C,S116,duration,correct,,Good question. Soak the beans for 60 minutes. Is there anything else I can help with?,Good question. Soak the beans for sixty minutes. Is there anything else I can help with?
+S116_M_UNIT,S116,duration,mutant,UNIT,Good question. Soak the beans for 60 minutes. Is there anything else I can help with?,Good question. Soak the beans for sixty hours. Is there anything else I can help with?
+S116_M_TEENTY,S116,duration,mutant,TEENTY,Good question. Soak the beans for 60 minutes. Is there anything else I can help with?,Good question. Soak the beans for sixteen minutes. Is there anything else I can help with?
+S116_E_EQ_IDIOM,S116,duration,equivalent,EQ_IDIOM,Good question. Soak the beans for 60 minutes. Is there anything else I can help with?,Good question. Soak the beans for an hour. Is there anything else I can help with?
+S117_C,S117,duration,correct,,"Based on your plan, your session times out after 25 minutes. Is there anything else I can help with?","Based on your plan, your session times out after twenty five minutes. Is there anything else I can help with?"
+S117_M_UNIT,S117,duration,mutant,UNIT,"Based on your plan, your session times out after 25 minutes. Is there anything else I can help with?","Based on your plan, your session times out after twenty five hours. Is there anything else I can help with?"
+S117_M_NUM,S117,duration,mutant,NUM,"Based on your plan, your session times out after 25 minutes. Is there anything else I can help with?","Based on your plan, your session times out after thirty minutes. Is there anything else I can help with?"
+S117_E_EQ_PHRASE,S117,duration,equivalent,EQ_PHRASE,"Based on your plan, your session times out after 25 minutes. Is there anything else I can help with?","Based on your plan, your session times out after twenty five minutes in total. Is there anything else I can help with?"
+S118_C,S118,duration,correct,,Okay. Wait 50 minutes before swimming. Is there anything else I can help with?,Okay. Wait fifty minutes before swimming. Is there anything else I can help with?
+S118_M_UNIT,S118,duration,mutant,UNIT,Okay. Wait 50 minutes before swimming. Is there anything else I can help with?,Okay. Wait fifty hours before swimming. Is there anything else I can help with?
+S118_M_TEENTY,S118,duration,mutant,TEENTY,Okay. Wait 50 minutes before swimming. Is there anything else I can help with?,Okay. Wait fifteen minutes before swimming. Is there anything else I can help with?
+S118_E_EQ_PHRASE,S118,duration,equivalent,EQ_PHRASE,Okay. Wait 50 minutes before swimming. Is there anything else I can help with?,Okay. Wait fifty minutes in total before swimming. Is there anything else I can help with?
+S119_C,S119,duration,correct,,Sure. The tour lasts 2 hours. I can set a reminder if you like.,Sure. The tour lasts two hours. I can set a reminder if you like.
+S119_M_UNIT,S119,duration,mutant,UNIT,Sure. The tour lasts 2 hours. I can set a reminder if you like.,Sure. The tour lasts two minutes. I can set a reminder if you like.
+S119_M_NUM,S119,duration,mutant,NUM,Sure. The tour lasts 2 hours. I can set a reminder if you like.,Sure. The tour lasts three hours. I can set a reminder if you like.
+S119_E_EQ_IDIOM,S119,duration,equivalent,EQ_IDIOM,Sure. The tour lasts 2 hours. I can set a reminder if you like.,Sure. The tour lasts two hours. I can set a reminder if you like.
+N000,N000,natural,natural,,Take 2.5 mg twice a day.,Take 2.5 mg twice a day.
+N001,N001,natural,natural,,It will be -5°C tonight.,It will be -5°C tonight.
+N002,N002,natural,natural,,Revenue was $3.5B last quarter.,Revenue was $3.5B last quarter.
+N003,N003,natural,natural,,Your appointment is on 3/4/2026.,Your appointment is on 3/4/2026.
+N004,N004,natural,natural,,The flight leaves at 7:30 pm.,The flight leaves at 7:30 pm.
+N005,N005,natural,natural,,Choose x ≥ 5 and y < 3.,Choose x ≥ 5 and y < 3.
+N006,N006,natural,natural,,It costs ~$40.,It costs ~$40.
+N007,N007,natural,natural,,Henry VIII had six wives.,Henry VIII had six wives.
+N008,N008,natural,natural,,"Mt. Everest is 8,849 m tall.","Mt. Everest is 8,849 m tall."
+N009,N009,natural,natural,,Add 1/2 cup of sugar.,Add 1/2 cup of sugar.
+N010,N010,natural,natural,,The bag weighs 10 kg.,The bag weighs 10 kg.
+N011,N011,natural,natural,,Use a 5 mm drill bit.,Use a 5 mm drill bit.
+N012,N012,natural,natural,,Sales rose 3% in Q2.,Sales rose 3% in Q2.
+N013,N013,natural,natural,,Store it between 2-8°C.,Store it between 2-8°C.
+N014,N014,natural,natural,,The dose is 10-15 mg.,The dose is 10-15 mg.
+N015,N015,natural,natural,,Call 1-800-555-0199.,Call 1-800-555-0199.
+N016,N016,natural,natural,,It's open 24/7.,It's open 24/7.
+N017,N017,natural,natural,,You are No. 5 in the queue.,You are No. 5 in the queue.
+N018,N018,natural,natural,,Your balance is -$42.17.,Your balance is -$42.17.
+N019,N019,natural,natural,,Mix at a ratio of 3:1.,Mix at a ratio of 3:1.
+N020,N020,natural,natural,,Turn left in 0.5 mi.,Turn left in 0.5 mi.
+N021,N021,natural,natural,,Save 20% on orders over £50.,Save 20% on orders over £50.
+N022,N022,natural,natural,,The meeting is at 12:00 pm.,The meeting is at 12:00 pm.
+N023,N023,natural,natural,,Take 500 mcg daily.,Take 500 mcg daily.
+N024,N024,natural,natural,,The speed limit is 65 mph.,The speed limit is 65 mph.
+N025,N025,natural,natural,,Max 2 bags per person.,Max 2 bags per person.
+N026,N026,natural,natural,,Room 4B is on the 3rd floor.,Room 4B is on the 3rd floor.
+N027,N027,natural,natural,,"Pay €1,250.50 by Friday.","Pay €1,250.50 by Friday."
+N028,N028,natural,natural,,Your temperature is 98.6°F.,Your temperature is 98.6°F.
+N029,N029,natural,natural,,Invest $1.2M over 5 yrs.,Invest $1.2M over 5 yrs.
+N030,N030,natural,natural,,WWII ended in 1945.,WWII ended in 1945.
+N031,N031,natural,natural,,The file is 2.5 GB.,The file is 2.5 GB.
+N032,N032,natural,natural,,Use 1 tsp of salt and 2 tbsp of oil.,Use 1 tsp of salt and 2 tbsp of oil.
+N033,N033,natural,natural,,Your code is 0471.,Your code is 0471.
+N034,N034,natural,natural,,Approx. 1 in 4 adults.,Approx. 1 in 4 adults.
+N035,N035,natural,natural,,The deadline is 05/06/2027.,The deadline is 05/06/2027.
+N036,N036,natural,natural,,Boil for 3-4 min.,Boil for 3-4 min.
+N037,N037,natural,natural,,Pressure must stay ≤ 120 psi.,Pressure must stay ≤ 120 psi.
+N038,N038,natural,natural,,Dr. Lee sees patients on Wed.,Dr. Lee sees patients on Wed.
+N039,N039,natural,natural,,The 1990s saw rapid growth.,The 1990s saw rapid growth.

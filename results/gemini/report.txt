@@ -1,0 +1,114 @@
+== Main table (tau = 0.10 and value) ==
+ideal|wer@0.10                 MS 106/230 = 46.1% [39.8, 52.5]     FAc 36/120 = 30.0% [22.5, 38.7]    FAe 80/120 = 66.7% [57.8, 74.5]
+ideal|value                    MS 230/230 = 100.0% [98.4, 100.0]   FAc 0/120 = 0.0% [-0.0, 3.1]       FAe 0/120 = 0.0% [-0.0, 3.1]
+whisper|wer@0.10               MS 115/230 = 50.0% [43.6, 56.4]     FAc 43/120 = 35.8% [27.8, 44.7]    FAe 82/120 = 68.3% [59.6, 76.0]
+whisper|value                  MS 227/230 = 98.7% [96.2, 99.6]     FAc 4/120 = 3.3% [1.3, 8.3]        FAe 10/120 = 8.3% [4.6, 14.7]
+whisper_anchored|wer@0.10      MS 74/230 = 32.2% [26.5, 38.5]      FAc 19/120 = 15.8% [10.4, 23.4]    FAe 57/120 = 47.5% [38.8, 56.4]
+whisper_anchored|value         MS 208/230 = 90.4% [85.9, 93.6]     FAc 8/120 = 6.7% [3.4, 12.6]       FAe 12/120 = 10.0% [5.8, 16.7]
+whisper_spelled|wer@0.10       MS 120/230 = 52.2% [45.7, 58.5]     FAc 43/120 = 35.8% [27.8, 44.7]    FAe 81/120 = 67.5% [58.7, 75.2]
+whisper_spelled|value          MS 226/230 = 98.3% [95.6, 99.3]     FAc 6/120 = 5.0% [2.3, 10.5]       FAe 4/120 = 3.3% [1.3, 8.3]
+vosk|wer@0.10                  MS 129/230 = 56.1% [49.6, 62.3]     FAc 45/120 = 37.5% [29.4, 46.4]    FAe 85/120 = 70.8% [62.2, 78.2]
+vosk|value                     MS 226/230 = 98.3% [95.6, 99.3]     FAc 16/120 = 13.3% [8.4, 20.6]     FAe 8/120 = 6.7% [3.4, 12.6]
+any(whisper,vosk)|value        MS 227/230 = 98.7% [96.2, 99.6]     FAc 20/120 = 16.7% [11.1, 24.3]    FAe 17/120 = 14.2% [9.0, 21.5]
+any(whisper,spelled)|value     MS 227/230 = 98.7% [96.2, 99.6]     FAc 8/120 = 6.7% [3.4, 12.6]       FAe 12/120 = 10.0% [5.8, 16.7]
+any(all four)|value            MS 227/230 = 98.7% [96.2, 99.6]     FAc 27/120 = 22.5% [15.9, 30.8]    FAe 22/120 = 18.3% [12.4, 26.2]
+
+== WER at tau = 0 ==
+ideal|wer@0.00                 MS 230/230 = 100.0% [98.4, 100.0]   FAc 60/120 = 50.0% [41.2, 58.8]    FAe 89/120 = 74.2% [65.7, 81.2]
+whisper|wer@0.00               MS 227/230 = 98.7% [96.2, 99.6]     FAc 63/120 = 52.5% [43.6, 61.2]    FAe 91/120 = 75.8% [67.4, 82.6]
+whisper_anchored|wer@0.00      MS 198/230 = 86.1% [81.0, 90.0]     FAc 29/120 = 24.2% [17.4, 32.6]    FAe 71/120 = 59.2% [50.2, 67.5]
+whisper_spelled|wer@0.00       MS 226/230 = 98.3% [95.6, 99.3]     FAc 65/120 = 54.2% [45.3, 62.8]    FAe 91/120 = 75.8% [67.4, 82.6]
+vosk|wer@0.00                  MS 228/230 = 99.1% [96.9, 99.8]     FAc 75/120 = 62.5% [53.6, 70.6]    FAe 95/120 = 79.2% [71.1, 85.5]
+
+== Per voice, mutation score and correct false alarms ==
+whisper|wer@0.10             gemini: MS 50 FAc 36 FAe 68
+whisper|value                gemini: MS 99 FAc 3 FAe 8
+vosk|value                   gemini: MS 98 FAc 13 FAe 7
+whisper_spelled|value        gemini: MS 98 FAc 5 FAe 3
+any(whisper,vosk)|value      gemini: MS 99 FAc 17 FAe 14
+
+== Per operator mutation score ==
+op         ideal|wer@0.10   whisper|wer@0.10 whisper_anchored|w      whisper|value whisper_anchored|v whisper_spelled|va         vosk|value any(whisper,vosk)|
+DEC                    65                 65                 40                100                 95                100                100                100
+UNIT                   23                 37                 23                100                 73                100                100                100
+TEENTY                 22                 28                 17                100                 97                 97                 97                100
+CUR                    10                 10                  0                100                 10                100                100                100
+SCALE                  30                 40                 40                100                100                100                100                100
+SIGN                   80                 80                  0                100                100                100                100                100
+NUM                    56                 58                 36                100                100                100                100                100
+SWAP                   80                 80                 80                100                100                100                100                100
+AMPM                  100                100                100                100                100                100                100                100
+NEG                    10                 10                 10                 70                 70                 70                 70                 70
+CMP                    55                 60                 35                100                100                100                100                100
+
+== Per category false alarms on correct readings ==
+ideal|wer@0.10               dose=30 fee=0 bigmo=0 temp=100 date=10 time=100 neg=0 thres=40 limit=50 perce=0 dista=30 durat=0
+whisper|wer@0.10             dose=40 fee=0 bigmo=10 temp=100 date=30 time=90 neg=10 thres=40 limit=60 perce=10 dista=30 durat=10
+whisper_anchored|wer@0.10    dose=20 fee=30 bigmo=10 temp=0 date=30 time=80 neg=0 thres=0 limit=20 perce=0 dista=0 durat=0
+whisper|value                dose=0 fee=0 bigmo=0 temp=0 date=20 time=0 neg=10 thres=0 limit=10 perce=0 dista=0 durat=0
+whisper_anchored|value       dose=10 fee=10 bigmo=0 temp=20 date=0 time=20 neg=0 thres=10 limit=10 perce=0 dista=0 durat=0
+whisper_spelled|value        dose=0 fee=0 bigmo=0 temp=0 date=10 time=20 neg=10 thres=0 limit=10 perce=0 dista=0 durat=10
+vosk|value                   dose=10 fee=0 bigmo=0 temp=0 date=10 time=100 neg=0 thres=10 limit=10 perce=10 dista=0 durat=10
+any(whisper,vosk)|value      dose=10 fee=0 bigmo=0 temp=0 date=30 time=100 neg=10 thres=10 limit=20 perce=10 dista=0 durat=10
+
+== Collapse diagnosis (mutant clips) ==
+whisper {"wer@0.10|threshold_dilution": 111, "value|killed": 227, "wer@0.10|killed": 115, "wer@0.10|listener_collapse": 1, "wer@0.10|normaliser_collapse": 3, "value|comparator_collapse": 3}
+whisper_anchored {"wer@0.10|threshold_dilution": 123, "value|comparator_collapse": 9, "wer@0.10|normaliser_collapse": 16, "value|killed": 208, "wer@0.10|listener_collapse": 17, "value|listener_collapse": 13, "wer@0.10|killed": 74}
+whisper_spelled {"wer@0.10|killed": 120, "value|killed": 226, "wer@0.10|threshold_dilution": 106, "wer@0.10|normaliser_collapse": 3, "value|comparator_collapse": 3, "wer@0.10|listener_collapse": 1, "value|listener_collapse": 1}
+vosk {"wer@0.10|killed": 129, "value|killed": 226, "wer@0.10|threshold_dilution": 98, "wer@0.10|normaliser_collapse": 2, "value|comparator_collapse": 4, "wer@0.10|listener_collapse": 1}
+
+== Separability (WER comparator, mutant vs its own correct reading, same voice) ==
+ideal              inseparable 74/230 = 32.2% (tied 64, lower 10)
+whisper            inseparable 69/230 = 30.0% (tied 50, lower 19)
+whisper_anchored   inseparable 59/230 = 25.7% (tied 36, lower 23)
+whisper_spelled    inseparable 83/230 = 36.1% (tied 64, lower 19)
+vosk               inseparable 86/230 = 37.4% (tied 55, lower 31)
+
+== Anchoring (value verdict moved by prompting, versus plain Whisper) ==
+{"correct|pass->fail": 8, "mutant|fail->pass": 19, "equivalent|pass->fail": 3, "correct|fail->pass": 4, "equivalent|fail->pass": 1}
+   S000_M_DEC gemini | said: Take twenty five milligrams twice a day. I can set a reminder if you l | plain: Take 25mg twice a day. I can set a reminder if you like. | prompted: 2.5 mg twice a day. I can set a reminder if you like.
+   S000_M_UNIT gemini | said: Take two point five micrograms twice a day. I can set a reminder if yo | plain: Take 2.5 micrograms twice a day. I can set a reminder if you like. | prompted: Take 2.5 mg twice a day. I can set a reminder if you like.
+   S001_M_UNIT gemini | said: Here is what I found. Give zero point five micrograms at bedtime. | plain: Here is what I found. Give 0.5 micrograms at bedtime. | prompted: Here is what I found. Give 0.5 mg at bedtime.
+   S002_M_UNIT gemini | said: Sure. Take one point five milligrams once a day. Is there anything els | plain: Sure, take 1.5 milligrams once a day. Is there anything else I can hel | prompted: Sure. Take 1.5 mcg once a day. Is there anything else I can help with?
+   S003_M_UNIT gemini | said: Based on your plan, use seven point five liters every eight hours. Is  | plain: Based on your plan, use 7.5 liters every 8 hours. Is there anything el | prompted: Based on your plan, use 7.5 mL every 8 hours. Is there anything else I
+   S005_M_UNIT gemini | said: Sure. Give five point five liters twice a day. | plain: Sure, give 5.5 liters twice a day. | prompted: Sure. Give 5.5 mL twice a day.
+   S007_M_UNIT gemini | said: Use zero point five liters every eight hours. I can set a reminder if  | plain: Use 0.5 liters every eight hours. I can set a reminder if you like | prompted: Use 0.5 mL every 8 hours. I can set a reminder if you like.
+   S008_M_UNIT gemini | said: Based on your plan, take one point five micrograms at bedtime. | plain: Based on your plan, take 1.5 micrograms at bedtime. | prompted: Based on your plan, take 1.5 mg at bedtime.
+
+== McNemar on mutant clips ==
+whisper|wer@0.10 vs whisper|value                            only first    0 only second  112 p=3.9e-34
+whisper|value vs vosk|value                                  only first    1 only second    0 p=1
+whisper|value vs any(whisper,vosk)|value                     only first    0 only second    0 p=1
+whisper|value vs whisper_anchored|value                      only first   19 only second    0 p=3.8e-06
+whisper|wer@0.10 vs whisper_anchored|wer@0.10                only first   47 only second    6 p=5.8e-09
+
+== Listener collapse examples (mutant transcript equals correct transcript) ==
+  whisper_anchored S001_M_UNIT      gemini   said: Here is what I found. Give zero point five micrograms at bed | heard: Here is what I found. Give 0.5 mg at bedtime.
+  whisper_anchored S002_M_UNIT      gemini   said: Sure. Take one point five milligrams once a day. Is there an | heard: Sure. Take 1.5 mcg once a day. Is there anything else I can help with?
+  whisper_anchored S005_M_UNIT      gemini   said: Sure. Give five point five liters twice a day. | heard: Sure. Give 5.5 mL twice a day.
+  whisper_anchored S007_M_UNIT      gemini   said: Use zero point five liters every eight hours. I can set a re | heard: Use 0.5 mL every 8 hours. I can set a reminder if you like.
+  whisper_anchored S009_M_UNIT      gemini   said: Good question. Give two point five liters once a day. | heard: Good question. Give 2.5 mL once a day.
+  whisper_anchored S011_M_CUR       gemini   said: Just to confirm, your copay is forty pounds. I can set a rem | heard: Just to confirm, your copay is $40. I can set a reminder if you like.
+  whisper_spelled  S116_M_TEENTY    gemini   said: Good question. Soak the beans for sixteen minutes. Is there  | heard: Good question. Soak the beans for sixty minutes. Is there anything els
+  vosk             S118_M_TEENTY    gemini   said: Okay. Wait fifteen minutes before swimming. Is there anythin | heard: okay wait fifteen minutes before swimming is there anything else i can
+
+== Value comparator false alarms on correct readings, examples ==
+  whisper          S044_C     gemini   ref: Based on your plan, your lease ends on October 7. Is th | heard: Based on your plan, your lease ends on October 7th. Is there anything 
+  whisper          S049_C     gemini   ref: Based on your plan, the deadline is December 8. Is ther | heard: Based on your plan, the deadline is December 8th. Is there anything el
+  whisper          S067_C     gemini   ref: You should not stop the course early. Is there anything | heard: You should not stop the course early. Is there anything else I can hel
+  whisper          S080_C     gemini   ref: You can bring at most 2 bags. Is there anything else I  | heard: You can bring at most two bags. Is there anything else I can help with
+  whisper_anchored S000_C     gemini   ref: Take 2.5 mg twice a day. I can set a reminder if you li | heard: 8.5 mg twice a day. I can set a reminder if you like.
+  whisper_anchored S032_C     gemini   ref: Based on your plan, the freezer should be set to -18°C. | heard: Based on your plan, the freezer should be set to-18°C.
+  whisper_anchored S034_C     gemini   ref: Just to confirm, with wind chill it will feel like -15° | heard: Just to confirm, with wind chill it will feel like-15°C. Is there anyt
+  whisper_anchored S017_C     gemini   ref: Your monthly charge is $70. I can set a reminder if you | heard: I can set a reminder if you like.
+  whisper_anchored S050_C     gemini   ref: Okay. Your train leaves at 7:30 pm. Let me know if you  | heard: Okay. Your train leaves at 730 pm. Let me know if you need anything el
+  whisper_spelled  S042_C     gemini   ref: Just to confirm, your flight departs on June 9. I can s | heard: Just to confirm your flight departs on June night, I can set a reminde
+  whisper_spelled  S052_C     gemini   ref: Good question. Check-in closes at 6:45 pm. Is there any | heard: Good question. Check in closes at six forty-five p.m. Is there anythin
+  whisper_spelled  S057_C     gemini   ref: Based on your plan, the class begins at 4:45 pm. | heard: Based on your plan, the class begins at four forty-five p.m.
+  whisper_spelled  S067_C     gemini   ref: You should not stop the course early. Is there anything | heard: You should not stop the course early. Is there anything else I can hel
+  whisper_spelled  S080_C     gemini   ref: You can bring at most 2 bags. Is there anything else I  | heard: You can bring at most two bags. Is there anything else I can help with
+  vosk             S009_C     gemini   ref: Good question. Give 2.5 mL once a day. | heard: good question give two point five milliliters one today
+  vosk             S042_C     gemini   ref: Just to confirm, your flight departs on June 9. I can s | heard: just to confirm your flight departs on june night i consider him under
+  vosk             S050_C     gemini   ref: Okay. Your train leaves at 7:30 pm. Let me know if you  | heard: okay your train leaves at seven thirty pm let me know if you need anyt
+  vosk             S051_C     gemini   ref: Okay. The pharmacy opens at 9:15 am. Is there anything  | heard: okay the pharmacy opens at nine fifteen am is there anything else i ca
+  vosk             S052_C     gemini   ref: Good question. Check-in closes at 6:45 pm. Is there any | heard: good question checking closes at six forty five pm is or anything else

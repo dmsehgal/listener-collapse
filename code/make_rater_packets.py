@@ -174,7 +174,7 @@ def build(rid, seed):
           f"{no_mac} without a Mac; zip {os.path.getsize(z) / 1e6:.1f} MB")
 
 
-SEEDS = {"B": 11, "C": 23, "D": 35}  # fixed per rater, so rebuilding one packet keeps its clip order
+SEEDS = {"B": 11, "C": 23, "D": 35, "E": 47}  # fixed per rater, so rebuilding one packet keeps its clip order
 
 if __name__ == "__main__":
     for rid in sys.argv[1:] or ["B", "C"]:

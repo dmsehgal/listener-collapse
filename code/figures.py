@@ -1,5 +1,7 @@
 """Draw the result figures from results/summary.json into paper/figures/*.pdf."""
+import csv
 import json
+from collections import defaultdict
 
 import matplotlib
 matplotlib.use("Agg")
@@ -31,6 +33,24 @@ def fa(name):
     return (c["k"] + e["k"]) / (c["n"] + e["n"])
 
 
+def hollow_shares():
+    """Per oracle and operator: the share of caught mutants whose own correct reading,
+    in the same voice, the oracle also failed. Such a catch separates nothing."""
+    rows = list(csv.DictReader(open("results/tables/clip_verdicts.csv")))
+    idx = {(r["listener"], r["item"], r["voice"]): r for r in rows}
+    fails = lambda r, comp: float(r["wer"]) > 0.10 + 1e-9 if comp == "wer@0.10" else r["value_pass"] == "False"
+    caught, hollow = defaultdict(int), defaultdict(int)
+    for r in rows:
+        if r["kind"] != "mutant":
+            continue
+        for comp in ("wer@0.10", "value"):
+            if fails(r, comp):
+                key = (f"{r['listener']}|{comp}", r["op"])
+                caught[key] += 1
+                hollow[key] += fails(idx[(r["listener"], f"{r['seed']}_C", r["voice"])], comp)
+    return {k: hollow[k] / caught[k] for k in caught}
+
+
 def heatmap():
     cols = [("ideal|wer@0.10", "ideal\nWER"), ("whisper|wer@0.10", "Whisper\nWER"),
             ("whisper_anchored|wer@0.10", "Whisper\nprompted\nWER"), ("whisper|value", "Whisper\nvalue"),
@@ -40,6 +60,11 @@ def heatmap():
     data = [[rate(c, f"mutant|op={op}") for c, _ in cols] for op in OPS]
     fig, ax = plt.subplots(figsize=(4.8, 3.3))
     ax.imshow(data, cmap=RAMP, vmin=0, vmax=1, aspect="auto")
+    hollow = hollow_shares()
+    for i, op in enumerate(OPS):
+        for j, (c, _) in enumerate(cols):
+            if hollow.get((c, op), 0) >= 0.5:
+                ax.add_patch(plt.Rectangle((j - 0.44, i - 0.42), 0.88, 0.84, fill=False, edgecolor=ORANGE, linewidth=1.6))
     for i, row in enumerate(data):
         for j, v in enumerate(row):
             ax.text(j, i, f"{100 * v:.0f}", ha="center", va="center", fontsize=7,

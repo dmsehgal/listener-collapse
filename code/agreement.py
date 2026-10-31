@@ -59,6 +59,8 @@ def main():
         for r in csv.DictReader(open(path)):
             if r["voice"] in exclude.get(r["rater"], ()):
                 continue
+            if r["task"] == "natural" and not r["item"].startswith("N"):
+                continue  # task 3 answers (people as the oracle) are scored by oracle_people.py
             raters.setdefault(r["rater"], {})[(r["task"], r["voice"], r["item"])] = r["label"].strip().lower()
     if not raters:
         print(f"no answer files in {RATERS_DIR}")

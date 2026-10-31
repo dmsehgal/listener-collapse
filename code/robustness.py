@@ -60,7 +60,27 @@ def seed_compare(a, b):
     return {"first_more": more, "second_more": fewer, "tied": len(ka) - more - fewer, "p": sign_test(more, fewer)}
 
 
-out = {"text_only": {}, "bootstrap": {}, "seed_tests": {}}
+def youden(listener):
+    """Proposition 3: pair each mutant with its correct reading (same voice). rho is the
+    share of separable pairs; the best threshold's Youden index (MS - FA, counted once
+    per pair) cannot exceed it. The value comparator's index is reported beside it."""
+    R = {(r["item"], r["voice"]): r for r in rows if r["listener"] == listener}
+    voices = ["piper"] if listener == "ideal" else ["piper", "Samantha", "Daniel", "Rishi"]
+    pairs = [(r, R[(r["seed"] + "_C", v)]) for (it, v), r in R.items() if v in voices and r["kind"] == "mutant"]
+    d = [(float(m["wer"]), float(c["wer"])) for m, c in pairs]
+    rho = sum(dm > dc + 1e-9 for dm, dc in d) / len(d)
+    taus = sorted({x for pair in d for x in pair} | {0.0})
+    best = max((sum(dm > t + 1e-9 for dm, _ in d) - sum(dc > t + 1e-9 for _, dc in d)) / len(d) for t in taus)
+    value = sum((m["value_pass"] == "False") - (c["value_pass"] == "False") for m, c in pairs) / len(pairs)
+    return {"pairs": len(d), "rho": rho, "best_threshold_youden": best, "value_comparator_youden": value}
+
+
+out = {"text_only": {}, "bootstrap": {}, "seed_tests": {}, "youden": {}}
+for lis in ["ideal", "whisper"]:
+    y = youden(lis)
+    out["youden"][lis] = y
+    print(f"youden      {lis:8s} rho {100 * y['rho']:.1f}%  best threshold {100 * y['best_threshold_youden']:.1f}%  "
+          f"value comparator {100 * y['value_comparator_youden']:.1f}%")
 for lis in ["whisper", "whisper_spelled", "vosk"]:
     for kind in ["mutant", "correct", "equivalent"]:
         cl = [r for r in rows if r["listener"] == lis and r["kind"] == kind]

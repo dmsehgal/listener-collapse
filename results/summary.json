@@ -21283,20 +21283,20 @@
  },
  "collapse": {
   "whisper": {
-   "wer@0.10|threshold_dilution": 456,
+   "wer@0.10|threshold_dilution": 478,
    "value|killed": 918,
    "wer@0.10|killed": 440,
-   "wer@0.10|listener_collapse": 24,
+   "wer@0.10|listener_collapse": 2,
    "value|listener_collapse": 2
   },
   "whisper_anchored": {
-   "wer@0.10|threshold_dilution": 542,
+   "wer@0.10|threshold_dilution": 556,
    "value|killed": 856,
-   "wer@0.10|listener_collapse": 108,
+   "wer@0.10|listener_collapse": 75,
    "value|listener_collapse": 60,
    "wer@0.10|killed": 256,
    "value|comparator_collapse": 4,
-   "wer@0.10|normaliser_collapse": 14
+   "wer@0.10|normaliser_collapse": 33
   },
   "whisper_spelled": {
    "wer@0.10|killed": 457,

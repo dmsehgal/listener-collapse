@@ -48,7 +48,9 @@ def wer(ref, hyp):
 
 
 def plain(t):
-    return re.sub(r"[^a-z0-9 ]", " ", t.lower()).split()
+    """Words of a transcript for the listener-collapse check. Case and punctuation are
+    ignored, but symbols that carry a fact ($, £, €, %, °, minus) are kept."""
+    return re.sub(r"[^a-z0-9 $\u00a3\u20ac%\u00b0\-]", " ", t.lower()).split()
 
 
 def wilson(k, n, z=1.96):

@@ -1,6 +1,6 @@
 # Listener Collapse: harness and data
 
-Code, data and results for the paper "Listener Collapse: Mutation Analysis of What Round-Trip Speech Oracles Cannot Hear" by Deep Mohan Sehgal and Viralkumar Ahire (CSCI 2026, under review).
+Code, data and results for the paper "Listener Collapse: Mutation Analysis of What Round-Trip Speech Oracles Cannot Hear" by Deep Mohan Sehgal, Viralkumar Ahire and Bhavin Gandecha (CSCI 2026, under review).
 
 ## What it does
 
@@ -16,6 +16,7 @@ Spoken output from voice assistants is often checked by a round trip. A recognis
 | `results/tables/clip_verdicts.csv` | The verdict of every oracle on every clip |
 | `results/report.txt`, `results/summary.json` | Every number reported for the four main voices |
 | `results/small_en.json`, `results/transcripts/whisper_small.jsonl` | The model-size check with Whisper small.en |
+| `results/whisper_large-v3-turbo.json`, `results/transcripts/whisper_large-v3-turbo.jsonl` | The same check with Whisper large-v3-turbo on the Samantha voice |
 | `ANNOTATION.md` | The instructions every rater saw, and how their answers were used |
 | `results/robustness.json` | Seed-level intervals and sign tests, and how often the text-only check predicts the audio verdict |
 | `results/gemini/` | The same for the Gemini 3.8 Flash TTS replication |
@@ -52,8 +53,8 @@ Run every step from this folder. A CPU is enough.
 4. For the Gemini replication: `SCORE_VOICES=gemini SCORE_OUT=results/gemini .venv/bin/python code/score.py`, then `SCORE_VOICES=gemini SCORE_OUT=results/gemini .venv/bin/python code/report.py`.
 5. `.venv/bin/python code/natural_score.py` scores the natural readings against the author's labels.
 6. `.venv/bin/python code/figures.py` draws the heatmap.
-7. `.venv/bin/python code/robustness.py` gives the seed-level intervals and sign tests in Threats to Validity, and the text-only agreement in RQ2.
-8. `.venv/bin/python code/score_small.py` scores the Whisper small.en transcripts against base.en (RQ2).
+7. `.venv/bin/python code/robustness.py` gives the Youden numbers in RQ1, the text-only agreement in RQ2, and the seed-level intervals and sign tests in Threats to Validity.
+8. `.venv/bin/python code/score_small.py` scores the Whisper small.en transcripts against base.en (RQ2). `CHECK_LISTENER=whisper_large-v3-turbo CHECK_VOICES=Samantha .venv/bin/python code/score_small.py` does the same for large-v3-turbo.
 9. The raters' packets are built by `code/make_rater_packets.py` and `code/make_oracle_packets.py`; `code/agreement.py` and `code/oracle_people.py` score the answers. The answer files are not included.
 
 ## Rerun the whole pipeline

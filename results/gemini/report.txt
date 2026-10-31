@@ -52,8 +52,8 @@ vosk|value                   dose=10 fee=0 bigmo=0 temp=0 date=10 time=100 neg=0
 any(whisper,vosk)|value      dose=10 fee=0 bigmo=0 temp=0 date=30 time=100 neg=10 thres=10 limit=20 perce=10 dista=0 durat=10
 
 == Collapse diagnosis (mutant clips) ==
-whisper {"wer@0.10|threshold_dilution": 111, "value|killed": 227, "wer@0.10|killed": 115, "wer@0.10|listener_collapse": 1, "wer@0.10|normaliser_collapse": 3, "value|comparator_collapse": 3}
-whisper_anchored {"wer@0.10|threshold_dilution": 123, "value|comparator_collapse": 9, "wer@0.10|normaliser_collapse": 16, "value|killed": 208, "wer@0.10|listener_collapse": 17, "value|listener_collapse": 13, "wer@0.10|killed": 74}
+whisper {"wer@0.10|threshold_dilution": 112, "value|killed": 227, "wer@0.10|killed": 115, "wer@0.10|normaliser_collapse": 3, "value|comparator_collapse": 3}
+whisper_anchored {"wer@0.10|threshold_dilution": 124, "value|comparator_collapse": 9, "wer@0.10|normaliser_collapse": 18, "value|killed": 208, "wer@0.10|listener_collapse": 14, "value|listener_collapse": 13, "wer@0.10|killed": 74}
 whisper_spelled {"wer@0.10|killed": 120, "value|killed": 226, "wer@0.10|threshold_dilution": 106, "wer@0.10|normaliser_collapse": 3, "value|comparator_collapse": 3, "wer@0.10|listener_collapse": 1, "value|listener_collapse": 1}
 vosk {"wer@0.10|killed": 129, "value|killed": 226, "wer@0.10|threshold_dilution": 98, "wer@0.10|normaliser_collapse": 2, "value|comparator_collapse": 4, "wer@0.10|listener_collapse": 1}
 

@@ -7,13 +7,14 @@ reported separately. Output: results/oracle_people.json
 """
 import csv
 import glob
+import itertools
 import json
 import os
 import sys
 from collections import Counter
 
 sys.path.insert(0, "code")
-from agreement import cohen  # noqa: E402
+from agreement import cohen, fleiss  # noqa: E402
 from score import wilson  # noqa: E402
 
 RATERS_DIR = os.environ.get("RATERS_DIR", "results/raters")
@@ -52,13 +53,17 @@ for rid, ans in sorted(people.items()):
     res["missed_mutants"] = sorted(f"{v}/{it}" for v, it in clips if items[it]["kind"] == "mutant" and ans.get((v, it)) != "wrong")
     res["missed_by_op"] = dict(Counter(items[it]["op"] for v, it in clips if items[it]["kind"] == "mutant" and ans.get((v, it)) != "wrong"))
     out["people"][rid] = res
-if len(people) == 2:
-    a, b = sorted(people)
-    both = [k for k in clips if people[a].get(k) in ("correct", "wrong") and people[b].get(k) in ("correct", "wrong")]
-    out["agreement"] = {"clips": len(both), "agree": sum(people[a][k] == people[b][k] for k in both),
-                        "kappa": cohen([people[a][k] for k in both], [people[b][k] for k in both])}
-    pooled = lambda k: people[a].get(k) == "wrong" or people[b].get(k) == "wrong"
-    out["people"]["either"] = rates(pooled)
+if len(people) >= 2:
+    ids = sorted(people)
+    judged = lambda r, k: people[r].get(k) in ("correct", "wrong")
+    pairs = {}
+    for a, b in itertools.combinations(ids, 2):
+        both = [k for k in clips if judged(a, k) and judged(b, k)]
+        pairs[f"{a}_vs_{b}"] = {"clips": len(both), "agree": sum(people[a][k] == people[b][k] for k in both),
+                                "kappa": cohen([people[a][k] for k in both], [people[b][k] for k in both])}
+    common = [k for k in clips if all(judged(r, k) for r in ids)]
+    out["agreement"] = {"pairs": pairs, "fleiss": {"clips": len(common), "kappa": fleiss([[people[r][k] for r in ids] for k in common])}}
+    out["people"]["any person"] = rates(lambda k: any(people[r].get(k) == "wrong" for r in ids))
 json.dump(out, open("results/oracle_people.json", "w"), indent=1)
 for name, res in list(out["oracles"].items()) + list(out["people"].items()):
     print(f"{name:17s} caught {res['mutant']['k']}/{res['mutant']['n']} = {100 * res['mutant']['rate']:.1f}% "
@@ -66,5 +71,7 @@ for name, res in list(out["oracles"].items()) + list(out["people"].items()):
           f"false alarms correct {res['correct']['k']}/{res['correct']['n']}  variants {res['equivalent']['k']}/{res['equivalent']['n']}"
           + (f"  unclear {res['unclear']} missing {res['missing']} missed by op {res['missed_by_op']}" if "unclear" in res else ""))
 if "agreement" in out:
-    g = out["agreement"]
-    print(f"agreement {g['agree']}/{g['clips']}, kappa {g['kappa']:.2f}")
+    for name, g in out["agreement"]["pairs"].items():
+        print(f"agreement {name}: {g['agree']}/{g['clips']}, kappa {g['kappa']:.2f}")
+    f = out["agreement"]["fleiss"]
+    print(f"Fleiss kappa over {f['clips']} clips: {f['kappa']:.2f}")

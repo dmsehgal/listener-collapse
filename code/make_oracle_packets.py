@@ -21,7 +21,7 @@ from collections import Counter
 OUT = "rater_packets"
 VOICES = ["piper", "gemini"]
 OPS = ["DEC", "UNIT", "TEENTY", "CUR", "SCALE", "SIGN", "NUM", "SWAP", "AMPM", "NEG", "CMP"]
-SEEDS = {"B2": 101, "C2": 102}
+SEEDS = {"B2": 101, "C2": 102, "D2": 103, "E2": 104}
 
 items = {r["item"]: r for r in csv.DictReader(open("data/items.csv"))}
 page = open(f"{OUT}/rater_B/label.html").read()
@@ -69,7 +69,7 @@ def choose():
 
 README = """Listening task 3 for the paper "Listener Collapse"            Rater {rid}
 
-Thank you again. This one takes about 15 minutes and needs no Terminal step.
+Thank you for helping. This takes about 15 minutes and needs no Terminal step.
 Please do it before you read the paper draft, and do not discuss the clips with
 anyone, including Deep, until you have sent your answers. Use headphones.
 

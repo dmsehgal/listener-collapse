@@ -1,15 +1,18 @@
-"""Model-size check: score plain Whisper small.en with both comparators on the same
+"""Model-size check: score a larger plain Whisper with both comparators on the same
 clips as base.en (run listen.py with LISTEN_MODEL=small.en first).
-Output: results/small_en.json
+CHECK_LISTENER=whisper_large-v3-turbo CHECK_VOICES=Samantha scores another run.
+Output: results/small_en.json, or results/<listener>.json for another run
 """
 import csv
 import json
+import os
 import sys
 
 sys.path.insert(0, "code")
 from score import frame, mcnemar_exact, wer, wilson  # noqa: E402
 
-VOICES = ["piper", "Samantha", "Daniel", "Rishi"]
+NAME = os.environ.get("CHECK_LISTENER", "whisper_small")
+VOICES = os.environ.get("CHECK_VOICES", "piper,Samantha,Daniel,Rishi").split(",")
 TAU = 0.10
 items = {r["item"]: r for r in csv.DictReader(open("data/items.csv"))}
 
@@ -19,7 +22,7 @@ def load(name):
             if j["voice"] in VOICES and items[j["item"]]["kind"] != "natural"}
 
 
-small, base = load("whisper_small"), load("whisper")
+small, base = load(NAME), load("whisper")
 keys = sorted(k for k in small if k in base)
 out = {"clips": len(keys)}
 fails = {}
@@ -46,4 +49,4 @@ for comp in ["wer", "value"]:
     only_small, only_base = sum(a[k] and not b[k] for k in mut), sum(b[k] and not a[k] for k in mut)
     out[f"mcnemar|{comp}"] = {"only_small": only_small, "only_base": only_base, "p": mcnemar_exact(only_small, only_base)}
     print(f"{comp}: mutants only small kills {only_small}, only base kills {only_base}, p={mcnemar_exact(only_small, only_base):.2g}")
-json.dump(out, open("results/small_en.json", "w"), indent=1)
+json.dump(out, open("results/small_en.json" if NAME == "whisper_small" else f"results/{NAME}.json", "w"), indent=1)
